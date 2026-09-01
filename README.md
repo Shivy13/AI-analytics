@@ -22,6 +22,21 @@ python3 -m uvicorn server:app --host 0.0.0.0 --port 8000
 
 Open `http://localhost:8000`.
 
+### Windows notes
+
+The prompt *"Python was not found; run without arguments to install from the
+Microsoft Store…"* means you hit the Store **stub**, not a real Python. Either
+install Python from <https://www.python.org/downloads/> (tick **"Add python.exe
+to PATH"**), or turn the stub off under *Settings → Apps → Advanced app settings
+→ App execution aliases* (`python.exe`, `python3.exe`) and use the `py` launcher.
+
+```bat
+py -m venv .venv
+.venv\Scripts\activate
+python -m pip install -r requirements.txt
+python -m uvicorn server:app --host 0.0.0.0 --port 8000
+```
+
 ## Test
 
 ```bash
