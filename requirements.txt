@@ -1,0 +1,12 @@
+# Runtime
+fastapi>=0.110
+uvicorn[standard]>=0.29
+python-multipart>=0.0.9
+pandas>=2.0
+numpy>=1.26
+scipy>=1.11
+httpx>=0.27
+
+# Testing (optional)
+pytest>=8.0
+playwright>=1.40

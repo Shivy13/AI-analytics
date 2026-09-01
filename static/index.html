@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>AI Analytics Dashboard</title>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+<link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+<header>
+  <div class="brand">
+    <div class="logo">◨</div>
+    <div>
+      AI Analytics
+      <small>CSV → insights → charts → questions</small>
+    </div>
+  </div>
+  <div class="spacer"></div>
+  <span id="datasetChip" class="chip hidden"><b id="dsName"></b> <span id="dsShape"></span></span>
+  <span id="engineChip" class="chip"><i class="dot" id="engineDot"></i><span id="engineText">Local engine</span></span>
+  <button class="btn sm" id="btnSamples" title="Load a sample dataset">Samples</button>
+  <button class="btn sm" id="btnSettings" title="Model settings">⚙ Model</button>
+  <button class="btn sm ghost hidden" id="btnReset">New file</button>
+</header>
+
+<main>
+  <!-- ===================================================== landing -->
+  <section id="viewLanding" class="landing">
+    <div class="hero">
+      <h1>Drop a CSV.<br />Get the analysis.</h1>
+      <p>Every column is profiled, the interesting findings are written out in plain English,
+         charts are drawn for you, and then you can just ask questions about your data.</p>
+    </div>
+
+    <div class="dropzone" id="dropzone">
+      <div class="big">Drop your CSV here, or click to browse</div>
+      <div class="small">Comma, semicolon or tab separated · up to 40 MB · nothing leaves this machine</div>
+    </div>
+    <!-- kept outside the dropzone: the loading state rewrites the dropzone's markup -->
+    <input type="file" id="fileInput" accept=".csv,.tsv,.txt" hidden />
+
+    <div class="paste-row">
+      <input type="text" id="pasteName" placeholder="paste-csv" style="max-width:180px" />
+      <button class="btn" id="btnTogglePaste">Paste CSV text instead</button>
+    </div>
+    <div id="pasteArea" class="hidden" style="margin-top:10px">
+      <textarea id="pasteText" rows="6" placeholder="order_id,region,revenue&#10;1001,North,4500&#10;1002,South,3100"></textarea>
+      <div style="margin-top:8px;text-align:right">
+        <button class="btn primary" id="btnPasteAnalyze">Analyse pasted data</button>
+      </div>
+    </div>
+
+    <div class="section-title">Or try a sample</div>
+    <div class="samples" id="sampleList"></div>
+
+    <div class="pipeline">
+      <span>1 · Profile every column</span>
+      <span>2 · Detect quality issues</span>
+      <span>3 · Find trends, outliers, segments</span>
+      <span>4 · Auto-build the dashboard</span>
+      <span>5 · Answer plain-English questions</span>
+    </div>
+  </section>
+
+  <!-- ===================================================== app -->
+  <section id="viewApp" class="hidden">
+    <nav class="tabs">
+      <button class="tab active" data-tab="overview">Overview</button>
+      <button class="tab" data-tab="explore">Explore</button>
+      <button class="tab" data-tab="ask">Ask <span class="badge" id="askBadge">AI</span></button>
+      <button class="tab" data-tab="data">Data</button>
+    </nav>
+
+    <!-- ------------------------------------------ overview -->
+    <div id="tabOverview">
+      <div id="narrativeBox" class="hidden"></div>
+      <div class="kpis" id="kpiRow"></div>
+
+      <div class="section-title">What the data says</div>
+      <div class="insights" id="insightList"></div>
+
+      <div class="section-title">Auto-generated charts</div>
+      <div class="chart-grid" id="autoCharts"></div>
+    </div>
+
+    <!-- ------------------------------------------ explore -->
+    <div id="tabExplore" class="hidden explore">
+      <div class="card controls">
+        <div class="card-title">Chart builder</div>
+        <div>
+          <label class="fld">Chart type</label>
+          <select id="ctlType">
+            <option value="auto">Auto</option>
+            <option value="bar">Bar</option>
+            <option value="hbar">Horizontal bar</option>
+            <option value="line">Line</option>
+            <option value="area">Area</option>
+            <option value="donut">Donut</option>
+            <option value="histogram">Histogram</option>
+            <option value="scatter">Scatter</option>
+            <option value="heatmap">Correlation matrix</option>
+            <option value="segments">Compare vs overall</option>
+            <option value="table">Table only</option>
+          </select>
+        </div>
+        <div>
+          <label class="fld">Measure</label>
+          <select id="ctlMeasure"></select>
+        </div>
+        <div>
+          <label class="fld">Aggregation</label>
+          <select id="ctlAgg">
+            <option value="sum">Sum</option>
+            <option value="avg">Average</option>
+            <option value="count">Count rows</option>
+            <option value="count_distinct">Distinct count</option>
+            <option value="median">Median</option>
+            <option value="min">Minimum</option>
+            <option value="max">Maximum</option>
+            <option value="p90">90th percentile</option>
+          </select>
+        </div>
+        <div>
+          <label class="fld">Group by</label>
+          <select id="ctlDimension"></select>
+        </div>
+        <div id="granWrap">
+          <label class="fld">Time bucket</label>
+          <select id="ctlGran">
+            <option value="auto">Auto</option>
+            <option value="day">Day</option>
+            <option value="week">Week</option>
+            <option value="month">Month</option>
+            <option value="quarter">Quarter</option>
+            <option value="year">Year</option>
+          </select>
+        </div>
+        <div id="scatterWrap" class="hidden">
+          <label class="fld">Y column</label>
+          <select id="ctlY"></select>
+        </div>
+        <div>
+          <label class="fld">Sort</label>
+          <select id="ctlSort">
+            <option value="measure:desc">Measure ↓</option>
+            <option value="measure:asc">Measure ↑</option>
+            <option value="dimension:asc">Group A→Z</option>
+            <option value="dimension:desc">Group Z→A</option>
+          </select>
+        </div>
+        <div>
+          <label class="fld">Limit</label>
+          <select id="ctlLimit">
+            <option value="">All</option>
+            <option value="5">Top 5</option>
+            <option value="10" selected>Top 10</option>
+            <option value="15">Top 15</option>
+            <option value="25">Top 25</option>
+          </select>
+        </div>
+        <div>
+          <label class="fld">Filters</label>
+          <div class="filters-list" id="filterList"></div>
+          <button class="btn sm ghost" id="btnAddFilter" style="margin-top:6px">+ Add filter</button>
+        </div>
+        <div style="display:flex;gap:6px;flex-wrap:wrap">
+          <button class="btn primary sm" id="btnRun">Run</button>
+          <button class="btn sm" id="btnExportCsv">CSV</button>
+          <button class="btn sm" id="btnExportMd">Markdown</button>
+          <button class="btn sm" id="btnExportPng">PNG</button>
+        </div>
+      </div>
+
+      <div>
+        <div class="card" id="exploreChartCard">
+          <div class="chart-wrap" id="exploreChart"></div>
+        </div>
+        <div class="card" style="margin-top:14px">
+          <div class="card-head">
+            <div>
+              <div class="card-title">Result</div>
+              <div class="card-sub" id="exploreMeta"></div>
+            </div>
+          </div>
+          <div class="table-scroll" id="exploreTable"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ------------------------------------------ ask -->
+    <div id="tabAsk" class="hidden ask-wrap">
+      <div class="card">
+        <div class="ask-bar">
+          <input type="text" id="askInput" placeholder="Ask your data anything — e.g. total revenue by region" />
+          <button class="btn primary" id="btnAsk">Ask</button>
+        </div>
+        <div class="suggest" id="askSuggestions"></div>
+        <div class="conf" style="margin-top:8px" id="askEngineNote"></div>
+      </div>
+      <div id="askLog"></div>
+    </div>
+
+    <!-- ------------------------------------------ data -->
+    <div id="tabData" class="hidden">
+      <div class="section-title">Detected schema</div>
+      <div class="card">
+        <div class="table-scroll" id="schemaTable"></div>
+      </div>
+      <div class="section-title">Rows</div>
+      <div class="card">
+        <div class="card-head">
+          <input type="text" id="rowSearch" placeholder="Search all columns…" style="max-width:320px" />
+          <div class="spacer"></div>
+          <span class="card-sub" id="rowCount"></span>
+        </div>
+        <div class="table-scroll" id="rowTable"></div>
+        <div class="pager">
+          <button class="btn sm" id="btnPrev">← Prev</button>
+          <span id="pageInfo"></span>
+          <button class="btn sm" id="btnNext">Next →</button>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div class="toast" id="toast"></div>
+<div id="modalHost"></div>
+
+<script src="/static/charts.js"></script>
+<script src="/static/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,1625 @@
+ticket_id,created_at,category,priority,channel,agent,first_response_mins,resolution_hours,csat,reopened,summary
+TKT-6536,2024-03-24 16:00,shipping,low,email,Ananya,0.87,6.86,3.0,No,Unable to apply coupon code
+TKT-5002,2024-12-22 17:00,shipping,high,portal,Imran,1.94,7.95,4.0,No,Customer cannot reset password
+TKT-5503,2025-04-17 18:00,login issue,urgent,chat,Sara,0.31,1.71,5.0,No,Request to merge duplicate accounts
+TKT-6342,2024-03-06 01:00,Bug,high,portal,Meera,0.56,3.48,4.0,No,Request to merge duplicate accounts
+TKT-6027,2024-06-01 22:00,Login Issue,high,email,Meera,1.21,4.3,3.0,No,Unable to apply coupon code
+TKT-5472,2024-08-23 11:00,Login Issue,low,phone,Ananya,3.69,20.64,4.0,No,Request to merge duplicate accounts
+TKT-5481,2025-03-28 00:00,Login Issue,low,chat,Ananya,1.32,10.22,,No,App crashes on checkout
+TKT-5368,2024-01-13 01:00,Bug,high,email,Vikram,0.45,3.3,3.0,Yes,Delivery delayed by courier
+TKT-5458,2025-04-03 05:00,feature request,high,email,Sara,0.81,3.27,5.0,No,App crashes on checkout
+TKT-5862,2024-03-06 12:00,Bug,low,email,Vikram,0.46,4.0,4.0,No,Delivery delayed by courier
+TKT-5592,2024-05-10 17:00,billing,low,phone,Ananya,0.38,6.2,4.0,No,Delivery delayed by courier
+TKT-6151,2024-10-02 02:00,billing,medium,email,Rahul,1.16,7.84,4.0,No,Refund not received after 14 days
+TKT-6450,2024-06-09 00:00,feature request,medium,email,Imran,5.41,13.71,3.0,No,Delivery delayed by courier
+TKT-6374,2025-04-28 15:00,login issue,high,phone,Meera,1.02,4.6,5.0,No,Delivery delayed by courier
+TKT-5626,2024-07-03 08:00,billing,low,portal,Meera,0.31,3.19,,No,Refund not received after 14 days
+TKT-5174,2025-01-14 17:00,login issue,medium,portal,Rahul,0.33,5.41,4.0,No,Refund not received after 14 days
+TKT-5615,2024-12-14 13:00,Bug,high,email,Ananya,0.83,2.79,4.0,No,Unable to apply coupon code
+TKT-6493,2024-06-30 12:00,login issue,medium,email,Sara,0.26,2.01,4.0,Yes,Customer cannot reset password
+TKT-5570,2025-06-01 02:00,billing,medium,email,Imran,1.35,4.76,5.0,No,Delivery delayed by courier
+TKT-5909,2024-02-19 23:00,login issue,low,email,Meera,3.95,14.75,4.0,No,App crashes on checkout
+TKT-5611,2024-09-09 05:00,Shipping,high,email,Vikram,1.47,5.93,,No,App crashes on checkout
+TKT-6321,2024-05-29 18:00,billing,medium,chat,Sara,0.48,2.2,4.0,No,Request to merge duplicate accounts
+TKT-5835,2025-02-27 08:00,Login Issue,low,portal,Rahul,0.61,7.91,3.0,No,Wants dark mode in the mobile app
+TKT-5272,2024-03-23 13:00,Login Issue,medium,portal,Ananya,1.62,6.96,5.0,No,Invoice shows wrong GST number
+TKT-6364,2024-10-29 08:00,shipping,low,portal,Ananya,4.58,21.29,4.0,No,Wants dark mode in the mobile app
+TKT-6035,2025-02-08 18:00,billing,medium,email,Rahul,0.97,13.85,3.0,No,Refund not received after 14 days
+TKT-5710,2025-01-05 04:00,Billing,low,portal,Ananya,0.43,5.28,4.0,No,Request to merge duplicate accounts
+TKT-5292,2025-06-03 19:00,login issue,high,email,Meera,1.34,3.47,5.0,Yes,Unable to apply coupon code
+TKT-5056,2024-10-24 21:00,bug,medium,email,Imran,0.75,7.22,4.0,No,Wants dark mode in the mobile app
+TKT-6065,2024-07-30 08:00,shipping,high,chat,Vikram,1.08,4.5,4.0,No,Delivery delayed by courier
+TKT-5677,2024-02-16 01:00,Shipping,medium,email,Vikram,1.13,4.53,5.0,Yes,Unable to apply coupon code
+TKT-5748,2024-06-19 14:00,login issue,high,portal,Meera,0.75,2.6,3.0,No,Invoice shows wrong GST number
+TKT-6521,2025-01-22 19:00,billing,high,email,Ananya,1.13,7.93,4.0,No,App crashes on checkout
+TKT-6217,2025-02-03 03:00,billing,low,email,Ananya,1.28,4.71,4.0,No,Invoice shows wrong GST number
+TKT-5977,2024-11-07 23:00,Login Issue,high,email,Vikram,1.22,4.2,3.0,No,Invoice shows wrong GST number
+TKT-5311,2025-01-01 08:00,Login Issue,low,portal,Ananya,1.67,8.26,5.0,No,Unable to apply coupon code
+TKT-5442,2024-03-13 01:00,login issue,medium,portal,Sara,2.41,7.66,5.0,Yes,Request to merge duplicate accounts
+TKT-5933,2024-12-19 19:00,login issue,low,email,Ananya,2.56,8.33,3.0,No,Invoice shows wrong GST number
+TKT-5093,2024-07-30 04:00,billing,urgent,email,Sara,0.13,2.45,4.0,No,Invoice shows wrong GST number
+TKT-6277,2025-02-25 16:00,Billing,medium,phone,Rahul,1.82,11.06,3.0,No,Wants dark mode in the mobile app
+TKT-6186,2024-03-18 14:00,login issue,medium,email,Meera,1.04,12.06,,No,Wants dark mode in the mobile app
+TKT-6558,2025-06-26 08:00,Shipping,low,phone,Ananya,2.76,10.61,4.0,No,Delivery delayed by courier
+TKT-6327,2024-02-16 05:00,login issue,low,portal,Imran,2.26,10.26,4.0,No,Delivery delayed by courier
+TKT-5618,2024-02-03 07:00,shipping,low,chat,Ananya,3.38,14.44,3.0,No,App crashes on checkout
+TKT-5136,2024-11-24 13:00,Shipping,high,chat,Vikram,0.19,1.76,5.0,No,Invoice shows wrong GST number
+TKT-6576,2024-10-25 18:00,shipping,low,portal,Ananya,0.93,7.7,3.0,No,Delivery delayed by courier
+TKT-6197,2025-06-19 02:00,login issue,high,chat,Ananya,0.66,1.76,,No,Unable to apply coupon code
+TKT-5269,2024-11-18 01:00,Login Issue,medium,phone,Ananya,1.32,5.4,,No,Customer cannot reset password
+TKT-6309,2025-04-09 18:00,Billing,high,email,Rahul,2.12,11.98,4.0,No,Unable to apply coupon code
+TKT-6318,2024-09-01 16:00,billing,urgent,chat,Rahul,0.15,2.16,4.0,No,Wants dark mode in the mobile app
+TKT-6181,2025-05-20 11:00,login issue,high,chat,Rahul,2.15,7.08,4.0,No,App crashes on checkout
+TKT-5892,2024-10-11 18:00,BILLING,medium,chat,Sara,1.82,4.61,5.0,No,Customer cannot reset password
+TKT-6545,2024-11-17 15:00,billing,high,email,Vikram,0.63,2.06,4.0,No,Refund not received after 14 days
+TKT-5762,2025-06-01 05:00,shipping,low,portal,Meera,2.47,29.37,4.0,No,Refund not received after 14 days
+TKT-5279,2024-02-15 02:00,login issue,low,phone,Rahul,2.21,6.63,5.0,No,Wants dark mode in the mobile app
+TKT-6477,2024-08-02 19:00,Billing,urgent,chat,Imran,0.51,2.24,3.0,No,Wants dark mode in the mobile app
+TKT-5260,2025-03-08 10:00,Shipping,high,portal,Vikram,0.71,3.58,4.0,No,Invoice shows wrong GST number
+TKT-6473,2024-04-22 19:00,shipping,low,email,Meera,4.08,15.47,3.0,No,Request to merge duplicate accounts
+TKT-6403,2024-06-24 18:00,Billing,low,email,Meera,1.54,9.23,5.0,No,Request to merge duplicate accounts
+TKT-5232,2024-01-11 15:00,feature request,high,phone,Rahul,1.1,2.96,5.0,No,Wants dark mode in the mobile app
+TKT-5744,2025-03-09 09:00,Login Issue,high,email,Rahul,0.48,1.58,5.0,Yes,Customer cannot reset password
+TKT-5036,2025-04-12 18:00,Bug,medium,email,Rahul,1.31,6.09,4.0,No,Request to merge duplicate accounts
+TKT-6087,2025-06-23 17:00,Billing,high,chat,Sara,0.81,3.29,4.0,No,Delivery delayed by courier
+TKT-5767,2024-09-18 06:00,billing,low,chat,,0.8,7.01,,No,Unable to apply coupon code
+TKT-5065,2024-06-26 13:00,shipping,high,portal,Vikram,1.04,5.55,5.0,No,Unable to apply coupon code
+TKT-5632,2024-08-24 11:00,billing,low,email,Sara,0.39,6.65,4.0,No,Wants dark mode in the mobile app
+TKT-5968,2025-05-16 15:00,Billing,low,email,Vikram,0.95,6.32,4.0,No,Wants dark mode in the mobile app
+TKT-6591,2024-07-07 19:00,Bug,medium,portal,Rahul,0.7,6.32,4.0,No,Wants dark mode in the mobile app
+TKT-6201,2024-09-17 05:00,Login Issue,low,email,Vikram,3.73,14.81,5.0,No,Invoice shows wrong GST number
+TKT-5942,2025-05-12 23:00,billing,low,chat,Imran,1.67,5.38,4.0,No,Unable to apply coupon code
+TKT-5080,2025-05-27 11:00,Login Issue,medium,chat,Sara,1.4,10.58,4.0,No,Request to merge duplicate accounts
+TKT-5860,2025-06-11 16:00,Billing,low,chat,Rahul,2.15,20.77,4.0,Yes,Unable to apply coupon code
+TKT-5473,2024-09-11 17:00,Feature Request,low,email,Ananya,1.05,7.76,4.0,No,Customer cannot reset password
+TKT-5022,2024-04-09 11:00,login issue,high,email,Vikram,0.39,3.78,4.0,No,Unable to apply coupon code
+TKT-5607,2024-10-07 06:00,billing,low,email,Rahul,2.34,15.84,5.0,No,Wants dark mode in the mobile app
+TKT-6203,2025-02-18 23:00,bug,low,chat,Rahul,3.76,12.36,4.0,No,Delivery delayed by courier
+TKT-5082,2024-03-28 13:00,Shipping,low,phone,Ananya,1.88,8.34,5.0,Yes,Delivery delayed by courier
+TKT-5171,2024-02-19 01:00,billing,medium,phone,Sara,1.46,4.09,5.0,No,Customer cannot reset password
+TKT-6466,2024-12-12 09:00,Bug,medium,portal,Vikram,0.63,2.21,4.0,No,Invoice shows wrong GST number
+TKT-5751,2024-03-21 13:00,Login Issue,medium,chat,Imran,1.71,5.7,4.0,No,Unable to apply coupon code
+TKT-6393,2025-02-08 13:00,billing,low,chat,Meera,4.25,15.06,,No,Wants dark mode in the mobile app
+TKT-5127,2025-02-20 22:00,shipping,high,chat,Rahul,0.78,2.74,3.0,No,App crashes on checkout
+TKT-5557,2025-04-21 21:00,Login Issue,low,phone,Ananya,5.89,16.35,4.0,No,Unable to apply coupon code
+TKT-5724,2025-03-04 08:00,bug,low,email,Meera,1.09,12.67,4.0,No,Customer cannot reset password
+TKT-5880,2024-02-16 21:00,bug,medium,email,Vikram,1.19,4.5,3.0,No,Refund not received after 14 days
+TKT-6016,2024-07-28 05:00,Bug,medium,chat,Rahul,3.6,14.8,3.0,No,Unable to apply coupon code
+TKT-5730,2025-02-01 04:00,login issue,medium,email,Meera,1.71,5.96,5.0,No,Request to merge duplicate accounts
+TKT-5660,2024-04-06 07:00,Bug,medium,phone,Sara,0.79,2.15,4.0,No,Customer cannot reset password
+TKT-5460,2025-01-29 05:00,billing,medium,chat,Vikram,0.09,1.14,4.0,No,Unable to apply coupon code
+TKT-5088,2025-02-22 11:00,Billing,low,email,Sara,1.97,15.52,5.0,No,Wants dark mode in the mobile app
+TKT-5447,2025-06-04 19:00,Billing,low,chat,Ananya,3.5,10.01,4.0,No,Request to merge duplicate accounts
+TKT-5786,2024-01-18 15:00,login issue,high,email,Rahul,0.88,4.31,5.0,No,Request to merge duplicate accounts
+TKT-6458,2024-05-23 19:00,billing,high,email,Meera,1.34,3.69,4.0,No,Invoice shows wrong GST number
+TKT-6347,2025-01-16 23:00,Shipping,high,phone,Vikram,0.36,4.49,3.0,No,Wants dark mode in the mobile app
+TKT-5325,2024-05-05 11:00,feature request,high,chat,Ananya,1.01,4.69,4.0,Yes,Refund not received after 14 days
+TKT-5870,2024-09-05 15:00,login issue,urgent,chat,Rahul,0.2,1.58,5.0,No,Delivery delayed by courier
+TKT-5246,2025-02-16 19:00,Billing,high,portal,Imran,0.43,4.54,4.0,No,Delivery delayed by courier
+TKT-5278,2024-02-05 09:00,bug,high,email,Vikram,0.52,2.52,4.0,No,App crashes on checkout
+TKT-5687,2024-11-19 13:00,Login Issue,medium,chat,Imran,1.58,4.4,3.0,No,App crashes on checkout
+TKT-5936,2024-03-27 01:00,shipping,medium,chat,Ananya,1.27,5.38,,No,App crashes on checkout
+TKT-5112,2024-10-29 19:00,shipping,low,portal,Imran,3.25,35.75,3.0,No,Customer cannot reset password
+TKT-6555,2024-03-29 16:00,Bug,medium,portal,Vikram,4.69,14.78,4.0,No,Wants dark mode in the mobile app
+TKT-5851,2025-03-12 19:00,login issue,medium,phone,Rahul,1.5,5.98,4.0,No,Invoice shows wrong GST number
+TKT-6465,2024-03-01 19:00,Billing,low,portal,Sara,0.45,6.23,4.0,No,Refund not received after 14 days
+TKT-5711,2024-10-11 20:00,Billing,low,email,Sara,8.14,20.61,4.0,No,App crashes on checkout
+TKT-5906,2024-08-12 07:00,billing,low,portal,Imran,5.99,23.38,3.0,Yes,Refund not received after 14 days
+TKT-6353,2025-05-13 20:00,Bug,high,phone,Vikram,0.16,1.31,5.0,No,Wants dark mode in the mobile app
+TKT-5324,2025-06-15 11:00,Login Issue,low,email,Meera,2.9,7.43,,No,Request to merge duplicate accounts
+TKT-5457,2024-12-11 12:00,Bug,medium,chat,Meera,3.62,10.18,4.0,No,App crashes on checkout
+TKT-5425,2024-04-18 21:00,shipping,high,chat,Sara,2.21,6.53,5.0,No,Invoice shows wrong GST number
+TKT-6368,2025-06-08 21:00,login issue,medium,portal,Meera,1.15,3.99,3.0,No,Delivery delayed by courier
+TKT-5107,2024-12-28 08:00,billing,urgent,phone,Sara,0.28,2.22,4.0,No,Refund not received after 14 days
+TKT-6177,2024-04-14 10:00,Shipping,low,email,Meera,2.08,11.02,3.0,No,Customer cannot reset password
+TKT-6398,2024-01-14 15:00,login issue,medium,phone,Sara,0.37,4.88,5.0,No,Refund not received after 14 days
+TKT-5309,2024-02-29 04:00,Billing,medium,chat,Ananya,0.79,4.91,4.0,No,Wants dark mode in the mobile app
+TKT-5700,2024-10-10 16:00,bug,urgent,portal,Ananya,0.1,0.71,3.0,No,App crashes on checkout
+TKT-5239,2024-12-07 21:00,Billing,low,phone,Ananya,4.8,16.77,4.0,No,Refund not received after 14 days
+TKT-6402,2024-06-12 08:00,shipping,low,chat,Meera,3.82,12.05,5.0,No,Invoice shows wrong GST number
+TKT-6292,2024-08-29 20:00,Feature Request,low,portal,Ananya,1.49,11.56,5.0,No,Request to merge duplicate accounts
+TKT-5719,2024-11-22 18:00,Billing,low,email,Vikram,0.68,2.92,,No,Invoice shows wrong GST number
+TKT-5217,2024-02-22 12:00,shipping,high,email,Ananya,0.91,6.41,4.0,No,App crashes on checkout
+TKT-5821,2024-12-28 19:00,feature request,high,email,Meera,2.01,5.8,4.0,No,App crashes on checkout
+TKT-6551,2025-04-10 02:00,shipping,urgent,email,Vikram,0.23,0.79,5.0,No,Refund not received after 14 days
+TKT-6371,2024-07-06 02:00,login issue,urgent,portal,Rahul,0.8,2.87,4.0,No,Customer cannot reset password
+TKT-5783,2024-03-07 10:00,login issue,low,chat,Vikram,1.22,4.5,,No,Customer cannot reset password
+TKT-5673,2024-02-21 19:00,Login Issue,high,email,Ananya,0.68,2.5,4.0,No,Customer cannot reset password
+TKT-6222,2025-06-08 00:00,billing,medium,email,Meera,0.28,4.78,,No,Invoice shows wrong GST number
+TKT-6171,2024-12-09 19:00,Shipping,low,chat,Meera,5.0,16.54,3.0,No,Customer cannot reset password
+TKT-5573,2024-01-27 20:00,Bug,urgent,chat,Meera,0.51,2.18,4.0,No,Request to merge duplicate accounts
+TKT-6337,2024-06-10 12:00,Bug,high,phone,Meera,0.82,2.22,5.0,No,App crashes on checkout
+TKT-6212,2024-09-08 02:00,Billing,medium,portal,Rahul,1.15,5.1,4.0,No,Refund not received after 14 days
+TKT-5201,2025-05-10 04:00,Login Issue,medium,portal,Vikram,0.65,3.89,4.0,No,Wants dark mode in the mobile app
+TKT-5470,2025-02-06 09:00,Shipping,medium,portal,Imran,0.18,2.17,5.0,No,Delivery delayed by courier
+TKT-6410,2024-02-03 01:00,Shipping,medium,email,Ananya,1.04,5.46,3.0,No,Invoice shows wrong GST number
+TKT-5070,2025-03-09 15:00,bug,medium,chat,Vikram,0.49,4.44,5.0,No,Delivery delayed by courier
+TKT-6226,2024-02-28 10:00,Bug,high,email,Ananya,0.43,3.88,3.0,Yes,Refund not received after 14 days
+TKT-6234,2024-12-13 04:00,billing,medium,phone,Rahul,0.3,3.99,4.0,No,Request to merge duplicate accounts
+TKT-5117,2024-03-17 04:00,Billing,low,portal,Imran,0.29,4.21,4.0,No,App crashes on checkout
+TKT-5867,2025-04-01 16:00,BILLING,high,email,Vikram,0.74,3.49,5.0,No,Refund not received after 14 days
+TKT-5499,2024-08-20 02:00,login issue,medium,portal,Ananya,0.52,7.61,3.0,No,Delivery delayed by courier
+TKT-5053,2024-09-11 08:00,shipping,high,chat,Rahul,1.32,4.84,4.0,No,Refund not received after 14 days
+TKT-5461,2024-03-17 11:00,Login Issue,medium,chat,Rahul,0.93,4.84,4.0,No,App crashes on checkout
+TKT-5755,2024-08-26 15:00,Bug,low,chat,Meera,2.9,8.69,4.0,No,Wants dark mode in the mobile app
+TKT-5716,2024-10-09 03:00,billing,low,chat,Meera,1.79,12.26,4.0,No,Wants dark mode in the mobile app
+TKT-5041,2025-02-17 03:00,Bug,low,phone,Sara,5.2,21.45,3.0,Yes,App crashes on checkout
+TKT-6416,2024-12-12 00:00,billing,medium,email,Rahul,1.86,5.71,4.0,No,Unable to apply coupon code
+TKT-5394,2025-01-27 08:00,shipping,high,chat,Meera,0.67,2.31,5.0,No,Delivery delayed by courier
+TKT-5369,2025-02-24 17:00,billing,urgent,chat,Sara,0.22,1.46,5.0,Yes,Wants dark mode in the mobile app
+TKT-5413,2024-03-12 20:00,login issue,low,email,Vikram,0.98,16.29,5.0,No,Delivery delayed by courier
+TKT-6580,2024-06-10 13:00,shipping,low,phone,Rahul,1.25,8.71,5.0,Yes,Request to merge duplicate accounts
+TKT-6090,2024-10-01 01:00,BILLING,medium,chat,Meera,1.38,3.8,5.0,No,Request to merge duplicate accounts
+TKT-5214,2025-02-05 14:00,login issue,low,chat,Meera,2.42,9.21,,No,Unable to apply coupon code
+TKT-6077,2024-03-31 10:00,login issue,high,email,Imran,1.68,6.95,4.0,Yes,Unable to apply coupon code
+TKT-6474,2025-06-16 13:00,shipping,urgent,phone,Sara,1.61,6.64,4.0,No,Refund not received after 14 days
+TKT-5175,2024-09-08 17:00,Feature Request,medium,chat,Ananya,0.18,3.44,4.0,No,Unable to apply coupon code
+TKT-6530,2024-02-18 22:00,Feature Request,medium,chat,Meera,3.01,10.08,5.0,No,Refund not received after 14 days
+TKT-6009,2024-10-10 13:00,billing,low,chat,Ananya,4.21,12.12,4.0,No,Delivery delayed by courier
+TKT-5678,2024-10-12 03:00,Login Issue,medium,email,Vikram,0.61,5.3,3.0,No,Invoice shows wrong GST number
+TKT-5237,2024-08-23 11:00,Login Issue,low,portal,Meera,1.64,9.37,3.0,No,Delivery delayed by courier
+TKT-6159,2024-07-04 14:00,Feature Request,medium,email,Rahul,1.27,7.55,3.0,No,App crashes on checkout
+TKT-5236,2024-12-27 11:00,login issue,medium,chat,Sara,0.88,3.38,5.0,No,Unable to apply coupon code
+TKT-5725,2024-03-04 19:00,Billing,low,email,Ananya,0.45,4.41,5.0,Yes,App crashes on checkout
+TKT-5913,2025-06-18 02:00,shipping,medium,portal,Vikram,1.12,4.46,5.0,Yes,Invoice shows wrong GST number
+TKT-5411,2024-05-05 03:00,Bug,high,email,Vikram,0.31,2.04,4.0,No,Request to merge duplicate accounts
+TKT-5130,2024-11-04 03:00,login issue,medium,phone,Rahul,1.72,6.46,4.0,No,Invoice shows wrong GST number
+TKT-5871,2024-04-19 23:00,Feature Request,medium,email,Vikram,1.08,14.87,3.0,No,Request to merge duplicate accounts
+TKT-5539,2024-01-12 12:00,login issue,low,chat,Meera,1.83,5.77,4.0,No,Wants dark mode in the mobile app
+TKT-6023,2025-04-03 21:00,Feature Request,medium,chat,Meera,0.21,1.22,4.0,No,Customer cannot reset password
+TKT-6547,2025-04-07 22:00,Bug,low,chat,Sara,1.24,5.01,5.0,No,Invoice shows wrong GST number
+TKT-5293,2024-06-29 16:00,login issue,urgent,chat,Sara,0.4,1.13,4.0,No,Delivery delayed by courier
+TKT-6261,2025-05-18 23:00,login issue,high,chat,Imran,1.48,5.21,3.0,No,Customer cannot reset password
+TKT-5923,2024-03-20 02:00,feature request,high,portal,Ananya,0.79,4.87,5.0,No,Wants dark mode in the mobile app
+TKT-5476,2025-04-06 14:00,Billing,low,chat,Vikram,0.72,3.36,2.0,No,Request to merge duplicate accounts
+TKT-5950,2024-02-20 21:00,bug,low,email,Sara,4.33,12.93,4.0,No,Customer cannot reset password
+TKT-5398,2024-06-01 21:00,login issue,medium,email,Sara,1.78,5.53,5.0,No,App crashes on checkout
+TKT-6158,2024-07-28 09:00,shipping,medium,chat,Rahul,0.83,2.47,4.0,No,Customer cannot reset password
+TKT-6179,2024-01-14 12:00,Billing,low,chat,Vikram,1.34,11.83,3.0,No,App crashes on checkout
+TKT-6143,2025-04-05 05:00,Billing,low,portal,Ananya,3.49,8.85,5.0,No,Customer cannot reset password
+TKT-5123,2024-09-13 17:00,feature request,medium,chat,Sara,2.4,14.54,4.0,No,Request to merge duplicate accounts
+TKT-6198,2025-03-13 12:00,shipping,urgent,phone,Meera,0.17,1.57,3.0,No,Refund not received after 14 days
+TKT-6330,2024-09-02 04:00,Billing,urgent,portal,Rahul,0.34,1.1,5.0,No,Invoice shows wrong GST number
+TKT-6345,2025-06-27 16:00,shipping,high,email,Sara,0.52,4.11,5.0,No,Delivery delayed by courier
+TKT-6444,2024-03-17 02:00,login issue,urgent,portal,Imran,0.2,1.16,4.0,No,Invoice shows wrong GST number
+TKT-5595,2025-03-13 02:00,Billing,medium,portal,Rahul,1.36,5.21,5.0,No,Request to merge duplicate accounts
+TKT-5731,2024-08-16 03:00,Billing,high,portal,Imran,1.19,4.15,3.0,No,App crashes on checkout
+TKT-5538,2024-10-21 10:00,shipping,low,email,Ananya,2.16,6.44,4.0,No,App crashes on checkout
+TKT-5736,2025-02-02 03:00,Bug,high,phone,Meera,0.3,1.21,3.0,No,Invoice shows wrong GST number
+TKT-5998,2025-06-08 03:00,feature request,medium,chat,Ananya,0.6,2.68,4.0,No,Delivery delayed by courier
+TKT-5764,2024-07-15 15:00,Bug,medium,chat,Sara,2.27,8.33,4.0,Yes,Unable to apply coupon code
+TKT-6017,2024-09-26 07:00,Login Issue,high,chat,Sara,0.92,2.7,4.0,No,Delivery delayed by courier
+TKT-6141,2024-07-03 11:00,Login Issue,medium,chat,Rahul,6.05,19.97,4.0,No,Invoice shows wrong GST number
+TKT-5613,2024-07-28 20:00,Shipping,medium,chat,Meera,4.78,16.11,4.0,No,Refund not received after 14 days
+TKT-6289,2024-12-04 22:00,Login Issue,medium,chat,Vikram,2.07,9.99,,Yes,Unable to apply coupon code
+TKT-6174,2024-01-05 15:00,Billing,low,email,Meera,0.28,4.42,4.0,No,Unable to apply coupon code
+TKT-5918,2024-05-18 16:00,bug,low,portal,Ananya,4.37,12.04,5.0,No,Customer cannot reset password
+TKT-6386,2024-11-01 10:00,Bug,urgent,email,Meera,0.52,2.1,5.0,No,Request to merge duplicate accounts
+TKT-6046,2024-05-10 11:00,login issue,medium,email,Ananya,2.24,12.81,,Yes,Refund not received after 14 days
+TKT-5806,2024-10-23 23:00,Shipping,low,chat,Imran,0.42,7.1,4.0,No,Customer cannot reset password
+TKT-6482,2024-06-07 01:00,login issue,high,chat,Sara,0.8,3.6,4.0,No,Refund not received after 14 days
+TKT-6528,2024-01-12 04:00,Feature Request,low,portal,Sara,2.89,10.3,4.0,No,App crashes on checkout
+TKT-5349,2024-03-30 17:00,shipping,low,portal,Vikram,1.35,4.21,3.0,Yes,Invoice shows wrong GST number
+TKT-5255,2024-03-19 18:00,bug,urgent,email,Sara,0.09,1.46,3.0,No,Invoice shows wrong GST number
+TKT-5772,2024-01-03 15:00,feature request,high,email,Imran,0.21,1.81,4.0,No,Refund not received after 14 days
+TKT-6119,2024-09-25 20:00,Shipping,high,chat,Meera,1.23,4.55,4.0,Yes,Wants dark mode in the mobile app
+TKT-5021,2024-07-21 02:00,Feature Request,low,email,Rahul,1.33,7.12,4.0,No,Delivery delayed by courier
+TKT-5983,2024-12-19 03:00,Billing,medium,email,Ananya,1.71,6.34,5.0,No,Request to merge duplicate accounts
+TKT-5061,2025-02-09 21:00,bug,medium,phone,Ananya,3.14,9.67,3.0,No,Refund not received after 14 days
+TKT-5802,2024-10-07 23:00,bug,high,email,Ananya,1.35,3.48,3.0,No,Delivery delayed by courier
+TKT-6111,2024-05-06 21:00,Billing,high,chat,Sara,1.83,4.99,3.0,No,Request to merge duplicate accounts
+TKT-5220,2024-03-10 12:00,shipping,high,email,Vikram,0.18,0.97,4.0,No,Wants dark mode in the mobile app
+TKT-5801,2024-06-13 13:00,Billing,urgent,email,Ananya,0.4,1.23,4.0,No,Invoice shows wrong GST number
+TKT-5561,2024-01-24 16:00,login issue,urgent,email,Meera,1.1,4.07,3.0,No,Request to merge duplicate accounts
+TKT-5402,2024-06-23 15:00,Bug,low,email,Meera,1.33,4.06,4.0,No,Unable to apply coupon code
+TKT-5647,2024-10-18 19:00,feature request,medium,email,Imran,1.63,6.73,2.0,No,Customer cannot reset password
+TKT-5135,2024-06-14 15:00,Billing,medium,email,Imran,1.16,6.47,5.0,No,Unable to apply coupon code
+TKT-6413,2025-03-07 15:00,Login Issue,low,email,Vikram,1.8,13.59,4.0,No,Refund not received after 14 days
+TKT-6112,2024-04-14 22:00,shipping,urgent,phone,Rahul,0.41,3.14,5.0,No,Customer cannot reset password
+TKT-5549,2025-01-05 23:00,billing,high,email,Vikram,0.43,2.57,4.0,No,Invoice shows wrong GST number
+TKT-5563,2024-04-08 21:00,billing,medium,portal,Meera,2.16,8.89,4.0,No,App crashes on checkout
+TKT-6561,2024-05-18 13:00,billing,low,chat,Meera,2.45,8.46,4.0,No,Delivery delayed by courier
+TKT-5169,2024-01-13 09:00,Billing,urgent,chat,Vikram,1.5,3.85,3.0,No,Request to merge duplicate accounts
+TKT-5707,2024-11-07 23:00,Login Issue,medium,chat,,1.79,5.11,4.0,Yes,Refund not received after 14 days
+TKT-6356,2024-07-06 12:00,billing,low,chat,Rahul,2.1,25.92,4.0,No,Invoice shows wrong GST number
+TKT-6438,2024-06-22 19:00,login issue,high,portal,Sara,0.58,3.79,3.0,No,App crashes on checkout
+TKT-5940,2025-01-11 12:00,BILLING,low,portal,Imran,0.39,4.93,4.0,No,Customer cannot reset password
+TKT-5320,2024-06-23 18:00,bug,medium,portal,Meera,0.55,6.18,5.0,No,Wants dark mode in the mobile app
+TKT-5356,2024-03-23 14:00,billing,high,portal,Meera,1.2,3.04,4.0,No,App crashes on checkout
+TKT-5531,2024-03-31 05:00,Login Issue,low,email,Vikram,2.01,13.62,3.0,No,App crashes on checkout
+TKT-5512,2025-04-03 06:00,Feature Request,medium,portal,Rahul,0.4,7.7,5.0,No,Unable to apply coupon code
+TKT-6469,2024-02-02 23:00,shipping,medium,email,Vikram,1.96,7.72,4.0,No,Request to merge duplicate accounts
+TKT-6588,2025-04-14 17:00,bug,urgent,chat,Ananya,0.13,1.67,3.0,No,Request to merge duplicate accounts
+TKT-5722,2025-04-05 13:00,shipping,low,email,Sara,0.72,7.94,3.0,No,Customer cannot reset password
+TKT-6189,2024-01-04 23:00,Billing,low,chat,Sara,1.78,12.46,4.0,No,Refund not received after 14 days
+TKT-5329,2024-10-29 09:00,Shipping,high,portal,Ananya,0.14,1.09,4.0,No,App crashes on checkout
+TKT-5360,2025-04-05 21:00,billing,medium,email,Ananya,1.33,4.73,5.0,No,Wants dark mode in the mobile app
+TKT-5713,2025-02-20 08:00,bug,medium,portal,Ananya,2.22,10.86,4.0,No,Delivery delayed by courier
+TKT-5433,2024-03-12 10:00,bug,high,chat,Ananya,2.33,7.85,,Yes,Delivery delayed by courier
+TKT-6235,2024-07-07 20:00,Bug,low,chat,Ananya,2.51,10.01,5.0,No,Refund not received after 14 days
+TKT-5888,2024-01-09 14:00,Feature Request,low,chat,Ananya,0.62,7.79,2.0,No,Delivery delayed by courier
+TKT-6063,2025-01-19 10:00,feature request,low,email,Sara,0.85,15.91,4.0,No,Delivery delayed by courier
+TKT-6251,2024-08-12 07:00,billing,low,email,Rahul,3.86,16.76,5.0,Yes,Unable to apply coupon code
+TKT-5371,2024-12-26 14:00,bug,high,email,Ananya,0.18,1.67,4.0,No,Wants dark mode in the mobile app
+TKT-6094,2024-06-28 01:00,login issue,low,portal,Meera,0.31,4.88,,No,Wants dark mode in the mobile app
+TKT-5739,2025-05-04 14:00,Login Issue,medium,chat,Vikram,0.33,4.37,4.0,No,Wants dark mode in the mobile app
+TKT-6389,2025-05-10 10:00,shipping,medium,portal,Ananya,0.28,3.92,4.0,No,Request to merge duplicate accounts
+TKT-5042,2025-01-16 18:00,feature request,low,email,Sara,4.08,11.46,4.0,No,Refund not received after 14 days
+TKT-6273,2025-01-03 00:00,shipping,low,portal,Rahul,3.27,8.65,3.0,Yes,Request to merge duplicate accounts
+TKT-6487,2024-01-01 16:00,Bug,high,email,Rahul,0.32,1.84,4.0,No,Customer cannot reset password
+TKT-5430,2024-02-15 23:00,Billing,low,email,Rahul,0.77,3.84,3.0,No,Invoice shows wrong GST number
+TKT-5599,2024-12-16 03:00,Login Issue,low,chat,Imran,2.39,8.22,4.0,No,Invoice shows wrong GST number
+TKT-6006,2025-04-08 08:00,billing,medium,portal,Sara,0.34,6.45,5.0,Yes,Refund not received after 14 days
+TKT-6231,2025-02-03 21:00,feature request,urgent,portal,Vikram,0.71,1.97,,No,Invoice shows wrong GST number
+TKT-6001,2025-02-05 12:00,bug,high,phone,Ananya,0.69,2.1,4.0,No,Delivery delayed by courier
+TKT-6228,2024-03-24 22:00,feature request,medium,email,Vikram,1.02,5.47,5.0,No,Invoice shows wrong GST number
+TKT-6153,2025-05-10 16:00,Shipping,medium,email,Imran,1.63,4.12,3.0,No,Wants dark mode in the mobile app
+TKT-6304,2024-11-28 18:00,Feature Request,low,email,Meera,3.55,10.26,,Yes,Refund not received after 14 days
+TKT-5514,2025-06-06 17:00,billing,medium,email,Rahul,0.86,7.17,3.0,No,Customer cannot reset password
+TKT-5984,2024-11-15 23:00,BILLING,low,email,Meera,0.4,5.82,4.0,No,Refund not received after 14 days
+TKT-5672,2024-12-12 17:00,billing,high,email,Meera,1.61,5.9,4.0,No,Refund not received after 14 days
+TKT-6073,2024-10-13 04:00,Shipping,medium,chat,Meera,1.6,5.33,4.0,Yes,Request to merge duplicate accounts
+TKT-5340,2024-12-11 23:00,login issue,low,email,Vikram,2.77,17.76,3.0,No,Customer cannot reset password
+TKT-6340,2024-10-18 02:00,shipping,low,email,Vikram,0.69,6.78,4.0,No,Request to merge duplicate accounts
+TKT-5378,2024-07-26 02:00,Billing,low,portal,Ananya,4.13,21.08,4.0,No,Request to merge duplicate accounts
+TKT-5616,2024-05-16 03:00,feature request,urgent,email,Meera,0.37,2.51,4.0,No,Refund not received after 14 days
+TKT-5604,2025-03-26 04:00,Billing,low,phone,Ananya,0.74,3.56,3.0,No,Unable to apply coupon code
+TKT-5694,2024-02-19 02:00,Login Issue,medium,chat,Ananya,2.54,11.12,5.0,No,Delivery delayed by courier
+TKT-5456,2024-03-21 18:00,Bug,medium,email,Ananya,0.38,4.38,4.0,No,App crashes on checkout
+TKT-5262,2024-06-12 11:00,login issue,medium,email,Vikram,1.94,8.09,5.0,No,Wants dark mode in the mobile app
+TKT-5363,2025-05-01 22:00,Billing,low,portal,Rahul,3.06,13.2,3.0,No,Refund not received after 14 days
+TKT-5289,2024-09-15 01:00,Login Issue,medium,chat,Ananya,1.62,863.17,3.0,No,Invoice shows wrong GST number
+TKT-5508,2024-05-26 10:00,billing,urgent,phone,Rahul,0.37,1.54,5.0,No,App crashes on checkout
+TKT-6365,2024-01-10 15:00,login issue,high,portal,,0.22,4.48,4.0,No,Customer cannot reset password
+TKT-5558,2025-03-07 23:00,bug,low,email,Ananya,5.07,15.09,4.0,No,Invoice shows wrong GST number
+TKT-5434,2024-08-24 10:00,Billing,medium,chat,Imran,1.52,4.37,4.0,No,Customer cannot reset password
+TKT-6030,2024-09-22 17:00,Login Issue,medium,email,Vikram,1.83,8.14,5.0,No,Unable to apply coupon code
+TKT-5247,2024-08-14 14:00,Bug,high,email,Ananya,1.61,4.78,3.0,No,Unable to apply coupon code
+TKT-6594,2025-01-17 15:00,Feature Request,low,chat,Sara,0.18,1.29,3.0,No,Request to merge duplicate accounts
+TKT-6208,2024-06-04 04:00,Billing,low,email,Meera,2.28,8.53,4.0,No,Delivery delayed by courier
+TKT-6435,2024-02-25 12:00,shipping,medium,email,Vikram,0.5,3.25,3.0,No,Invoice shows wrong GST number
+TKT-6086,2025-03-12 21:00,Billing,medium,portal,Imran,0.6,3.81,4.0,No,Delivery delayed by courier
+TKT-5164,2024-08-15 18:00,Shipping,medium,chat,,1.58,8.87,3.0,No,Request to merge duplicate accounts
+TKT-5195,2024-02-17 18:00,Login Issue,high,chat,Vikram,1.01,3.34,5.0,No,Delivery delayed by courier
+TKT-5646,2024-09-07 23:00,shipping,medium,portal,Imran,7.63,19.5,4.0,No,Wants dark mode in the mobile app
+TKT-6339,2024-08-10 07:00,shipping,medium,email,Rahul,3.52,9.7,5.0,No,Unable to apply coupon code
+TKT-6526,2024-06-22 20:00,Billing,medium,email,Rahul,4.71,16.36,4.0,No,Invoice shows wrong GST number
+TKT-5333,2025-03-28 05:00,bug,low,chat,Rahul,2.81,9.76,4.0,No,Invoice shows wrong GST number
+TKT-6039,2025-03-26 19:00,bug,medium,portal,Rahul,1.31,12.11,,No,App crashes on checkout
+TKT-6357,2024-03-14 05:00,login issue,low,chat,Meera,0.77,3.06,4.0,No,Customer cannot reset password
+TKT-5609,2025-04-12 09:00,bug,high,portal,Sara,0.66,2.84,,No,Customer cannot reset password
+TKT-5841,2024-12-23 15:00,billing,medium,chat,Imran,0.45,3.05,5.0,Yes,App crashes on checkout
+TKT-5026,2024-08-07 07:00,Feature Request,low,phone,Vikram,1.78,15.58,4.0,No,Refund not received after 14 days
+TKT-5828,2025-04-15 13:00,Billing,medium,portal,Meera,0.8,11.9,4.0,No,Invoice shows wrong GST number
+TKT-6168,2025-06-28 00:00,Login Issue,high,email,Sara,0.97,8.95,5.0,No,Request to merge duplicate accounts
+TKT-5612,2025-03-03 08:00,shipping,high,phone,Rahul,1.31,3.42,5.0,No,Request to merge duplicate accounts
+TKT-5897,2024-01-30 16:00,Bug,medium,chat,Meera,0.8,5.93,4.0,No,Unable to apply coupon code
+TKT-5397,2024-04-17 01:00,bug,medium,phone,Sara,2.69,6.75,5.0,No,Delivery delayed by courier
+TKT-5271,2024-01-13 10:00,Feature Request,medium,chat,Rahul,0.6,3.74,5.0,No,Delivery delayed by courier
+TKT-5163,2024-08-09 11:00,Billing,medium,chat,Imran,0.42,4.27,4.0,No,Delivery delayed by courier
+TKT-5288,2024-10-22 12:00,Login Issue,low,portal,Sara,5.48,22.05,4.0,No,Request to merge duplicate accounts
+TKT-6303,2025-05-03 02:00,Shipping,medium,email,Rahul,1.17,5.32,5.0,No,Delivery delayed by courier
+TKT-5500,2024-03-02 23:00,Billing,medium,email,Meera,2.03,7.79,4.0,No,Delivery delayed by courier
+TKT-6447,2025-06-07 01:00,bug,high,chat,Rahul,1.36,4.37,5.0,No,App crashes on checkout
+TKT-5304,2024-10-22 20:00,Billing,high,email,Meera,0.7,2.73,4.0,No,Refund not received after 14 days
+TKT-5962,2025-04-02 20:00,Billing,medium,chat,Ananya,0.6,6.5,4.0,Yes,Customer cannot reset password
+TKT-5814,2025-02-28 00:00,Bug,low,chat,Meera,1.53,17.96,4.0,No,Customer cannot reset password
+TKT-5484,2024-09-09 08:00,shipping,medium,portal,Ananya,0.96,3.86,4.0,No,App crashes on checkout
+TKT-6455,2024-02-05 17:00,feature request,low,chat,Rahul,0.53,4.43,4.0,No,Refund not received after 14 days
+TKT-5039,2024-12-10 06:00,feature request,high,portal,Meera,0.94,4.94,4.0,Yes,Wants dark mode in the mobile app
+TKT-5043,2024-07-12 05:00,Login Issue,medium,portal,Rahul,0.56,10.04,5.0,No,Wants dark mode in the mobile app
+TKT-6341,2024-03-15 13:00,Login Issue,low,email,Meera,2.32,10.26,4.0,No,Wants dark mode in the mobile app
+TKT-6021,2024-02-09 06:00,Login Issue,low,portal,Rahul,0.94,6.75,5.0,No,App crashes on checkout
+TKT-5289,2024-09-15 01:00,Login Issue,medium,chat,Ananya,1.62,6.06,3.0,No,Invoice shows wrong GST number
+TKT-5921,2024-11-07 23:00,BILLING,medium,email,Meera,2.14,5.55,5.0,No,Request to merge duplicate accounts
+TKT-5571,2024-08-14 20:00,Shipping,medium,portal,Meera,1.65,5.85,3.0,No,Unable to apply coupon code
+TKT-5243,2024-12-20 03:00,bug,high,chat,Meera,0.73,2.6,5.0,No,Invoice shows wrong GST number
+TKT-5709,2024-09-10 23:00,bug,urgent,chat,Vikram,0.39,1.3,4.0,Yes,Invoice shows wrong GST number
+TKT-5670,2025-06-03 02:00,Shipping,low,email,Meera,1.68,13.54,5.0,No,Request to merge duplicate accounts
+TKT-5455,2024-10-29 13:00,shipping,urgent,email,Ananya,0.13,0.6,4.0,No,Unable to apply coupon code
+TKT-5922,2024-08-31 08:00,bug,high,email,Ananya,0.57,1.58,5.0,No,App crashes on checkout
+TKT-5941,2024-08-08 04:00,BILLING,high,email,Rahul,1.39,7.67,4.0,No,Wants dark mode in the mobile app
+TKT-5916,2024-10-22 22:00,login issue,high,phone,Vikram,1.75,5.34,4.0,No,Unable to apply coupon code
+TKT-5820,2024-01-14 01:00,Billing,low,phone,Rahul,1.25,5.95,4.0,No,Invoice shows wrong GST number
+TKT-5857,2024-02-01 04:00,shipping,low,chat,Vikram,2.29,6.54,4.0,Yes,Unable to apply coupon code
+TKT-5041,2025-02-17 03:00,Bug,low,phone,Sara,5.2,768.12,3.0,Yes,App crashes on checkout
+TKT-6366,2024-06-13 11:00,shipping,medium,chat,Meera,4.64,12.45,4.0,No,Customer cannot reset password
+TKT-5477,2024-01-10 17:00,billing,medium,email,Rahul,3.47,10.04,4.0,No,App crashes on checkout
+TKT-5073,2024-03-11 19:00,login issue,medium,email,Meera,0.95,2.92,3.0,No,Customer cannot reset password
+TKT-5151,2024-06-02 08:00,BILLING,medium,chat,Rahul,3.32,14.03,4.0,No,Invoice shows wrong GST number
+TKT-6002,2024-10-31 06:00,Billing,medium,portal,,1.08,8.41,4.0,No,Unable to apply coupon code
+TKT-6516,2024-09-20 00:00,Billing,medium,email,Rahul,2.43,7.09,5.0,No,Invoice shows wrong GST number
+TKT-5726,2025-01-28 01:00,login issue,medium,portal,Sara,0.18,3.15,4.0,No,Wants dark mode in the mobile app
+TKT-5489,2024-11-26 06:00,feature request,low,chat,Vikram,3.42,10.62,4.0,No,Unable to apply coupon code
+TKT-5319,2025-02-22 21:00,shipping,medium,chat,Rahul,0.96,5.38,4.0,No,Invoice shows wrong GST number
+TKT-6587,2024-02-12 13:00,billing,medium,email,Rahul,4.3,19.99,4.0,No,Delivery delayed by courier
+TKT-5148,2025-03-23 19:00,shipping,low,chat,Imran,3.2,8.61,4.0,No,Delivery delayed by courier
+TKT-5344,2025-05-08 12:00,Login Issue,medium,phone,Ananya,0.82,7.74,4.0,No,Unable to apply coupon code
+TKT-6025,2024-01-31 06:00,billing,medium,chat,Imran,0.96,10.99,5.0,No,App crashes on checkout
+TKT-6070,2025-01-02 20:00,login issue,medium,email,Rahul,2.36,6.34,4.0,No,App crashes on checkout
+TKT-6043,2024-07-21 21:00,Shipping,medium,chat,,2.12,7.58,4.0,Yes,Unable to apply coupon code
+TKT-5480,2024-06-05 22:00,login issue,low,chat,Ananya,2.4,8.73,4.0,Yes,Request to merge duplicate accounts
+TKT-5454,2024-11-21 07:00,Billing,high,chat,Ananya,0.43,3.87,5.0,No,Wants dark mode in the mobile app
+TKT-5537,2024-03-03 22:00,Feature Request,low,portal,Ananya,3.34,11.3,4.0,No,Unable to apply coupon code
+TKT-5788,2024-10-23 18:00,login issue,low,email,Imran,0.4,5.39,5.0,Yes,App crashes on checkout
+TKT-6298,2024-10-16 04:00,Billing,low,email,Vikram,3.18,8.32,3.0,No,Wants dark mode in the mobile app
+TKT-5898,2024-02-08 06:00,Shipping,medium,portal,Rahul,1.53,11.08,5.0,No,Delivery delayed by courier
+TKT-5937,2024-03-21 21:00,Billing,high,phone,Meera,0.14,1.05,4.0,No,Delivery delayed by courier
+TKT-5526,2025-05-18 05:00,login issue,medium,phone,Rahul,1.23,7.77,4.0,No,Request to merge duplicate accounts
+TKT-6211,2025-03-02 04:00,login issue,low,email,Rahul,0.45,8.23,,No,Request to merge duplicate accounts
+TKT-5911,2024-04-10 00:00,login issue,urgent,chat,Ananya,0.92,4.01,5.0,No,Delivery delayed by courier
+TKT-6125,2025-04-04 18:00,billing,medium,email,Rahul,2.21,7.66,4.0,No,Request to merge duplicate accounts
+TKT-5177,2024-03-28 21:00,Login Issue,high,portal,Meera,0.51,5.58,3.0,No,Request to merge duplicate accounts
+TKT-6502,2024-05-04 19:00,Login Issue,high,email,Meera,1.01,2.93,5.0,No,App crashes on checkout
+TKT-6459,2024-10-08 06:00,Login Issue,low,email,Rahul,2.25,10.01,,Yes,Refund not received after 14 days
+TKT-6266,2024-01-31 00:00,feature request,low,email,Meera,3.28,11.65,3.0,No,Unable to apply coupon code
+TKT-5997,2024-07-15 13:00,login issue,low,chat,Rahul,7.56,20.53,4.0,Yes,Delivery delayed by courier
+TKT-5346,2025-06-24 07:00,bug,low,portal,Ananya,5.13,12.85,3.0,No,Request to merge duplicate accounts
+TKT-6041,2025-04-11 19:00,feature request,low,email,Sara,0.7,10.78,4.0,No,Invoice shows wrong GST number
+TKT-6163,2024-10-16 14:00,Billing,low,chat,Vikram,4.24,23.67,4.0,No,App crashes on checkout
+TKT-5128,2024-11-09 03:00,Feature Request,high,portal,Imran,1.36,4.9,4.0,No,App crashes on checkout
+TKT-5701,2024-12-01 19:00,Shipping,low,chat,Meera,1.81,7.54,4.0,No,Wants dark mode in the mobile app
+TKT-5823,2024-12-20 07:00,billing,medium,phone,Sara,0.88,8.24,4.0,No,Delivery delayed by courier
+TKT-6205,2025-05-07 07:00,shipping,low,email,Sara,2.49,6.22,4.0,No,Request to merge duplicate accounts
+TKT-6305,2025-01-01 00:00,bug,low,chat,Sara,1.44,5.88,4.0,No,Delivery delayed by courier
+TKT-5505,2024-09-04 08:00,shipping,medium,chat,Imran,2.33,8.32,5.0,No,Unable to apply coupon code
+TKT-5689,2025-03-02 12:00,Login Issue,high,phone,Imran,1.24,7.89,4.0,No,Unable to apply coupon code
+TKT-5556,2025-02-05 03:00,feature request,low,portal,Meera,2.05,8.9,5.0,No,Unable to apply coupon code
+TKT-5331,2024-07-21 03:00,feature request,low,portal,Rahul,1.65,10.05,3.0,No,Unable to apply coupon code
+TKT-5194,2025-06-07 00:00,shipping,low,email,Sara,1.61,7.34,4.0,No,Wants dark mode in the mobile app
+TKT-5873,2024-03-09 02:00,Billing,high,chat,Meera,0.66,1.69,3.0,No,Unable to apply coupon code
+TKT-5536,2024-09-05 08:00,Billing,low,phone,Imran,1.58,11.16,,No,App crashes on checkout
+TKT-5086,2024-02-22 23:00,Login Issue,high,chat,Ananya,0.68,4.77,5.0,No,Unable to apply coupon code
+TKT-5954,2025-03-04 03:00,login issue,medium,email,Ananya,0.55,4.29,4.0,No,Unable to apply coupon code
+TKT-5535,2024-03-24 17:00,shipping,medium,email,Rahul,1.46,4.61,4.0,No,App crashes on checkout
+TKT-6142,2025-05-22 14:00,Login Issue,high,email,Ananya,0.52,6.33,4.0,No,Request to merge duplicate accounts
+TKT-5893,2025-06-18 05:00,bug,medium,email,Ananya,0.91,4.15,4.0,No,App crashes on checkout
+TKT-5662,2024-01-20 03:00,Billing,low,chat,Ananya,1.49,3.9,5.0,No,Wants dark mode in the mobile app
+TKT-5482,2024-05-16 12:00,Login Issue,medium,portal,Meera,0.99,4.02,5.0,No,Unable to apply coupon code
+TKT-5216,2024-02-13 04:00,bug,low,phone,Rahul,0.56,7.67,3.0,No,Refund not received after 14 days
+TKT-5427,2025-03-14 05:00,Login Issue,low,email,Ananya,0.59,2.49,4.0,No,Refund not received after 14 days
+TKT-5104,2025-03-10 06:00,Shipping,low,portal,Meera,2.24,5.79,5.0,No,Invoice shows wrong GST number
+TKT-5577,2024-10-12 10:00,shipping,high,email,Rahul,0.89,4.03,4.0,No,Refund not received after 14 days
+TKT-5544,2025-03-28 21:00,Shipping,low,chat,Vikram,4.05,10.42,2.0,No,Unable to apply coupon code
+TKT-5920,2025-04-20 14:00,billing,low,chat,Imran,0.97,10.05,4.0,No,Wants dark mode in the mobile app
+TKT-6570,2024-02-13 07:00,Login Issue,urgent,email,Meera,0.65,1.97,3.0,No,Delivery delayed by courier
+TKT-6170,2024-12-08 19:00,login issue,high,phone,Rahul,0.56,2.57,4.0,No,Delivery delayed by courier
+TKT-6523,2024-03-22 23:00,billing,urgent,phone,Sara,0.42,1.69,4.0,No,Invoice shows wrong GST number
+TKT-5869,2024-01-22 21:00,shipping,low,chat,Sara,0.75,7.27,4.0,No,Request to merge duplicate accounts
+TKT-5147,2024-05-07 11:00,shipping,low,phone,Imran,0.51,8.32,4.0,Yes,Delivery delayed by courier
+TKT-6390,2024-06-15 18:00,billing,low,chat,Ananya,1.6,5.44,4.0,No,App crashes on checkout
+TKT-6167,2024-08-05 05:00,shipping,medium,phone,Meera,1.32,8.35,3.0,No,Refund not received after 14 days
+TKT-5497,2024-07-22 22:00,Billing,low,chat,Meera,0.49,2.11,4.0,No,Customer cannot reset password
+TKT-6095,2024-02-13 15:00,Billing,high,chat,Rahul,0.14,1.66,4.0,No,Wants dark mode in the mobile app
+TKT-6218,2025-03-17 00:00,Feature Request,low,email,Ananya,1.04,5.2,4.0,No,Delivery delayed by courier
+TKT-5519,2024-11-19 23:00,shipping,high,email,Ananya,0.82,2.8,3.0,No,Wants dark mode in the mobile app
+TKT-5189,2024-06-13 07:00,Bug,medium,chat,Meera,1.98,6.62,4.0,Yes,Wants dark mode in the mobile app
+TKT-5044,2024-02-07 00:00,billing,medium,chat,Vikram,0.58,1.82,4.0,No,Request to merge duplicate accounts
+TKT-6288,2024-02-25 12:00,bug,medium,email,Vikram,1.54,6.42,4.0,No,Refund not received after 14 days
+TKT-5202,2024-09-26 19:00,Billing,medium,email,Sara,2.37,6.39,5.0,No,Invoice shows wrong GST number
+TKT-5631,2024-06-27 11:00,Feature Request,low,chat,Meera,4.55,12.75,5.0,No,Invoice shows wrong GST number
+TKT-6434,2024-06-23 02:00,bug,low,phone,Ananya,0.89,6.59,,No,Wants dark mode in the mobile app
+TKT-5989,2025-03-05 03:00,billing,low,email,Meera,1.85,9.76,4.0,No,Unable to apply coupon code
+TKT-6195,2024-12-11 09:00,Bug,urgent,portal,Meera,0.44,3.49,5.0,No,Delivery delayed by courier
+TKT-5353,2024-08-25 03:00,Billing,low,email,Ananya,0.95,5.01,,No,Invoice shows wrong GST number
+TKT-5066,2025-05-08 12:00,shipping,high,email,Rahul,0.31,3.42,5.0,No,Wants dark mode in the mobile app
+TKT-6456,2025-06-20 14:00,shipping,high,email,Sara,0.41,3.56,2.0,No,Delivery delayed by courier
+TKT-6405,2024-03-25 17:00,Feature Request,low,phone,Meera,7.51,23.22,4.0,No,Invoice shows wrong GST number
+TKT-6590,2025-02-05 01:00,Feature Request,urgent,chat,Meera,0.54,1.79,4.0,No,App crashes on checkout
+TKT-5996,2024-10-13 21:00,feature request,low,email,Rahul,0.39,5.88,4.0,No,Request to merge duplicate accounts
+TKT-5384,2024-01-18 09:00,Billing,low,portal,Vikram,0.58,6.53,4.0,No,Customer cannot reset password
+TKT-5046,2024-08-30 21:00,Login Issue,low,email,,1.77,11.28,5.0,No,Delivery delayed by courier
+TKT-6294,2025-06-02 16:00,shipping,high,portal,Ananya,0.09,0.92,3.0,No,App crashes on checkout
+TKT-5810,2024-01-25 01:00,login issue,medium,chat,Ananya,1.25,8.13,5.0,No,Customer cannot reset password
+TKT-5720,2024-03-16 19:00,login issue,low,chat,Rahul,1.17,11.46,4.0,No,Delivery delayed by courier
+TKT-5864,2025-04-06 03:00,shipping,low,phone,Meera,0.3,4.2,4.0,No,Request to merge duplicate accounts
+TKT-6485,2025-04-15 04:00,billing,low,portal,Vikram,2.64,8.82,5.0,No,Wants dark mode in the mobile app
+TKT-5083,2025-03-29 19:00,Login Issue,low,email,Meera,3.03,11.33,4.0,No,Refund not received after 14 days
+TKT-6495,2024-08-23 01:00,billing,medium,email,Rahul,0.8,6.33,3.0,No,Delivery delayed by courier
+TKT-5967,2024-06-21 18:00,billing,medium,email,Meera,0.36,6.48,3.0,No,App crashes on checkout
+TKT-6595,2024-03-31 04:00,Shipping,low,chat,Imran,2.47,9.29,5.0,No,Invoice shows wrong GST number
+TKT-5905,2025-01-21 17:00,Shipping,low,chat,Ananya,0.24,3.07,4.0,No,App crashes on checkout
+TKT-5951,2024-06-15 01:00,Billing,low,phone,Rahul,2.43,21.45,5.0,No,Unable to apply coupon code
+TKT-5551,2024-08-02 12:00,Bug,high,phone,Vikram,0.74,3.47,3.0,No,Refund not received after 14 days
+TKT-5776,2024-08-18 23:00,Bug,high,chat,Rahul,0.83,2.17,5.0,No,Request to merge duplicate accounts
+TKT-6537,2024-03-01 07:00,login issue,medium,chat,Rahul,3.42,10.45,4.0,No,Refund not received after 14 days
+TKT-6579,2024-11-23 09:00,bug,medium,phone,Rahul,1.22,4.42,4.0,No,Wants dark mode in the mobile app
+TKT-5795,2024-06-09 23:00,bug,medium,email,Vikram,2.52,7.76,4.0,No,Delivery delayed by courier
+TKT-5464,2024-01-04 13:00,Feature Request,medium,email,Rahul,0.8,10.19,5.0,No,Invoice shows wrong GST number
+TKT-6219,2024-08-27 20:00,login issue,urgent,email,Imran,1.06,2.74,3.0,No,Refund not received after 14 days
+TKT-5067,2024-07-20 21:00,Bug,medium,phone,Imran,0.45,3.37,5.0,No,Wants dark mode in the mobile app
+TKT-5910,2025-02-23 18:00,Bug,urgent,email,Sara,0.41,1.47,5.0,No,Wants dark mode in the mobile app
+TKT-5025,2024-12-16 21:00,billing,high,portal,Vikram,0.98,4.07,4.0,No,Refund not received after 14 days
+TKT-6562,2024-05-15 10:00,Login Issue,medium,email,Meera,4.44,11.79,3.0,No,Customer cannot reset password
+TKT-6204,2024-12-20 17:00,billing,urgent,email,Sara,0.09,1.04,,No,Invoice shows wrong GST number
+TKT-6101,2024-09-12 18:00,billing,medium,email,Vikram,0.97,12.68,5.0,No,Invoice shows wrong GST number
+TKT-5245,2024-02-16 00:00,login issue,high,email,Sara,3.02,9.75,5.0,No,App crashes on checkout
+TKT-5221,2024-09-05 09:00,bug,urgent,email,Sara,0.1,1.19,5.0,No,Refund not received after 14 days
+TKT-5785,2024-11-16 14:00,Shipping,low,portal,Sara,0.65,9.58,5.0,No,Refund not received after 14 days
+TKT-6164,2024-10-08 18:00,bug,urgent,phone,Rahul,0.12,1.22,5.0,No,Customer cannot reset password
+TKT-5184,2024-09-27 02:00,Billing,low,portal,Rahul,2.12,13.71,4.0,No,Invoice shows wrong GST number
+TKT-5253,2024-06-28 18:00,Billing,high,chat,Rahul,1.05,11.49,5.0,No,Refund not received after 14 days
+TKT-6517,2024-01-27 11:00,Bug,medium,email,Vikram,2.31,9.61,4.0,No,Customer cannot reset password
+TKT-5825,2024-02-19 06:00,bug,high,chat,,0.54,1.54,3.0,No,App crashes on checkout
+TKT-5225,2024-06-15 17:00,login issue,medium,portal,Ananya,3.39,9.88,5.0,No,App crashes on checkout
+TKT-5572,2024-06-02 20:00,Login Issue,low,email,Rahul,1.24,4.4,4.0,No,Unable to apply coupon code
+TKT-6408,2024-01-01 20:00,Billing,urgent,email,Ananya,0.28,2.48,3.0,No,Unable to apply coupon code
+TKT-6511,2024-05-04 09:00,billing,medium,chat,Meera,2.03,6.34,4.0,No,Request to merge duplicate accounts
+TKT-6479,2024-08-15 01:00,bug,medium,portal,Imran,1.17,3.96,4.0,No,Invoice shows wrong GST number
+TKT-5695,2024-05-18 02:00,bug,low,phone,Sara,0.68,8.49,5.0,No,App crashes on checkout
+TKT-6134,2024-11-30 12:00,bug,high,portal,Ananya,0.52,1.34,3.0,No,App crashes on checkout
+TKT-5610,2025-03-30 08:00,Bug,low,portal,Ananya,0.77,6.91,3.0,No,Wants dark mode in the mobile app
+TKT-6220,2024-12-20 01:00,bug,medium,email,Vikram,4.0,13.48,3.0,No,Request to merge duplicate accounts
+TKT-5388,2025-05-01 02:00,Billing,urgent,phone,Imran,0.53,1.33,4.0,No,Refund not received after 14 days
+TKT-5386,2024-02-06 20:00,Login Issue,medium,email,Ananya,2.13,6.85,4.0,No,Refund not received after 14 days
+TKT-5259,2024-11-16 06:00,bug,low,email,Rahul,4.19,17.89,,No,App crashes on checkout
+TKT-5316,2025-02-02 00:00,Billing,medium,portal,Sara,1.02,3.4,4.0,No,Refund not received after 14 days
+TKT-5181,2024-03-24 00:00,Bug,high,email,Imran,0.54,2.62,5.0,No,Refund not received after 14 days
+TKT-5605,2024-10-19 03:00,login issue,high,email,Vikram,1.01,3.15,4.0,No,Unable to apply coupon code
+TKT-6325,2024-04-12 05:00,login issue,high,email,Ananya,0.38,2.2,4.0,Yes,Refund not received after 14 days
+TKT-5550,2025-03-13 16:00,Bug,low,email,Sara,1.27,11.55,3.0,No,Delivery delayed by courier
+TKT-5092,2025-04-03 17:00,BILLING,low,portal,Meera,2.63,8.45,5.0,Yes,Refund not received after 14 days
+TKT-6351,2024-08-01 20:00,billing,medium,phone,Imran,1.94,5.47,,No,App crashes on checkout
+TKT-6256,2024-04-30 22:00,Shipping,low,chat,Rahul,3.75,11.26,5.0,No,App crashes on checkout
+TKT-6308,2024-08-14 04:00,login issue,medium,email,Imran,5.95,20.63,,No,Unable to apply coupon code
+TKT-5959,2024-08-12 10:00,shipping,medium,phone,Rahul,0.76,6.02,3.0,No,Request to merge duplicate accounts
+TKT-6032,2025-02-02 06:00,Login Issue,urgent,email,Sara,0.53,2.34,4.0,Yes,Refund not received after 14 days
+TKT-5584,2024-08-08 05:00,Shipping,low,phone,Ananya,1.83,4.74,5.0,Yes,Wants dark mode in the mobile app
+TKT-6463,2024-01-28 18:00,billing,low,phone,Ananya,2.92,8.44,3.0,Yes,Invoice shows wrong GST number
+TKT-6503,2024-06-24 18:00,Login Issue,medium,chat,Ananya,1.43,5.83,5.0,Yes,Refund not received after 14 days
+TKT-5317,2025-01-31 05:00,Bug,urgent,portal,Sara,0.15,1.12,5.0,No,Wants dark mode in the mobile app
+TKT-6230,2025-03-23 16:00,billing,low,portal,Meera,7.22,18.52,4.0,No,Refund not received after 14 days
+TKT-5576,2025-05-19 13:00,bug,medium,portal,Vikram,2.63,9.98,3.0,No,Unable to apply coupon code
+TKT-5294,2024-10-24 00:00,Feature Request,high,portal,Ananya,0.55,3.19,4.0,No,Unable to apply coupon code
+TKT-5928,2024-08-16 00:00,billing,medium,phone,Meera,3.46,14.82,4.0,No,Refund not received after 14 days
+TKT-5903,2025-04-26 20:00,bug,urgent,portal,Sara,0.88,2.22,4.0,No,Wants dark mode in the mobile app
+TKT-5060,2025-05-17 18:00,bug,high,portal,Rahul,0.36,5.67,4.0,Yes,Delivery delayed by courier
+TKT-5606,2024-06-25 01:00,Shipping,medium,portal,Rahul,1.24,5.08,4.0,No,Customer cannot reset password
+TKT-5250,2024-04-07 19:00,bug,urgent,chat,Imran,0.47,2.83,4.0,No,Wants dark mode in the mobile app
+TKT-5691,2025-03-09 08:00,Bug,high,email,Imran,0.87,2.35,4.0,No,Request to merge duplicate accounts
+TKT-6484,2024-08-14 01:00,Billing,urgent,portal,Vikram,0.39,0.98,5.0,Yes,Customer cannot reset password
+TKT-5277,2025-03-02 14:00,Login Issue,high,portal,Ananya,0.46,3.83,5.0,No,Customer cannot reset password
+TKT-5597,2025-02-28 19:00,shipping,low,email,Ananya,1.34,13.58,5.0,No,App crashes on checkout
+TKT-5038,2024-05-30 20:00,Login Issue,medium,chat,Ananya,0.79,4.11,4.0,No,Invoice shows wrong GST number
+TKT-5674,2024-12-04 22:00,feature request,high,phone,Ananya,0.82,6.7,,No,Unable to apply coupon code
+TKT-5943,2024-09-15 10:00,Shipping,low,portal,Meera,2.46,8.14,3.0,No,Unable to apply coupon code
+TKT-5077,2024-05-03 15:00,login issue,low,chat,Meera,3.42,17.79,4.0,Yes,Customer cannot reset password
+TKT-5287,2024-11-07 14:00,Bug,medium,email,,0.39,3.75,4.0,No,Invoice shows wrong GST number
+TKT-5291,2024-05-25 12:00,bug,medium,email,Meera,1.21,4.6,4.0,No,Invoice shows wrong GST number
+TKT-5569,2024-11-07 07:00,login issue,low,chat,Vikram,3.12,9.61,5.0,No,Request to merge duplicate accounts
+TKT-6586,2025-03-24 16:00,Shipping,low,chat,Rahul,2.07,5.34,4.0,No,Unable to apply coupon code
+TKT-5352,2024-06-11 20:00,billing,high,phone,Meera,0.2,2.35,4.0,No,Delivery delayed by courier
+TKT-6253,2025-03-08 13:00,shipping,low,portal,Rahul,0.5,5.21,4.0,Yes,App crashes on checkout
+TKT-6417,2024-08-26 22:00,shipping,low,portal,Ananya,0.35,5.23,4.0,No,Wants dark mode in the mobile app
+TKT-6003,2025-04-28 02:00,bug,high,email,Ananya,1.76,5.89,2.0,No,Unable to apply coupon code
+TKT-6462,2024-01-26 21:00,Login Issue,medium,email,Rahul,3.8,12.11,4.0,No,App crashes on checkout
+TKT-6050,2024-10-04 00:00,BILLING,medium,email,Vikram,1.16,6.69,3.0,No,App crashes on checkout
+TKT-5031,2024-05-03 20:00,feature request,high,chat,Ananya,0.72,5.75,4.0,No,Invoice shows wrong GST number
+TKT-5553,2024-06-22 07:00,login issue,high,phone,Rahul,0.73,3.31,4.0,No,Customer cannot reset password
+TKT-5837,2024-04-18 00:00,shipping,low,email,Rahul,1.91,4.91,5.0,No,Customer cannot reset password
+TKT-5172,2025-02-24 11:00,billing,high,portal,Rahul,0.95,6.98,5.0,No,Delivery delayed by courier
+TKT-6512,2025-02-09 10:00,login issue,high,chat,Vikram,1.0,2.55,4.0,No,Request to merge duplicate accounts
+TKT-5095,2024-06-06 03:00,shipping,medium,email,Rahul,1.0,4.92,4.0,No,Refund not received after 14 days
+TKT-5069,2024-09-12 21:00,Billing,low,email,Sara,2.3,14.22,4.0,No,Customer cannot reset password
+TKT-5348,2024-04-08 11:00,Login Issue,medium,chat,Rahul,1.87,8.37,5.0,No,Customer cannot reset password
+TKT-6286,2025-05-09 18:00,login issue,low,portal,Meera,1.83,9.04,4.0,No,Invoice shows wrong GST number
+TKT-6147,2025-02-22 21:00,shipping,urgent,chat,Meera,0.45,1.51,4.0,No,Customer cannot reset password
+TKT-5354,2025-06-12 07:00,feature request,high,portal,,0.49,1.25,3.0,No,App crashes on checkout
+TKT-5908,2024-07-21 06:00,shipping,medium,phone,Meera,0.28,2.44,4.0,No,Wants dark mode in the mobile app
+TKT-6008,2025-02-03 16:00,Login Issue,medium,phone,Ananya,1.52,7.09,4.0,No,Unable to apply coupon code
+TKT-6360,2024-02-14 22:00,Login Issue,urgent,phone,Rahul,0.18,1.43,5.0,No,Request to merge duplicate accounts
+TKT-5326,2024-05-08 20:00,feature request,high,email,Sara,1.82,4.92,4.0,Yes,Request to merge duplicate accounts
+TKT-5005,2025-04-12 22:00,Billing,low,email,Meera,1.45,7.79,4.0,Yes,Request to merge duplicate accounts
+TKT-5973,2024-09-15 09:00,shipping,low,portal,Vikram,8.04,27.65,3.0,No,App crashes on checkout
+TKT-5298,2024-06-04 02:00,shipping,medium,chat,Meera,0.85,3.23,,No,App crashes on checkout
+TKT-6481,2024-01-01 21:00,Billing,high,email,Sara,0.11,1.88,5.0,No,App crashes on checkout
+TKT-5763,2025-05-25 04:00,shipping,high,chat,Ananya,1.15,3.1,5.0,No,Customer cannot reset password
+TKT-5266,2024-08-31 15:00,Login Issue,high,chat,Sara,1.62,6.24,4.0,Yes,Invoice shows wrong GST number
+TKT-5552,2025-03-27 09:00,login issue,low,email,Rahul,1.59,8.09,3.0,No,Customer cannot reset password
+TKT-6182,2025-01-11 11:00,shipping,medium,email,Vikram,1.13,4.94,3.0,No,Invoice shows wrong GST number
+TKT-5655,2024-10-17 08:00,billing,medium,portal,Imran,1.5,4.81,,No,Refund not received after 14 days
+TKT-6033,2024-06-20 01:00,Billing,low,chat,Meera,0.45,6.36,,No,Request to merge duplicate accounts
+TKT-5144,2025-06-25 00:00,Login Issue,medium,chat,Vikram,0.46,6.58,,No,Request to merge duplicate accounts
+TKT-6185,2024-06-16 14:00,shipping,high,portal,Meera,0.8,2.11,3.0,No,Delivery delayed by courier
+TKT-6100,2024-09-18 10:00,Feature Request,medium,chat,Rahul,0.88,3.87,4.0,No,Unable to apply coupon code
+TKT-5296,2025-04-08 03:00,Billing,high,chat,Ananya,1.16,3.0,4.0,No,Unable to apply coupon code
+TKT-6007,2024-10-01 11:00,Login Issue,low,phone,Rahul,1.32,12.03,4.0,No,Wants dark mode in the mobile app
+TKT-6188,2024-11-04 18:00,Shipping,high,portal,Vikram,1.05,3.22,3.0,No,App crashes on checkout
+TKT-5671,2024-11-30 20:00,Billing,urgent,email,Rahul,1.01,3.45,3.0,No,Refund not received after 14 days
+TKT-6433,2024-11-02 09:00,Shipping,medium,chat,Ananya,0.66,9.03,4.0,No,Customer cannot reset password
+TKT-5881,2025-04-08 20:00,Bug,low,chat,Meera,2.0,5.98,5.0,No,App crashes on checkout
+TKT-5754,2024-10-29 11:00,BILLING,low,portal,Rahul,1.68,4.97,5.0,Yes,Wants dark mode in the mobile app
+TKT-5988,2024-05-14 05:00,shipping,medium,portal,Sara,0.12,2.36,4.0,Yes,Invoice shows wrong GST number
+TKT-5904,2024-09-07 02:00,Login Issue,high,phone,Sara,0.25,2.28,4.0,No,Request to merge duplicate accounts
+TKT-5327,2024-01-21 09:00,bug,low,phone,Sara,4.05,19.13,3.0,No,Customer cannot reset password
+TKT-6238,2024-06-11 06:00,Feature Request,high,chat,Imran,1.55,4.02,4.0,No,Wants dark mode in the mobile app
+TKT-5824,2024-12-05 16:00,Login Issue,low,chat,Ananya,3.2,11.19,5.0,No,Delivery delayed by courier
+TKT-6519,2024-09-08 02:00,shipping,medium,chat,Vikram,0.91,5.2,4.0,No,Customer cannot reset password
+TKT-6332,2024-08-19 13:00,Shipping,medium,email,Meera,0.4,1.61,5.0,No,Unable to apply coupon code
+TKT-5926,2024-10-21 23:00,login issue,medium,email,,2.47,12.12,3.0,No,Customer cannot reset password
+TKT-6314,2025-05-06 21:00,billing,high,chat,Vikram,0.33,3.32,4.0,No,Invoice shows wrong GST number
+TKT-5771,2025-06-21 17:00,feature request,medium,chat,Ananya,2.69,11.43,4.0,No,Unable to apply coupon code
+TKT-5155,2024-12-26 17:00,shipping,medium,email,Vikram,2.18,8.43,5.0,No,Request to merge duplicate accounts
+TKT-5654,2024-10-28 09:00,login issue,medium,chat,Imran,1.16,4.25,4.0,Yes,Invoice shows wrong GST number
+TKT-5405,2024-09-29 21:00,billing,low,chat,Meera,0.74,8.21,5.0,Yes,Wants dark mode in the mobile app
+TKT-6409,2024-06-03 08:00,billing,high,portal,Meera,0.42,2.38,3.0,No,Request to merge duplicate accounts
+TKT-5791,2024-09-04 14:00,billing,low,email,Vikram,0.69,6.37,3.0,No,App crashes on checkout
+TKT-5057,2024-03-25 02:00,shipping,low,portal,Sara,1.18,17.68,5.0,No,Refund not received after 14 days
+TKT-5121,2024-12-30 06:00,shipping,medium,portal,Ananya,0.82,5.34,3.0,No,Customer cannot reset password
+TKT-6247,2024-09-10 09:00,feature request,medium,email,Rahul,1.92,7.82,4.0,No,App crashes on checkout
+TKT-5625,2024-05-06 18:00,Login Issue,low,chat,Ananya,1.97,8.33,4.0,No,Delivery delayed by courier
+TKT-5488,2025-02-21 00:00,Login Issue,low,email,Rahul,0.78,4.62,3.0,Yes,Refund not received after 14 days
+TKT-6552,2024-10-17 14:00,BILLING,urgent,chat,Imran,0.73,2.77,4.0,No,Refund not received after 14 days
+TKT-6382,2024-07-07 22:00,Bug,urgent,portal,Rahul,0.65,3.31,5.0,No,Wants dark mode in the mobile app
+TKT-5222,2025-01-18 16:00,Shipping,low,email,,2.95,11.63,4.0,No,Wants dark mode in the mobile app
+TKT-5737,2024-06-30 19:00,bug,low,email,Rahul,1.32,9.69,5.0,No,Request to merge duplicate accounts
+TKT-5993,2024-08-23 02:00,bug,low,chat,Sara,2.95,12.44,4.0,No,Customer cannot reset password
+TKT-6241,2025-02-27 15:00,Bug,low,email,Imran,2.15,9.18,4.0,No,Wants dark mode in the mobile app
+TKT-5784,2024-09-17 14:00,Feature Request,low,portal,Ananya,1.47,11.17,2.0,No,App crashes on checkout
+TKT-6192,2024-04-02 19:00,login issue,high,email,Vikram,0.66,4.38,5.0,No,App crashes on checkout
+TKT-6093,2024-08-01 22:00,billing,medium,chat,Sara,2.09,8.08,4.0,No,Wants dark mode in the mobile app
+TKT-6173,2024-04-06 17:00,login issue,medium,email,Imran,0.79,6.56,4.0,No,Request to merge duplicate accounts
+TKT-5016,2024-10-06 17:00,shipping,low,email,Meera,1.14,4.42,2.0,No,Invoice shows wrong GST number
+TKT-5815,2025-04-01 02:00,Billing,high,email,Ananya,1.43,4.07,,No,App crashes on checkout
+TKT-5641,2025-05-14 09:00,billing,urgent,email,Ananya,0.46,1.63,5.0,No,Unable to apply coupon code
+TKT-5856,2024-05-13 11:00,BILLING,low,chat,Meera,0.71,13.66,4.0,No,Wants dark mode in the mobile app
+TKT-6242,2025-06-08 23:00,bug,high,email,Vikram,1.48,4.04,5.0,No,Refund not received after 14 days
+TKT-5422,2025-02-21 13:00,shipping,low,chat,,2.78,16.38,4.0,Yes,Customer cannot reset password
+TKT-5852,2025-06-08 22:00,login issue,low,portal,Meera,0.8,13.32,4.0,No,Delivery delayed by courier
+TKT-5872,2024-03-02 23:00,Bug,medium,phone,Imran,0.36,4.0,4.0,No,Delivery delayed by courier
+TKT-6259,2025-03-13 02:00,billing,low,email,Ananya,0.78,7.33,,No,Wants dark mode in the mobile app
+TKT-5901,2024-01-24 01:00,Shipping,low,email,Rahul,1.14,7.41,5.0,No,Invoice shows wrong GST number
+TKT-5315,2024-12-25 09:00,billing,low,chat,Meera,0.46,6.89,4.0,No,Invoice shows wrong GST number
+TKT-5865,2025-01-15 11:00,shipping,low,email,Sara,1.02,4.21,4.0,No,Customer cannot reset password
+TKT-5663,2024-04-20 07:00,login issue,high,email,Vikram,1.44,4.0,5.0,Yes,App crashes on checkout
+TKT-6392,2025-06-20 06:00,bug,low,portal,Imran,2.3,7.62,4.0,Yes,App crashes on checkout
+TKT-5365,2024-10-09 18:00,shipping,urgent,email,Rahul,0.22,1.02,4.0,No,App crashes on checkout
+TKT-6109,2024-01-25 08:00,shipping,low,portal,Ananya,1.41,4.41,4.0,No,Unable to apply coupon code
+TKT-6296,2024-05-23 07:00,billing,low,portal,Imran,1.87,12.04,4.0,No,Wants dark mode in the mobile app
+TKT-6187,2024-11-22 04:00,bug,medium,chat,Vikram,1.63,6.0,4.0,Yes,Delivery delayed by courier
+TKT-5377,2025-02-11 00:00,login issue,medium,email,Rahul,1.79,6.64,2.0,No,Request to merge duplicate accounts
+TKT-5372,2024-08-11 13:00,login issue,high,chat,Meera,1.37,3.53,3.0,No,Delivery delayed by courier
+TKT-6556,2025-05-03 16:00,Login Issue,urgent,email,Sara,0.87,5.52,4.0,Yes,Invoice shows wrong GST number
+TKT-5659,2024-06-06 01:00,login issue,low,email,Rahul,3.24,8.43,3.0,No,App crashes on checkout
+TKT-5789,2024-01-07 16:00,Billing,low,phone,Ananya,1.36,5.26,5.0,Yes,Unable to apply coupon code
+TKT-6267,2024-07-22 02:00,Shipping,low,portal,Ananya,0.51,8.1,5.0,No,Invoice shows wrong GST number
+TKT-6210,2024-12-05 17:00,billing,medium,chat,Ananya,1.49,6.26,4.0,No,Customer cannot reset password
+TKT-6085,2025-04-02 07:00,login issue,high,chat,Rahul,0.15,0.92,4.0,No,Unable to apply coupon code
+TKT-5079,2024-12-31 01:00,Feature Request,urgent,chat,Rahul,0.62,3.01,4.0,No,App crashes on checkout
+TKT-5826,2025-01-05 23:00,login issue,medium,email,Ananya,2.8,8.3,4.0,No,Wants dark mode in the mobile app
+TKT-6419,2024-09-16 13:00,login issue,high,chat,Meera,0.49,7.83,4.0,No,Delivery delayed by courier
+TKT-6598,2025-04-05 15:00,Billing,low,chat,Vikram,6.0,18.49,4.0,No,Invoice shows wrong GST number
+TKT-6281,2025-02-06 23:00,Billing,low,email,Vikram,0.75,4.17,3.0,No,App crashes on checkout
+TKT-5426,2025-04-16 01:00,Login Issue,medium,email,Ananya,0.74,6.03,4.0,No,Unable to apply coupon code
+TKT-5013,2025-02-18 19:00,Feature Request,medium,email,Vikram,0.83,8.15,3.0,No,Delivery delayed by courier
+TKT-6274,2025-02-19 16:00,login issue,high,chat,Rahul,1.0,3.02,5.0,Yes,Delivery delayed by courier
+TKT-5449,2024-06-05 02:00,shipping,medium,email,Meera,0.68,4.24,3.0,No,Request to merge duplicate accounts
+TKT-5752,2024-02-17 00:00,login issue,medium,chat,,0.24,3.26,5.0,No,Request to merge duplicate accounts
+TKT-5746,2024-10-17 01:00,BILLING,high,chat,Imran,0.83,3.39,3.0,No,Delivery delayed by courier
+TKT-5124,2025-04-11 00:00,Billing,high,portal,,1.86,4.78,4.0,Yes,Unable to apply coupon code
+TKT-6315,2024-06-11 22:00,shipping,high,chat,Sara,0.34,1.49,4.0,Yes,Invoice shows wrong GST number
+TKT-6542,2024-02-18 10:00,bug,low,chat,,0.31,5.5,5.0,No,Request to merge duplicate accounts
+TKT-6445,2024-01-20 12:00,Billing,medium,email,Imran,0.7,6.05,3.0,No,Invoice shows wrong GST number
+TKT-5221,2024-09-05 09:00,bug,urgent,email,Sara,0.1,1.19,5.0,No,Refund not received after 14 days
+TKT-5971,2024-08-16 00:00,Bug,low,email,Meera,0.44,6.52,5.0,No,Customer cannot reset password
+TKT-6323,2025-04-28 04:00,Billing,medium,email,Meera,0.16,2.48,4.0,No,Refund not received after 14 days
+TKT-5212,2025-03-06 00:00,Login Issue,medium,chat,Vikram,1.13,11.42,5.0,Yes,Invoice shows wrong GST number
+TKT-5757,2024-07-27 21:00,Login Issue,low,portal,Imran,1.71,10.43,3.0,No,Request to merge duplicate accounts
+TKT-6229,2024-06-06 02:00,Feature Request,low,email,Vikram,2.07,6.74,3.0,No,Invoice shows wrong GST number
+TKT-5770,2024-12-21 07:00,Login Issue,urgent,phone,Sara,0.42,1.76,,No,Delivery delayed by courier
+TKT-5191,2024-12-09 12:00,Bug,high,phone,Vikram,0.32,2.07,5.0,No,Wants dark mode in the mobile app
+TKT-5409,2024-01-08 14:00,Login Issue,low,email,Sara,6.49,19.92,4.0,No,Request to merge duplicate accounts
+TKT-5393,2024-11-22 15:00,Shipping,urgent,phone,Imran,0.32,1.94,5.0,No,Refund not received after 14 days
+TKT-5780,2025-04-23 11:00,shipping,urgent,email,Vikram,0.18,1.03,3.0,Yes,Refund not received after 14 days
+TKT-6233,2025-02-12 17:00,Login Issue,medium,chat,Imran,2.75,8.23,4.0,No,Delivery delayed by courier
+TKT-5899,2024-12-01 21:00,bug,low,portal,Meera,1.5,5.7,4.0,No,Customer cannot reset password
+TKT-5664,2024-11-21 14:00,bug,medium,chat,Meera,2.03,7.91,5.0,No,Wants dark mode in the mobile app
+TKT-5938,2024-09-08 14:00,feature request,low,chat,Meera,1.07,3.85,4.0,No,App crashes on checkout
+TKT-5702,2024-04-01 09:00,login issue,urgent,chat,Meera,1.47,5.36,5.0,No,Wants dark mode in the mobile app
+TKT-5633,2024-07-25 19:00,Billing,low,email,Rahul,0.71,4.89,4.0,No,Request to merge duplicate accounts
+TKT-5170,2024-02-27 20:00,login issue,low,portal,Sara,1.45,5.28,4.0,No,Unable to apply coupon code
+TKT-6225,2025-06-12 13:00,Login Issue,medium,chat,Meera,4.24,12.33,4.0,No,App crashes on checkout
+TKT-5183,2025-01-14 11:00,Login Issue,low,chat,Sara,6.61,18.3,4.0,No,App crashes on checkout
+TKT-6491,2024-09-23 18:00,bug,medium,phone,Meera,3.32,9.99,4.0,No,Unable to apply coupon code
+TKT-5097,2025-01-06 23:00,Billing,low,chat,Imran,3.92,12.57,5.0,Yes,Invoice shows wrong GST number
+TKT-6335,2025-06-28 07:00,feature request,urgent,portal,Vikram,0.61,6.92,5.0,No,Customer cannot reset password
+TKT-6423,2025-01-02 15:00,Billing,low,email,Meera,7.15,19.39,3.0,No,App crashes on checkout
+TKT-5735,2024-12-31 19:00,Login Issue,high,phone,Rahul,0.72,2.6,4.0,No,Invoice shows wrong GST number
+TKT-5635,2025-01-08 17:00,Shipping,high,email,Ananya,1.4,3.57,4.0,No,App crashes on checkout
+TKT-5267,2024-07-08 01:00,bug,low,portal,Vikram,5.06,23.9,4.0,No,Unable to apply coupon code
+TKT-5102,2025-03-14 16:00,billing,urgent,chat,Ananya,0.43,2.92,4.0,No,Refund not received after 14 days
+TKT-5974,2024-03-21 14:00,bug,medium,chat,Meera,0.89,2.9,5.0,Yes,Unable to apply coupon code
+TKT-6577,2025-03-11 13:00,Feature Request,low,phone,,3.64,11.23,4.0,No,Wants dark mode in the mobile app
+TKT-6381,2024-06-04 01:00,Shipping,high,phone,Imran,0.21,3.86,4.0,Yes,Refund not received after 14 days
+TKT-5431,2025-02-06 17:00,Feature Request,medium,portal,Meera,1.98,5.01,5.0,No,Wants dark mode in the mobile app
+TKT-6279,2025-04-16 16:00,billing,low,phone,Ananya,4.32,12.29,3.0,No,Request to merge duplicate accounts
+TKT-6472,2024-09-01 20:00,Bug,low,portal,Rahul,1.97,7.87,4.0,Yes,Refund not received after 14 days
+TKT-5773,2025-01-26 04:00,Bug,urgent,chat,Vikram,0.47,1.6,2.0,No,App crashes on checkout
+TKT-5665,2025-01-13 15:00,bug,medium,chat,Sara,0.54,6.91,4.0,No,Delivery delayed by courier
+TKT-5235,2025-01-27 02:00,bug,medium,email,Ananya,1.53,12.9,3.0,No,Invoice shows wrong GST number
+TKT-6049,2024-03-06 05:00,Bug,high,portal,Rahul,0.18,1.64,4.0,No,Invoice shows wrong GST number
+TKT-5834,2025-04-10 14:00,Shipping,low,email,Meera,3.1,9.07,4.0,No,App crashes on checkout
+TKT-6232,2025-06-12 20:00,login issue,medium,chat,Rahul,1.44,6.54,5.0,No,Request to merge duplicate accounts
+TKT-5750,2025-06-07 21:00,Billing,low,email,Sara,1.22,16.11,4.0,No,Delivery delayed by courier
+TKT-5154,2024-08-24 16:00,Shipping,low,chat,Ananya,2.88,8.48,4.0,No,Unable to apply coupon code
+TKT-6478,2024-05-05 15:00,shipping,low,chat,Ananya,0.94,10.1,4.0,No,Unable to apply coupon code
+TKT-6362,2024-07-10 05:00,Login Issue,low,email,,0.99,10.8,5.0,No,Customer cannot reset password
+TKT-6425,2025-03-19 23:00,login issue,medium,phone,Meera,0.84,2.89,5.0,No,Delivery delayed by courier
+TKT-5176,2025-01-25 19:00,Login Issue,medium,chat,Vikram,2.82,9.49,4.0,No,Unable to apply coupon code
+TKT-6436,2024-08-20 19:00,Billing,medium,portal,Ananya,1.47,7.42,5.0,No,Unable to apply coupon code
+TKT-5985,2024-12-21 13:00,shipping,medium,email,Rahul,2.11,5.42,4.0,No,App crashes on checkout
+TKT-6554,2024-09-06 12:00,Login Issue,low,phone,Sara,3.08,9.16,5.0,No,Unable to apply coupon code
+TKT-6128,2024-10-30 02:00,billing,high,portal,Vikram,0.31,3.18,4.0,No,App crashes on checkout
+TKT-5614,2025-01-08 23:00,Billing,low,email,Rahul,2.0,12.95,4.0,Yes,Unable to apply coupon code
+TKT-6015,2025-04-01 08:00,feature request,low,email,Ananya,1.29,10.48,3.0,No,App crashes on checkout
+TKT-6120,2024-01-08 13:00,Login Issue,medium,chat,Rahul,2.49,10.29,4.0,Yes,Unable to apply coupon code
+TKT-5451,2025-05-19 00:00,billing,medium,portal,Meera,4.5,11.77,5.0,No,App crashes on checkout
+TKT-5793,2025-03-25 20:00,Login Issue,medium,portal,Ananya,3.28,8.57,5.0,No,App crashes on checkout
+TKT-5800,2024-01-07 14:00,shipping,high,chat,Ananya,2.36,8.38,4.0,No,Refund not received after 14 days
+TKT-6496,2024-10-27 09:00,bug,low,portal,Meera,0.57,11.24,4.0,No,Unable to apply coupon code
+TKT-5532,2024-03-25 22:00,feature request,medium,phone,Vikram,1.35,6.56,4.0,No,Delivery delayed by courier
+TKT-5980,2024-11-17 09:00,Billing,low,portal,Sara,2.24,7.02,,No,App crashes on checkout
+TKT-5190,2025-01-07 14:00,bug,high,email,Sara,0.93,2.78,3.0,No,App crashes on checkout
+TKT-6336,2024-12-13 20:00,login issue,low,phone,Imran,3.63,9.47,4.0,Yes,App crashes on checkout
+TKT-5742,2024-12-11 19:00,login issue,urgent,portal,Sara,0.6,2.15,4.0,No,Wants dark mode in the mobile app
+TKT-5437,2025-05-20 12:00,Login Issue,low,email,Rahul,2.34,10.92,3.0,Yes,Request to merge duplicate accounts
+TKT-5562,2024-09-25 17:00,Feature Request,low,email,Rahul,2.42,7.0,5.0,No,Unable to apply coupon code
+TKT-5658,2024-02-09 11:00,Shipping,low,chat,Meera,2.76,12.06,3.0,No,Unable to apply coupon code
+TKT-5403,2025-06-13 15:00,bug,medium,email,Ananya,2.04,7.87,3.0,No,Request to merge duplicate accounts
+TKT-6178,2024-05-21 05:00,bug,high,chat,Rahul,0.54,1.37,4.0,No,Unable to apply coupon code
+TKT-5028,2024-10-24 06:00,shipping,medium,chat,Ananya,6.08,15.8,4.0,No,Refund not received after 14 days
+TKT-5854,2024-06-05 20:00,Shipping,low,email,Vikram,1.81,11.97,4.0,No,Delivery delayed by courier
+TKT-6275,2025-01-23 17:00,feature request,high,phone,Meera,0.73,2.64,4.0,Yes,App crashes on checkout
+TKT-6504,2024-11-21 14:00,Login Issue,medium,portal,Rahul,1.23,23.41,5.0,No,Refund not received after 14 days
+TKT-5300,2024-07-17 04:00,billing,medium,chat,Sara,2.63,9.47,5.0,No,Unable to apply coupon code
+TKT-5591,2025-05-06 22:00,Bug,high,chat,Ananya,0.1,1.5,4.0,No,App crashes on checkout
+TKT-6553,2024-12-03 10:00,feature request,high,email,Meera,0.07,1.3,5.0,No,Delivery delayed by courier
+TKT-6097,2025-02-15 15:00,login issue,high,phone,Ananya,1.14,4.02,4.0,No,Request to merge duplicate accounts
+TKT-5629,2024-07-18 16:00,Login Issue,medium,email,Meera,1.52,5.94,3.0,No,Unable to apply coupon code
+TKT-6129,2024-12-19 18:00,Login Issue,medium,portal,Meera,0.82,4.0,2.0,No,Unable to apply coupon code
+TKT-5792,2025-01-28 19:00,Shipping,medium,email,Rahul,0.4,1.32,4.0,No,Delivery delayed by courier
+TKT-5995,2024-12-07 04:00,login issue,urgent,email,Rahul,0.96,5.19,,No,Wants dark mode in the mobile app
+TKT-5469,2025-05-23 11:00,Login Issue,low,email,Ananya,1.25,4.5,4.0,No,Invoice shows wrong GST number
+TKT-6022,2025-04-18 08:00,feature request,medium,portal,Ananya,2.16,7.33,5.0,No,App crashes on checkout
+TKT-5972,2024-09-17 02:00,bug,high,email,Vikram,0.7,2.65,,No,Request to merge duplicate accounts
+TKT-5568,2024-12-16 04:00,Billing,medium,chat,Rahul,3.97,11.27,4.0,Yes,Request to merge duplicate accounts
+TKT-6566,2025-06-11 16:00,login issue,medium,phone,Vikram,0.36,1.75,3.0,No,Customer cannot reset password
+TKT-6068,2024-06-30 19:00,feature request,low,email,Ananya,27.09,82.39,4.0,Yes,Request to merge duplicate accounts
+TKT-6454,2024-11-07 19:00,Shipping,medium,portal,Ananya,7.1,18.47,5.0,No,Request to merge duplicate accounts
+TKT-5932,2024-05-20 08:00,bug,low,portal,Vikram,0.23,3.6,4.0,No,Refund not received after 14 days
+TKT-5179,2024-09-30 01:00,Billing,urgent,portal,Ananya,0.87,2.96,4.0,No,App crashes on checkout
+TKT-5548,2024-10-08 05:00,Login Issue,urgent,phone,Imran,0.35,3.13,3.0,No,Delivery delayed by courier
+TKT-5072,2024-09-09 07:00,Shipping,high,chat,Rahul,2.53,6.92,,No,Unable to apply coupon code
+TKT-5590,2025-03-12 09:00,Shipping,high,email,Sara,1.03,2.62,3.0,No,Wants dark mode in the mobile app
+TKT-6384,2024-07-29 13:00,feature request,medium,email,Rahul,0.59,2.4,4.0,No,Invoice shows wrong GST number
+TKT-5187,2024-07-26 15:00,billing,low,email,Sara,2.12,7.63,5.0,No,Delivery delayed by courier
+TKT-6072,2025-02-16 07:00,Shipping,medium,chat,Meera,0.51,4.23,5.0,No,Refund not received after 14 days
+TKT-5105,2025-03-04 20:00,bug,low,email,Rahul,1.96,5.89,5.0,No,Delivery delayed by courier
+TKT-5376,2025-02-05 10:00,Login Issue,medium,phone,Vikram,2.09,6.06,,No,Refund not received after 14 days
+TKT-6028,2024-11-04 02:00,shipping,urgent,chat,Ananya,0.94,3.57,3.0,Yes,App crashes on checkout
+TKT-5953,2024-08-21 04:00,Bug,low,portal,Ananya,6.55,23.3,4.0,No,Delivery delayed by courier
+TKT-5547,2024-11-18 04:00,login issue,high,email,Rahul,0.34,0.84,5.0,No,Wants dark mode in the mobile app
+TKT-5467,2024-11-20 20:00,Shipping,medium,phone,Rahul,0.25,2.88,5.0,No,Invoice shows wrong GST number
+TKT-5775,2025-06-02 09:00,BILLING,low,email,Ananya,2.27,19.9,3.0,No,Customer cannot reset password
+TKT-6568,2025-05-10 15:00,login issue,medium,email,Meera,0.72,3.81,4.0,Yes,App crashes on checkout
+TKT-5361,2025-04-30 11:00,bug,high,chat,Ananya,1.36,6.38,3.0,No,Request to merge duplicate accounts
+TKT-5040,2024-03-31 01:00,billing,urgent,chat,Rahul,0.53,1.91,3.0,No,Wants dark mode in the mobile app
+TKT-6011,2025-03-11 22:00,Login Issue,low,chat,Rahul,3.69,14.31,4.0,No,Delivery delayed by courier
+TKT-5081,2024-08-26 05:00,Feature Request,low,email,Rahul,1.45,8.12,4.0,No,Request to merge duplicate accounts
+TKT-5798,2024-06-20 21:00,Bug,low,portal,Meera,2.74,15.56,5.0,No,App crashes on checkout
+TKT-6106,2024-05-13 00:00,Login Issue,medium,email,Ananya,0.62,4.11,4.0,No,Delivery delayed by courier
+TKT-5602,2025-02-06 18:00,Shipping,low,portal,Meera,1.1,9.02,4.0,No,Refund not received after 14 days
+TKT-5268,2024-11-29 18:00,billing,medium,portal,Ananya,0.7,3.76,4.0,Yes,Wants dark mode in the mobile app
+TKT-6243,2024-09-23 21:00,shipping,low,email,Rahul,2.99,18.78,3.0,No,Wants dark mode in the mobile app
+TKT-5328,2024-03-17 23:00,bug,medium,portal,Sara,0.5,5.66,3.0,No,Request to merge duplicate accounts
+TKT-6488,2024-03-01 13:00,Billing,urgent,chat,Ananya,0.41,1.79,4.0,No,Customer cannot reset password
+TKT-6531,2024-01-06 01:00,login issue,medium,portal,Vikram,4.28,12.66,3.0,No,Request to merge duplicate accounts
+TKT-6407,2025-04-21 12:00,Login Issue,medium,email,Ananya,2.11,6.27,,No,Wants dark mode in the mobile app
+TKT-5351,2024-01-25 11:00,shipping,high,email,Meera,0.62,3.13,4.0,No,Delivery delayed by courier
+TKT-5101,2024-04-18 22:00,login issue,medium,phone,Ananya,1.53,5.82,4.0,No,Delivery delayed by courier
+TKT-6422,2024-11-17 00:00,Login Issue,medium,portal,Rahul,3.6,9.15,5.0,No,Customer cannot reset password
+TKT-5453,2024-01-14 13:00,Feature Request,low,phone,Rahul,1.11,5.13,,No,Refund not received after 14 days
+TKT-6059,2024-06-18 11:00,login issue,high,email,Meera,0.44,6.86,5.0,No,Wants dark mode in the mobile app
+TKT-5958,2025-06-13 10:00,shipping,medium,chat,Sara,1.22,6.75,4.0,No,Wants dark mode in the mobile app
+TKT-5033,2024-10-29 05:00,bug,low,chat,Ananya,13.19,37.84,5.0,No,Wants dark mode in the mobile app
+TKT-6055,2025-06-26 12:00,Shipping,high,email,Rahul,0.63,4.91,4.0,No,Unable to apply coupon code
+TKT-5530,2024-11-22 05:00,Bug,medium,portal,Rahul,0.65,8.67,4.0,No,Request to merge duplicate accounts
+TKT-6363,2024-04-20 01:00,Login Issue,low,portal,Rahul,1.56,9.96,5.0,No,Unable to apply coupon code
+TKT-5492,2025-02-14 13:00,feature request,medium,portal,Vikram,0.83,5.58,,No,Request to merge duplicate accounts
+TKT-5847,2024-01-29 03:00,Bug,high,phone,Meera,1.61,6.28,4.0,No,Delivery delayed by courier
+TKT-6443,2024-08-23 23:00,login issue,medium,phone,Rahul,1.02,3.89,4.0,No,Customer cannot reset password
+TKT-5523,2025-03-25 10:00,Bug,medium,portal,Rahul,1.21,7.07,4.0,No,Delivery delayed by courier
+TKT-5965,2024-11-16 15:00,billing,low,email,Vikram,1.0,8.57,4.0,No,Wants dark mode in the mobile app
+TKT-6385,2024-05-08 03:00,Billing,urgent,portal,Vikram,1.14,3.83,3.0,No,Refund not received after 14 days
+TKT-5293,2024-06-29 16:00,login issue,urgent,chat,Sara,0.4,1.13,4.0,No,Delivery delayed by courier
+TKT-5831,2024-05-11 06:00,shipping,low,email,Meera,1.28,7.27,5.0,No,App crashes on checkout
+TKT-5896,2024-10-04 13:00,Billing,high,email,Meera,4.05,12.2,3.0,No,Delivery delayed by courier
+TKT-6534,2025-03-21 00:00,Login Issue,medium,portal,Rahul,2.86,9.92,4.0,No,Request to merge duplicate accounts
+TKT-5207,2025-06-12 04:00,login issue,low,email,Sara,2.73,7.47,4.0,No,App crashes on checkout
+TKT-5258,2024-04-05 11:00,feature request,low,portal,Meera,2.37,7.04,5.0,No,Unable to apply coupon code
+TKT-6148,2025-01-10 14:00,billing,low,portal,Meera,2.09,6.06,3.0,No,Delivery delayed by courier
+TKT-6535,2024-01-18 01:00,bug,low,phone,Vikram,0.65,8.38,4.0,No,Unable to apply coupon code
+TKT-5143,2024-08-10 15:00,Login Issue,low,chat,Imran,4.4,12.96,5.0,Yes,Invoice shows wrong GST number
+TKT-5318,2025-05-26 14:00,login issue,low,portal,Sara,2.7,12.99,5.0,No,Invoice shows wrong GST number
+TKT-5513,2025-03-21 00:00,billing,medium,email,Imran,11.41,33.31,3.0,No,Invoice shows wrong GST number
+TKT-5302,2024-01-06 09:00,Bug,medium,portal,Ananya,3.95,12.87,4.0,No,Customer cannot reset password
+TKT-6560,2024-06-07 16:00,Bug,low,portal,Meera,0.55,4.67,,No,Refund not received after 14 days
+TKT-6333,2025-03-16 01:00,shipping,medium,email,Vikram,0.33,1.8,4.0,No,Customer cannot reset password
+TKT-6312,2025-02-28 21:00,Billing,urgent,chat,Vikram,0.71,2.1,4.0,No,Request to merge duplicate accounts
+TKT-6522,2024-04-14 06:00,Login Issue,low,chat,Imran,1.31,5.89,4.0,Yes,Wants dark mode in the mobile app
+TKT-6295,2024-10-07 11:00,login issue,medium,chat,Ananya,1.95,18.18,4.0,No,Customer cannot reset password
+TKT-6338,2025-02-26 12:00,Bug,high,portal,Ananya,1.01,2.97,5.0,No,Delivery delayed by courier
+TKT-5675,2025-01-30 12:00,feature request,high,email,Vikram,0.67,2.67,4.0,No,Unable to apply coupon code
+TKT-6520,2025-04-15 20:00,billing,low,chat,Rahul,5.15,15.16,,No,Unable to apply coupon code
+TKT-5375,2024-02-21 11:00,Bug,medium,email,Rahul,0.24,3.94,,No,Delivery delayed by courier
+TKT-5515,2024-02-27 09:00,bug,low,email,Sara,1.19,4.4,3.0,No,Delivery delayed by courier
+TKT-5263,2025-05-19 04:00,bug,low,portal,Vikram,0.7,7.24,4.0,No,Delivery delayed by courier
+TKT-6092,2025-04-04 09:00,feature request,high,chat,Imran,0.64,2.71,5.0,Yes,Delivery delayed by courier
+TKT-6451,2024-01-23 09:00,Bug,low,chat,Rahul,2.87,10.07,5.0,No,Request to merge duplicate accounts
+TKT-6183,2024-09-01 06:00,BILLING,high,phone,Ananya,0.12,1.89,4.0,Yes,Unable to apply coupon code
+TKT-5925,2025-05-30 13:00,billing,high,chat,Imran,0.73,2.79,4.0,No,Unable to apply coupon code
+TKT-6324,2025-04-17 03:00,login issue,high,email,Rahul,0.69,4.1,5.0,No,App crashes on checkout
+TKT-5023,2025-05-20 02:00,bug,low,portal,Vikram,1.2,12.32,3.0,No,Customer cannot reset password
+TKT-5656,2025-02-21 14:00,BILLING,medium,portal,Vikram,0.55,3.97,4.0,Yes,Delivery delayed by courier
+TKT-5627,2024-07-19 07:00,billing,high,email,Rahul,0.08,0.67,5.0,No,Wants dark mode in the mobile app
+TKT-5374,2025-04-28 00:00,feature request,high,chat,Imran,1.0,5.77,5.0,No,Customer cannot reset password
+TKT-5964,2025-06-01 06:00,Billing,low,email,Meera,0.57,8.67,5.0,No,Delivery delayed by courier
+TKT-5274,2024-08-15 21:00,shipping,medium,email,Ananya,1.58,5.24,4.0,Yes,App crashes on checkout
+TKT-6227,2025-06-20 14:00,login issue,medium,email,Sara,0.23,4.15,3.0,No,Refund not received after 14 days
+TKT-6098,2024-01-23 11:00,billing,medium,portal,Vikram,0.62,9.97,3.0,No,Customer cannot reset password
+TKT-5200,2024-07-18 14:00,billing,medium,email,Rahul,0.42,5.43,4.0,Yes,Unable to apply coupon code
+TKT-5685,2025-03-12 11:00,billing,low,chat,Meera,0.74,6.6,,No,Request to merge duplicate accounts
+TKT-5020,2024-09-29 16:00,billing,low,email,Meera,10.7,27.31,5.0,Yes,Refund not received after 14 days
+TKT-6311,2024-07-08 16:00,feature request,high,email,Vikram,0.37,7.06,5.0,No,Wants dark mode in the mobile app
+TKT-6581,2024-04-27 21:00,BILLING,medium,chat,Meera,2.59,11.37,4.0,No,Delivery delayed by courier
+TKT-6257,2024-10-29 17:00,Login Issue,medium,chat,Rahul,2.2,7.49,3.0,No,Refund not received after 14 days
+TKT-5087,2024-06-19 05:00,Billing,high,chat,Ananya,0.48,2.04,4.0,Yes,Delivery delayed by courier
+TKT-5891,2025-01-21 21:00,shipping,high,email,Vikram,0.58,1.91,4.0,No,Refund not received after 14 days
+TKT-6152,2024-08-22 19:00,Bug,low,chat,Sara,0.25,4.56,4.0,No,Invoice shows wrong GST number
+TKT-5357,2025-04-30 23:00,billing,medium,email,Ananya,1.8,5.78,,Yes,Unable to apply coupon code
+TKT-5745,2024-07-17 11:00,Login Issue,medium,email,Vikram,0.47,6.87,4.0,No,Delivery delayed by courier
+TKT-5306,2024-06-13 16:00,billing,high,chat,Vikram,1.93,6.58,4.0,No,Customer cannot reset password
+TKT-5483,2025-03-10 06:00,bug,low,email,Ananya,0.46,3.28,4.0,No,Wants dark mode in the mobile app
+TKT-6582,2024-10-07 21:00,Billing,medium,email,Vikram,0.19,3.27,,No,Wants dark mode in the mobile app
+TKT-6018,2024-01-23 16:00,Login Issue,low,chat,Rahul,1.8,9.65,4.0,No,Invoice shows wrong GST number
+TKT-6031,2024-04-04 06:00,Shipping,medium,portal,Ananya,0.52,5.04,3.0,No,Wants dark mode in the mobile app
+TKT-5699,2024-02-21 19:00,bug,low,portal,Imran,4.08,12.17,4.0,No,Wants dark mode in the mobile app
+TKT-6138,2025-02-09 07:00,BILLING,low,email,Sara,5.75,21.52,5.0,No,Invoice shows wrong GST number
+TKT-5111,2025-03-01 11:00,shipping,medium,portal,Meera,0.49,4.95,4.0,No,Invoice shows wrong GST number
+TKT-5198,2024-07-03 17:00,Shipping,urgent,email,Vikram,0.72,2.12,4.0,No,Customer cannot reset password
+TKT-6383,2025-05-03 20:00,Billing,low,email,Sara,0.49,9.56,4.0,No,App crashes on checkout
+TKT-5559,2025-04-08 20:00,Billing,high,phone,Imran,0.68,5.05,3.0,No,Customer cannot reset password
+TKT-6274,2025-02-19 16:00,login issue,high,chat,Rahul,1.0,3.02,5.0,Yes,Delivery delayed by courier
+TKT-5833,2024-03-18 22:00,bug,low,phone,Imran,1.41,9.9,5.0,No,Invoice shows wrong GST number
+TKT-5049,2025-02-28 05:00,Shipping,medium,phone,Ananya,0.54,4.91,4.0,No,Customer cannot reset password
+TKT-5915,2024-09-06 21:00,Bug,low,portal,Meera,4.13,12.47,4.0,No,Request to merge duplicate accounts
+TKT-6331,2025-01-26 02:00,Bug,high,phone,Vikram,0.23,2.31,4.0,No,Customer cannot reset password
+TKT-5759,2025-02-01 16:00,shipping,low,portal,Meera,2.61,8.13,4.0,No,Request to merge duplicate accounts
+TKT-5877,2025-02-10 03:00,Login Issue,medium,phone,Meera,1.41,4.49,3.0,No,Unable to apply coupon code
+TKT-5390,2025-02-10 23:00,Login Issue,high,email,Ananya,0.62,5.82,4.0,No,Unable to apply coupon code
+TKT-5861,2025-05-20 15:00,bug,medium,portal,Vikram,0.66,3.18,5.0,No,Request to merge duplicate accounts
+TKT-5073,2024-03-11 19:00,login issue,medium,email,Meera,0.95,2.92,3.0,No,Customer cannot reset password
+TKT-6080,2025-05-16 14:00,feature request,medium,email,Vikram,4.39,12.52,3.0,No,Customer cannot reset password
+TKT-5645,2024-06-27 22:00,feature request,urgent,portal,Ananya,0.65,3.66,3.0,No,Invoice shows wrong GST number
+TKT-5822,2024-03-15 09:00,Bug,high,phone,Vikram,2.0,6.05,4.0,No,App crashes on checkout
+TKT-5113,2024-09-07 02:00,Shipping,low,chat,Vikram,0.44,5.89,5.0,No,Unable to apply coupon code
+TKT-6010,2024-05-26 11:00,BILLING,medium,email,Vikram,2.6,6.71,,No,Delivery delayed by courier
+TKT-6053,2025-06-06 08:00,Bug,low,email,Meera,2.41,8.71,4.0,No,Request to merge duplicate accounts
+TKT-5337,2024-06-21 20:00,Login Issue,medium,email,Rahul,1.16,4.4,4.0,No,Unable to apply coupon code
+TKT-6446,2025-05-26 05:00,login issue,high,portal,Rahul,0.46,4.77,4.0,No,Invoice shows wrong GST number
+TKT-6239,2024-01-23 07:00,Bug,medium,chat,Imran,0.74,5.85,3.0,No,Customer cannot reset password
+TKT-6329,2024-07-05 08:00,billing,high,chat,Imran,0.89,5.55,3.0,No,Customer cannot reset password
+TKT-5492,2025-02-14 13:00,feature request,medium,portal,Vikram,0.83,5.58,,No,Request to merge duplicate accounts
+TKT-5982,2024-10-25 03:00,login issue,urgent,email,Vikram,0.15,0.79,4.0,No,Request to merge duplicate accounts
+TKT-5084,2024-12-09 05:00,Billing,high,chat,Meera,0.81,4.23,4.0,No,Invoice shows wrong GST number
+TKT-5282,2024-12-31 18:00,shipping,low,chat,Sara,1.26,7.07,4.0,No,Wants dark mode in the mobile app
+TKT-5819,2025-06-28 12:00,billing,low,chat,Vikram,0.97,8.1,4.0,No,Wants dark mode in the mobile app
+TKT-5131,2024-10-28 16:00,login issue,medium,chat,Sara,2.19,16.16,5.0,No,Unable to apply coupon code
+TKT-5836,2025-03-16 13:00,Login Issue,urgent,email,Meera,1.2,3.87,5.0,No,Invoice shows wrong GST number
+TKT-5768,2024-03-17 06:00,Login Issue,low,email,Meera,0.66,3.84,,No,App crashes on checkout
+TKT-6346,2025-04-11 08:00,billing,low,phone,Vikram,1.53,5.26,5.0,No,Invoice shows wrong GST number
+TKT-5341,2024-06-07 13:00,Bug,high,email,Meera,0.38,3.42,4.0,No,Delivery delayed by courier
+TKT-6264,2024-05-09 22:00,Login Issue,low,chat,Meera,3.72,13.69,3.0,No,App crashes on checkout
+TKT-5620,2024-08-24 07:00,bug,medium,email,Meera,0.65,3.81,4.0,No,Unable to apply coupon code
+TKT-6150,2024-07-20 13:00,Shipping,high,phone,Ananya,0.31,3.31,5.0,No,Request to merge duplicate accounts
+TKT-6509,2025-01-07 09:00,shipping,high,chat,Ananya,0.65,4.1,5.0,No,App crashes on checkout
+TKT-6313,2025-04-10 01:00,Feature Request,high,chat,Vikram,1.08,6.65,4.0,No,App crashes on checkout
+TKT-6317,2024-11-17 17:00,billing,high,portal,Vikram,0.34,6.51,4.0,No,Wants dark mode in the mobile app
+TKT-5078,2024-11-03 15:00,Feature Request,medium,email,Vikram,0.97,2.89,,No,Delivery delayed by courier
+TKT-6354,2024-04-29 14:00,Feature Request,medium,portal,Vikram,0.31,4.63,5.0,No,Request to merge duplicate accounts
+TKT-5004,2024-08-23 23:00,Billing,high,chat,Meera,0.97,3.9,5.0,No,Delivery delayed by courier
+TKT-5062,2024-07-18 19:00,Bug,low,email,Meera,2.55,8.58,5.0,No,Customer cannot reset password
+TKT-6449,2024-02-26 03:00,login issue,low,chat,Rahul,0.7,10.6,4.0,Yes,App crashes on checkout
+TKT-5863,2025-02-24 19:00,Billing,medium,portal,Rahul,1.32,4.28,3.0,No,Delivery delayed by courier
+TKT-5410,2024-04-04 23:00,Bug,low,chat,Sara,5.26,13.62,4.0,No,Invoice shows wrong GST number
+TKT-5219,2025-05-06 22:00,Login Issue,high,phone,Rahul,1.75,4.41,5.0,No,Unable to apply coupon code
+TKT-6165,2024-02-27 05:00,billing,high,phone,Vikram,0.88,5.03,3.0,No,Invoice shows wrong GST number
+TKT-5152,2025-05-15 02:00,BILLING,medium,chat,Vikram,3.21,12.86,3.0,No,Unable to apply coupon code
+TKT-5307,2024-10-28 22:00,Login Issue,low,chat,Vikram,2.09,9.33,5.0,No,Request to merge duplicate accounts
+TKT-6448,2025-02-06 21:00,login issue,low,chat,Meera,1.45,6.79,5.0,No,Invoice shows wrong GST number
+TKT-6131,2024-12-31 06:00,Feature Request,low,email,Meera,2.3,10.91,4.0,No,Refund not received after 14 days
+TKT-6057,2025-02-24 19:00,login issue,high,chat,Imran,0.73,2.34,4.0,No,Refund not received after 14 days
+TKT-6206,2024-10-07 17:00,Login Issue,low,email,Meera,3.62,9.53,3.0,No,Request to merge duplicate accounts
+TKT-5203,2025-01-16 08:00,Billing,high,chat,Meera,0.33,1.75,5.0,No,Wants dark mode in the mobile app
+TKT-5301,2025-03-26 07:00,login issue,medium,phone,Ananya,1.03,12.39,5.0,No,Wants dark mode in the mobile app
+TKT-5516,2025-04-25 11:00,feature request,low,chat,,2.04,8.08,5.0,No,Request to merge duplicate accounts
+TKT-5295,2024-10-10 18:00,Login Issue,low,chat,Sara,1.89,5.38,4.0,No,Request to merge duplicate accounts
+TKT-6573,2025-03-19 04:00,login issue,low,portal,Vikram,2.07,9.11,5.0,No,Invoice shows wrong GST number
+TKT-5382,2025-05-31 12:00,billing,medium,email,Sara,0.95,5.16,5.0,No,Refund not received after 14 days
+TKT-6391,2024-10-15 14:00,feature request,low,chat,Rahul,4.27,12.91,4.0,No,Delivery delayed by courier
+TKT-5129,2024-12-11 22:00,bug,medium,portal,Rahul,0.59,11.67,5.0,No,App crashes on checkout
+TKT-5797,2024-09-06 21:00,Billing,low,chat,Ananya,1.17,9.08,3.0,No,Request to merge duplicate accounts
+TKT-6123,2024-05-12 19:00,login issue,medium,chat,Ananya,1.97,5.87,4.0,No,Wants dark mode in the mobile app
+TKT-5100,2025-03-29 20:00,Login Issue,low,email,Sara,1.89,10.92,4.0,No,Refund not received after 14 days
+TKT-6378,2024-10-01 04:00,login issue,high,email,Sara,0.81,6.62,4.0,No,Delivery delayed by courier
+TKT-6291,2025-04-12 16:00,shipping,medium,chat,Rahul,0.33,4.3,4.0,Yes,App crashes on checkout
+TKT-5919,2024-12-12 20:00,Bug,low,chat,Rahul,4.66,13.56,5.0,Yes,Delivery delayed by courier
+TKT-5071,2024-04-13 06:00,billing,high,phone,Sara,0.49,4.2,5.0,No,Delivery delayed by courier
+TKT-5692,2025-05-22 14:00,bug,high,phone,Imran,0.5,1.85,3.0,No,Invoice shows wrong GST number
+TKT-5400,2025-06-27 22:00,feature request,urgent,portal,Meera,0.46,2.46,3.0,No,Invoice shows wrong GST number
+TKT-6107,2025-05-09 08:00,billing,high,email,Meera,0.33,2.23,5.0,No,Wants dark mode in the mobile app
+TKT-5696,2025-01-28 09:00,shipping,low,chat,Sara,1.05,4.18,3.0,No,Request to merge duplicate accounts
+TKT-6574,2024-03-21 22:00,login issue,low,email,Rahul,3.08,12.11,4.0,No,Delivery delayed by courier
+TKT-5261,2024-04-02 23:00,Feature Request,medium,portal,Ananya,0.72,2.54,5.0,No,Refund not received after 14 days
+TKT-5502,2025-06-08 15:00,Bug,low,chat,Sara,1.36,20.42,4.0,No,Customer cannot reset password
+TKT-5813,2024-06-03 17:00,login issue,medium,portal,Imran,1.06,2.92,4.0,No,App crashes on checkout
+TKT-6161,2024-09-28 20:00,Login Issue,medium,portal,Meera,0.85,5.6,4.0,No,Customer cannot reset password
+TKT-5714,2025-05-16 11:00,shipping,medium,chat,Vikram,1.1,4.72,5.0,No,Request to merge duplicate accounts
+TKT-6557,2025-02-25 06:00,feature request,urgent,email,Imran,0.22,0.81,3.0,No,Invoice shows wrong GST number
+TKT-5582,2024-02-28 04:00,feature request,low,portal,Sara,2.37,13.57,4.0,No,Request to merge duplicate accounts
+TKT-5697,2024-11-17 14:00,bug,medium,chat,Vikram,0.67,2.92,4.0,No,App crashes on checkout
+TKT-5601,2025-02-28 13:00,billing,medium,portal,Meera,0.85,3.8,4.0,No,Refund not received after 14 days
+TKT-6375,2025-06-06 18:00,feature request,medium,phone,Ananya,0.95,3.2,4.0,No,Unable to apply coupon code
+TKT-5370,2024-07-01 21:00,Login Issue,low,email,Rahul,2.49,11.1,4.0,No,Invoice shows wrong GST number
+TKT-5134,2025-03-09 05:00,Bug,urgent,chat,Ananya,0.62,2.53,4.0,No,Customer cannot reset password
+TKT-5949,2024-05-31 13:00,Login Issue,medium,phone,Rahul,1.52,5.18,3.0,No,Invoice shows wrong GST number
+TKT-5976,2024-02-21 21:00,bug,low,chat,Meera,3.65,10.32,5.0,No,Delivery delayed by courier
+TKT-5733,2025-02-26 00:00,bug,low,email,Meera,0.84,12.01,5.0,No,Delivery delayed by courier
+TKT-6483,2024-03-02 01:00,bug,medium,chat,Ananya,1.28,5.11,4.0,No,Invoice shows wrong GST number
+TKT-6133,2025-02-19 18:00,Bug,low,chat,Sara,0.81,8.09,3.0,Yes,Refund not received after 14 days
+TKT-5560,2024-10-19 09:00,bug,high,portal,Vikram,0.07,1.31,3.0,No,Request to merge duplicate accounts
+TKT-5055,2024-01-24 20:00,Login Issue,medium,portal,Ananya,0.82,3.63,4.0,No,Wants dark mode in the mobile app
+TKT-6184,2024-08-17 01:00,Feature Request,high,email,Vikram,0.39,3.65,3.0,No,Request to merge duplicate accounts
+TKT-5116,2024-01-21 07:00,billing,low,chat,Sara,3.33,11.35,4.0,No,Unable to apply coupon code
+TKT-6071,2024-04-23 22:00,Login Issue,medium,chat,Rahul,0.38,2.94,4.0,No,Invoice shows wrong GST number
+TKT-5210,2024-05-22 07:00,bug,high,phone,Meera,0.16,2.41,,No,Unable to apply coupon code
+TKT-5387,2025-03-28 22:00,Shipping,medium,email,Rahul,3.69,9.37,3.0,No,Unable to apply coupon code
+TKT-5817,2024-02-27 23:00,Feature Request,low,chat,Ananya,1.81,9.06,4.0,No,Wants dark mode in the mobile app
+TKT-5162,2024-08-11 00:00,Billing,high,portal,Vikram,0.55,4.88,4.0,No,Invoice shows wrong GST number
+TKT-5728,2024-09-23 01:00,Billing,medium,chat,Rahul,1.82,6.65,3.0,No,Refund not received after 14 days
+TKT-5774,2025-04-06 06:00,billing,medium,email,Rahul,0.69,3.66,4.0,No,Refund not received after 14 days
+TKT-5816,2024-01-24 13:00,billing,medium,email,Meera,1.19,5.3,5.0,No,Request to merge duplicate accounts
+TKT-5794,2024-08-23 01:00,Bug,medium,email,Vikram,1.05,3.39,4.0,No,Wants dark mode in the mobile app
+TKT-5421,2025-01-13 08:00,Billing,medium,email,Imran,0.76,5.65,4.0,No,Unable to apply coupon code
+TKT-5229,2024-04-06 08:00,Login Issue,low,email,Sara,0.33,5.29,3.0,Yes,Invoice shows wrong GST number
+TKT-5063,2025-06-11 07:00,feature request,medium,chat,Ananya,1.28,4.1,,No,Customer cannot reset password
+TKT-5339,2025-06-03 07:00,bug,medium,portal,,0.5,4.65,4.0,No,Wants dark mode in the mobile app
+TKT-5336,2025-06-08 22:00,Login Issue,low,email,Rahul,2.46,13.02,3.0,No,Request to merge duplicate accounts
+TKT-5952,2024-12-01 00:00,shipping,low,email,Sara,1.93,8.37,4.0,No,App crashes on checkout
+TKT-5667,2025-04-14 02:00,BILLING,low,chat,Sara,0.79,10.31,3.0,No,Invoice shows wrong GST number
+TKT-6245,2025-06-21 02:00,billing,high,phone,Ananya,0.32,2.9,4.0,No,Request to merge duplicate accounts
+TKT-5096,2024-05-10 13:00,login issue,medium,chat,Ananya,0.59,2.76,4.0,Yes,Customer cannot reset password
+TKT-6370,2025-04-24 23:00,Login Issue,urgent,email,Sara,0.39,1.16,4.0,No,Request to merge duplicate accounts
+TKT-6476,2024-09-24 07:00,feature request,low,email,Rahul,3.67,14.01,5.0,Yes,Unable to apply coupon code
+TKT-6118,2025-01-29 04:00,Feature Request,medium,email,Vikram,1.44,10.74,4.0,No,Invoice shows wrong GST number
+TKT-6011,2025-03-11 22:00,Login Issue,low,chat,Rahul,3.69,843.94,4.0,No,Delivery delayed by courier
+TKT-6550,2024-06-01 23:00,billing,medium,email,Meera,0.19,3.44,5.0,Yes,Unable to apply coupon code
+TKT-5108,2024-09-14 00:00,login issue,medium,portal,Ananya,0.37,6.51,5.0,No,Refund not received after 14 days
+TKT-5012,2025-02-04 23:00,Shipping,medium,portal,Rahul,0.3,3.08,3.0,No,Wants dark mode in the mobile app
+TKT-5907,2024-04-04 08:00,Login Issue,low,email,Ananya,0.39,6.7,4.0,Yes,Wants dark mode in the mobile app
+TKT-6058,2024-08-19 08:00,login issue,low,chat,Sara,1.67,5.22,3.0,No,Refund not received after 14 days
+TKT-5765,2025-03-01 06:00,Login Issue,medium,email,Rahul,1.11,4.99,5.0,No,Wants dark mode in the mobile app
+TKT-6504,2024-11-21 14:00,Login Issue,medium,portal,Rahul,1.23,23.41,5.0,No,Refund not received after 14 days
+TKT-5608,2025-06-11 00:00,shipping,low,email,Ananya,1.02,3.26,3.0,Yes,Wants dark mode in the mobile app
+TKT-5790,2024-02-22 03:00,Billing,low,chat,Ananya,4.05,13.34,4.0,No,Delivery delayed by courier
+TKT-5636,2024-05-08 07:00,Billing,medium,chat,Meera,0.9,6.81,5.0,No,App crashes on checkout
+TKT-5807,2024-03-01 06:00,login issue,low,chat,Ananya,7.02,28.09,4.0,No,Invoice shows wrong GST number
+TKT-5037,2025-03-27 01:00,Shipping,medium,portal,Vikram,0.88,10.75,4.0,No,Delivery delayed by courier
+TKT-5345,2024-05-19 12:00,login issue,high,portal,Rahul,2.69,7.35,5.0,No,Customer cannot reset password
+TKT-6328,2025-01-02 21:00,billing,high,chat,Rahul,0.95,2.91,4.0,No,Unable to apply coupon code
+TKT-5098,2024-12-13 00:00,Billing,high,phone,Sara,1.48,3.83,4.0,No,Request to merge duplicate accounts
+TKT-6334,2024-10-17 19:00,feature request,low,chat,Vikram,5.78,24.2,3.0,No,App crashes on checkout
+TKT-6038,2024-08-25 23:00,Bug,low,portal,Sara,1.73,5.33,4.0,No,Refund not received after 14 days
+TKT-5494,2024-06-06 23:00,login issue,urgent,email,Imran,0.57,2.0,5.0,No,App crashes on checkout
+TKT-5074,2025-01-09 03:00,bug,medium,email,Meera,1.0,5.85,4.0,No,Customer cannot reset password
+TKT-5265,2024-11-12 16:00,Shipping,high,chat,Rahul,0.32,2.51,4.0,No,Wants dark mode in the mobile app
+TKT-5878,2024-10-25 19:00,shipping,low,chat,Rahul,5.35,14.33,4.0,No,Delivery delayed by courier
+TKT-5642,2025-04-10 12:00,Billing,high,chat,Ananya,0.53,6.32,4.0,No,Invoice shows wrong GST number
+TKT-6145,2024-09-20 00:00,shipping,medium,portal,Ananya,0.78,2.84,5.0,No,Customer cannot reset password
+TKT-6396,2024-12-03 20:00,billing,medium,email,Vikram,2.3,7.57,5.0,No,Customer cannot reset password
+TKT-5011,2025-06-15 17:00,billing,urgent,email,Vikram,0.19,1.71,4.0,No,Refund not received after 14 days
+TKT-5661,2025-02-04 12:00,feature request,medium,portal,Ananya,0.75,3.98,4.0,No,Refund not received after 14 days
+TKT-5355,2025-06-24 20:00,billing,high,phone,Vikram,0.52,1.67,4.0,Yes,Customer cannot reset password
+TKT-5027,2025-03-24 09:00,BILLING,medium,phone,Sara,2.86,7.98,4.0,No,Refund not received after 14 days
+TKT-5669,2024-03-12 23:00,Billing,medium,email,Ananya,1.26,3.21,4.0,No,Invoice shows wrong GST number
+TKT-6515,2025-05-22 01:00,login issue,low,portal,Imran,3.28,17.52,3.0,No,App crashes on checkout
+TKT-6567,2024-11-24 20:00,Login Issue,low,email,Ananya,0.41,5.95,5.0,No,Request to merge duplicate accounts
+TKT-5424,2024-08-15 06:00,Billing,urgent,chat,Sara,1.41,4.37,3.0,No,Refund not received after 14 days
+TKT-5024,2025-03-01 22:00,Bug,high,portal,Ananya,1.35,5.22,3.0,No,Customer cannot reset password
+TKT-5564,2025-04-29 13:00,Login Issue,low,email,Imran,0.65,5.27,3.0,No,Refund not received after 14 days
+TKT-5330,2024-10-25 00:00,Shipping,low,email,Imran,1.79,9.29,4.0,Yes,Unable to apply coupon code
+TKT-6088,2024-12-20 18:00,shipping,low,portal,Meera,2.62,13.48,5.0,No,Request to merge duplicate accounts
+TKT-5914,2024-11-18 14:00,login issue,low,email,Ananya,2.99,10.88,4.0,No,App crashes on checkout
+TKT-5703,2024-04-03 08:00,Login Issue,high,chat,Ananya,1.2,3.11,4.0,No,Unable to apply coupon code
+TKT-5305,2024-03-17 10:00,Bug,medium,email,Sara,0.2,3.39,3.0,Yes,Request to merge duplicate accounts
+TKT-5501,2024-12-21 07:00,feature request,urgent,chat,Ananya,0.44,1.65,3.0,No,Wants dark mode in the mobile app
+TKT-6005,2025-05-16 23:00,bug,high,chat,Ananya,1.37,3.94,3.0,No,Unable to apply coupon code
+TKT-5640,2024-12-31 14:00,BILLING,medium,email,Vikram,0.48,3.72,4.0,No,Unable to apply coupon code
+TKT-6237,2024-03-08 12:00,billing,low,email,Vikram,0.72,3.83,4.0,No,Delivery delayed by courier
+TKT-5938,2024-09-08 14:00,feature request,low,chat,Meera,1.07,3.85,4.0,No,App crashes on checkout
+TKT-6301,2024-08-06 17:00,Billing,low,chat,Meera,2.36,6.6,5.0,No,Delivery delayed by courier
+TKT-5168,2024-07-01 04:00,feature request,medium,chat,Rahul,0.71,3.33,4.0,No,Delivery delayed by courier
+TKT-5286,2024-03-28 18:00,Bug,low,portal,Rahul,2.67,7.72,4.0,No,Invoice shows wrong GST number
+TKT-6541,2024-05-11 16:00,billing,low,chat,Vikram,0.61,4.63,,No,Wants dark mode in the mobile app
+TKT-6539,2024-12-03 23:00,billing,low,email,Ananya,1.58,7.03,4.0,No,Invoice shows wrong GST number
+TKT-6024,2025-03-23 22:00,bug,low,chat,Ananya,0.55,5.26,5.0,No,Customer cannot reset password
+TKT-6278,2024-01-05 10:00,login issue,low,email,Vikram,2.47,6.48,,No,Refund not received after 14 days
+TKT-5809,2025-06-27 09:00,Login Issue,low,chat,Ananya,2.77,10.51,5.0,No,App crashes on checkout
+TKT-5653,2025-03-14 09:00,Shipping,high,email,Rahul,1.25,3.13,4.0,Yes,App crashes on checkout
+TKT-6564,2024-10-30 12:00,bug,low,portal,Imran,1.51,6.07,4.0,No,Unable to apply coupon code
+TKT-5014,2025-01-26 00:00,Billing,medium,chat,Vikram,0.99,3.82,5.0,No,Unable to apply coupon code
+TKT-5419,2024-10-02 22:00,billing,urgent,chat,Imran,0.79,2.94,5.0,No,Wants dark mode in the mobile app
+TKT-5188,2024-05-10 03:00,login issue,medium,email,Sara,0.6,3.23,5.0,No,Request to merge duplicate accounts
+TKT-5652,2024-04-20 06:00,shipping,medium,email,Meera,0.52,2.96,4.0,No,Request to merge duplicate accounts
+TKT-5679,2025-05-25 02:00,Login Issue,low,portal,Ananya,0.72,2.38,5.0,No,Request to merge duplicate accounts
+TKT-5436,2024-11-05 04:00,Billing,medium,portal,Imran,1.75,5.83,5.0,No,Delivery delayed by courier
+TKT-6397,2024-12-22 02:00,feature request,high,email,Rahul,1.26,4.1,5.0,Yes,Request to merge duplicate accounts
+TKT-6215,2024-03-03 04:00,feature request,medium,chat,Ananya,1.25,7.52,4.0,No,Invoice shows wrong GST number
+TKT-6501,2024-05-21 21:00,Bug,high,chat,Rahul,1.52,8.21,5.0,No,App crashes on checkout
+TKT-5884,2025-03-19 06:00,billing,low,portal,Imran,1.36,4.14,4.0,No,Unable to apply coupon code
+TKT-6319,2024-08-04 07:00,BILLING,medium,email,Meera,0.6,3.06,5.0,No,Refund not received after 14 days
+TKT-5566,2024-05-04 07:00,Billing,low,phone,Vikram,7.59,26.69,3.0,Yes,Refund not received after 14 days
+TKT-5416,2025-06-12 06:00,login issue,low,chat,Ananya,4.42,17.16,4.0,No,Delivery delayed by courier
+TKT-6207,2025-01-27 18:00,Billing,low,portal,Imran,4.2,11.54,4.0,No,Unable to apply coupon code
+TKT-5961,2024-08-10 18:00,Billing,low,email,Rahul,1.46,10.96,3.0,No,Invoice shows wrong GST number
+TKT-6246,2025-04-13 14:00,Login Issue,medium,chat,Rahul,2.69,8.66,5.0,No,App crashes on checkout
+TKT-5778,2024-05-27 16:00,Shipping,low,email,Rahul,3.6,15.35,5.0,No,Wants dark mode in the mobile app
+TKT-6320,2024-03-03 10:00,login issue,medium,email,Vikram,1.25,4.35,,No,Unable to apply coupon code
+TKT-5975,2024-05-02 22:00,feature request,medium,chat,Vikram,0.97,7.58,3.0,No,Unable to apply coupon code
+TKT-5407,2024-03-19 10:00,Login Issue,high,chat,Sara,0.42,2.36,4.0,No,App crashes on checkout
+TKT-5587,2024-02-24 00:00,login issue,medium,portal,Rahul,1.09,5.74,4.0,No,Refund not received after 14 days
+TKT-5396,2024-01-25 09:00,BILLING,medium,email,Meera,1.01,2.99,5.0,No,Wants dark mode in the mobile app
+TKT-6306,2024-05-18 18:00,bug,low,portal,Vikram,1.79,14.48,4.0,No,Request to merge duplicate accounts
+TKT-5366,2024-09-12 21:00,Bug,medium,chat,Sara,0.58,5.71,5.0,No,Delivery delayed by courier
+TKT-6194,2024-10-13 13:00,Login Issue,low,portal,Vikram,1.96,4.91,4.0,No,Request to merge duplicate accounts
+TKT-5782,2024-03-07 21:00,Login Issue,medium,portal,Vikram,2.82,9.63,5.0,No,Request to merge duplicate accounts
+TKT-5729,2024-12-24 12:00,login issue,urgent,chat,Rahul,0.17,0.72,4.0,Yes,Refund not received after 14 days
+TKT-5796,2025-06-11 17:00,Billing,medium,email,Sara,3.81,12.91,3.0,No,Wants dark mode in the mobile app
+TKT-6193,2025-01-18 03:00,billing,low,phone,Meera,0.78,4.92,4.0,No,Invoice shows wrong GST number
+TKT-5828,2025-04-15 13:00,Billing,medium,portal,Meera,0.8,824.53,4.0,No,Invoice shows wrong GST number
+TKT-5844,2024-01-03 23:00,Billing,low,chat,Rahul,1.38,5.84,5.0,No,Wants dark mode in the mobile app
+TKT-5192,2024-11-26 22:00,Bug,medium,chat,Ananya,1.06,2.66,3.0,No,Wants dark mode in the mobile app
+TKT-5149,2024-02-01 18:00,login issue,low,chat,Imran,2.24,7.45,4.0,No,Invoice shows wrong GST number
+TKT-6139,2024-10-21 01:00,billing,low,portal,,0.54,4.77,4.0,No,Delivery delayed by courier
+TKT-6343,2024-11-09 07:00,Bug,medium,chat,Meera,1.58,4.39,4.0,No,App crashes on checkout
+TKT-6081,2025-06-23 01:00,bug,high,chat,Sara,0.3,3.41,3.0,No,Customer cannot reset password
+TKT-5334,2024-09-07 17:00,Shipping,low,portal,Rahul,1.86,7.38,5.0,No,Wants dark mode in the mobile app
+TKT-5299,2024-01-12 18:00,Billing,high,phone,Ananya,1.16,7.83,4.0,No,Unable to apply coupon code
+TKT-6121,2024-02-15 20:00,login issue,high,email,Rahul,0.09,1.72,3.0,No,Unable to apply coupon code
+TKT-6593,2024-01-11 08:00,billing,low,email,Meera,1.66,8.37,5.0,No,Unable to apply coupon code
+TKT-5829,2024-01-16 19:00,Login Issue,medium,portal,Ananya,7.23,19.24,4.0,No,Wants dark mode in the mobile app
+TKT-5887,2024-04-15 04:00,feature request,medium,phone,Vikram,1.19,8.32,4.0,No,App crashes on checkout
+TKT-6026,2024-02-12 07:00,feature request,low,chat,Vikram,1.3,15.63,4.0,No,Invoice shows wrong GST number
+TKT-6373,2024-08-17 02:00,Billing,high,chat,Imran,0.48,2.42,,Yes,Request to merge duplicate accounts
+TKT-5240,2024-03-17 10:00,billing,high,portal,Rahul,0.48,2.78,4.0,No,Refund not received after 14 days
+TKT-5199,2025-06-08 05:00,login issue,urgent,email,Rahul,0.18,3.02,3.0,No,App crashes on checkout
+TKT-5779,2025-04-08 12:00,shipping,medium,phone,Meera,2.18,5.54,4.0,No,App crashes on checkout
+TKT-5045,2025-06-13 00:00,shipping,medium,email,Rahul,0.33,5.72,5.0,No,Customer cannot reset password
+TKT-6500,2024-10-15 16:00,Shipping,low,email,Rahul,2.55,7.06,4.0,No,Invoice shows wrong GST number
+TKT-5540,2025-01-21 10:00,billing,urgent,email,Ananya,0.58,1.81,4.0,No,Delivery delayed by courier
+TKT-6074,2024-09-11 08:00,shipping,medium,portal,Vikram,1.01,4.47,4.0,No,Refund not received after 14 days
+TKT-5137,2024-01-17 19:00,Billing,medium,portal,Vikram,1.3,5.71,5.0,No,Delivery delayed by courier
+TKT-6042,2024-08-14 06:00,Billing,low,email,Ananya,2.14,6.35,,No,Request to merge duplicate accounts
+TKT-6490,2024-05-29 18:00,Shipping,low,email,Meera,1.26,6.41,4.0,No,Request to merge duplicate accounts
+TKT-5533,2024-06-04 04:00,Shipping,high,chat,Rahul,0.84,3.1,5.0,No,Unable to apply coupon code
+TKT-6117,2024-11-15 14:00,bug,low,portal,Sara,4.14,12.31,3.0,No,Customer cannot reset password
+TKT-6223,2024-12-22 11:00,BILLING,high,email,Ananya,1.15,3.96,3.0,No,App crashes on checkout
+TKT-6122,2024-05-26 12:00,Login Issue,low,chat,Rahul,3.35,8.42,5.0,No,Refund not received after 14 days
+TKT-6478,2024-05-05 15:00,shipping,low,chat,Ananya,0.94,514.76,4.0,No,Unable to apply coupon code
+TKT-6110,2024-12-10 11:00,billing,urgent,email,Ananya,0.39,1.3,4.0,No,Refund not received after 14 days
+TKT-5381,2025-05-25 13:00,billing,low,email,Meera,16.03,42.08,,No,Delivery delayed by courier
+TKT-5205,2024-05-24 21:00,Login Issue,low,phone,Vikram,1.14,5.38,4.0,No,Request to merge duplicate accounts
+TKT-6380,2025-06-18 09:00,Bug,low,email,Imran,2.24,12.74,4.0,No,Customer cannot reset password
+TKT-6154,2024-06-15 05:00,shipping,low,email,Meera,2.14,8.24,4.0,No,Wants dark mode in the mobile app
+TKT-6348,2025-02-04 09:00,Bug,low,phone,Vikram,2.13,6.94,5.0,No,Delivery delayed by courier
+TKT-6596,2024-12-25 05:00,login issue,low,portal,Ananya,2.0,9.09,,No,App crashes on checkout
+TKT-5638,2025-03-08 01:00,Shipping,low,email,Sara,3.95,14.78,4.0,No,Refund not received after 14 days
+TKT-5448,2024-10-10 22:00,shipping,high,chat,Rahul,0.29,4.31,4.0,No,App crashes on checkout
+TKT-5510,2025-06-26 01:00,Login Issue,high,chat,Ananya,1.31,8.22,4.0,No,Invoice shows wrong GST number
+TKT-5423,2024-11-12 17:00,bug,urgent,email,Sara,0.73,2.47,4.0,No,Wants dark mode in the mobile app
+TKT-5006,2024-02-16 20:00,bug,medium,chat,Ananya,0.62,7.93,4.0,No,Wants dark mode in the mobile app
+TKT-5158,2024-10-02 05:00,Login Issue,medium,chat,Rahul,2.83,7.23,4.0,Yes,Invoice shows wrong GST number
+TKT-5032,2024-02-20 05:00,Login Issue,medium,phone,Meera,0.41,2.22,4.0,No,Refund not received after 14 days
+TKT-6116,2025-06-26 14:00,bug,medium,chat,Vikram,0.86,13.77,2.0,No,Unable to apply coupon code
+TKT-5156,2024-03-09 19:00,Bug,low,portal,Ananya,2.92,9.37,3.0,Yes,Refund not received after 14 days
+TKT-5521,2024-03-20 15:00,Login Issue,low,chat,Rahul,1.35,4.18,4.0,No,Invoice shows wrong GST number
+TKT-5490,2025-05-23 14:00,Login Issue,low,chat,Ananya,0.82,9.82,4.0,No,Wants dark mode in the mobile app
+TKT-6004,2024-03-10 21:00,bug,high,email,Vikram,1.73,5.79,4.0,No,Refund not received after 14 days
+TKT-5593,2025-06-17 20:00,billing,medium,email,Meera,3.1,12.45,3.0,No,Unable to apply coupon code
+TKT-5622,2024-03-30 23:00,Login Issue,medium,chat,Meera,1.62,11.77,4.0,No,Wants dark mode in the mobile app
+TKT-5994,2024-10-15 16:00,shipping,high,chat,Imran,1.36,6.59,3.0,No,Invoice shows wrong GST number
+TKT-6388,2025-04-30 12:00,login issue,low,chat,Ananya,0.66,13.16,,No,Refund not received after 14 days
+TKT-5406,2024-08-24 08:00,Feature Request,low,portal,Vikram,2.51,16.02,5.0,No,App crashes on checkout
+TKT-5939,2024-10-04 01:00,Bug,medium,email,Vikram,5.43,18.55,4.0,No,Request to merge duplicate accounts
+TKT-5545,2024-01-30 02:00,Feature Request,medium,email,Vikram,3.02,12.04,4.0,No,Unable to apply coupon code
+TKT-6457,2024-09-05 00:00,Bug,medium,phone,Ananya,1.92,5.3,3.0,Yes,Invoice shows wrong GST number
+TKT-6322,2024-10-26 13:00,login issue,high,portal,Meera,2.14,5.89,5.0,No,Request to merge duplicate accounts
+TKT-6563,2025-05-15 17:00,shipping,low,email,Sara,3.15,12.52,4.0,No,Invoice shows wrong GST number
+TKT-6584,2024-12-12 11:00,billing,medium,phone,Ananya,0.66,2.87,5.0,No,Unable to apply coupon code
+TKT-5681,2024-03-15 21:00,billing,low,email,Rahul,2.43,9.46,5.0,No,Request to merge duplicate accounts
+TKT-5895,2024-11-29 06:00,feature request,urgent,chat,Ananya,0.79,3.03,4.0,No,Customer cannot reset password
+TKT-5153,2024-06-09 00:00,Billing,urgent,chat,Vikram,0.77,2.81,5.0,No,Delivery delayed by courier
+TKT-5122,2024-12-22 15:00,Feature Request,medium,portal,Ananya,1.06,4.71,4.0,No,Customer cannot reset password
+TKT-5120,2024-08-27 14:00,billing,low,portal,Sara,1.56,14.84,4.0,No,Unable to apply coupon code
+TKT-5846,2024-03-26 04:00,login issue,low,email,Vikram,0.77,8.71,5.0,No,Wants dark mode in the mobile app
+TKT-5600,2024-12-01 20:00,Login Issue,high,chat,Meera,1.43,4.19,5.0,No,Customer cannot reset password
+TKT-5463,2024-08-16 10:00,Shipping,low,portal,Rahul,3.44,11.62,2.0,No,Delivery delayed by courier
+TKT-6091,2024-09-01 07:00,Bug,low,phone,Ananya,1.63,13.43,4.0,Yes,Wants dark mode in the mobile app
+TKT-6084,2024-04-19 06:00,login issue,medium,portal,Rahul,1.46,10.55,,No,Refund not received after 14 days
+TKT-6435,2024-02-25 12:00,shipping,medium,email,Vikram,0.5,3.25,3.0,No,Invoice shows wrong GST number
+TKT-5586,2025-01-10 17:00,bug,low,chat,Vikram,2.2,8.91,4.0,No,Delivery delayed by courier
+TKT-5946,2025-06-14 12:00,bug,high,chat,Ananya,0.74,8.4,3.0,No,Customer cannot reset password
+TKT-6271,2024-02-29 13:00,Login Issue,medium,portal,Meera,3.28,8.38,5.0,Yes,Wants dark mode in the mobile app
+TKT-6254,2024-12-20 03:00,login issue,low,phone,Ananya,2.91,7.57,2.0,No,Customer cannot reset password
+TKT-5522,2024-04-14 19:00,billing,low,portal,Vikram,4.92,21.61,4.0,No,Wants dark mode in the mobile app
+TKT-5197,2024-03-05 07:00,billing,medium,portal,Imran,2.71,8.58,4.0,Yes,Invoice shows wrong GST number
+TKT-5150,2025-04-11 08:00,feature request,medium,email,Ananya,1.23,4.59,4.0,No,Request to merge duplicate accounts
+TKT-5528,2025-05-13 19:00,login issue,medium,email,Meera,2.42,8.75,4.0,No,Customer cannot reset password
+TKT-5690,2025-06-27 04:00,billing,high,chat,Vikram,0.23,2.38,5.0,No,Invoice shows wrong GST number
+TKT-5180,2025-05-26 05:00,Shipping,low,phone,Imran,0.57,9.37,4.0,No,Unable to apply coupon code
+TKT-5992,2024-04-17 08:00,Billing,urgent,phone,Meera,1.53,4.15,4.0,No,Request to merge duplicate accounts
+TKT-6172,2024-08-01 08:00,bug,low,portal,Meera,1.9,6.36,3.0,No,Customer cannot reset password
+TKT-5832,2024-09-04 01:00,bug,medium,phone,Ananya,1.26,3.99,5.0,No,Unable to apply coupon code
+TKT-6190,2024-08-14 11:00,billing,high,chat,Rahul,0.61,2.01,5.0,Yes,Invoice shows wrong GST number
+TKT-5650,2024-09-23 15:00,Bug,high,portal,Sara,0.76,2.51,5.0,No,Unable to apply coupon code
+TKT-5257,2024-02-26 08:00,Billing,medium,chat,Meera,0.51,3.56,4.0,No,Customer cannot reset password
+TKT-6144,2024-06-29 10:00,Bug,low,email,Ananya,0.81,4.82,3.0,No,Wants dark mode in the mobile app
+TKT-6045,2024-03-24 17:00,bug,low,portal,Ananya,1.54,12.76,3.0,Yes,Customer cannot reset password
+TKT-6282,2024-08-02 10:00,bug,medium,portal,Rahul,1.23,7.98,3.0,No,Request to merge duplicate accounts
+TKT-5474,2024-12-11 16:00,Billing,low,chat,Sara,2.53,10.16,3.0,Yes,Customer cannot reset password
+TKT-5118,2024-05-13 18:00,login issue,medium,email,,2.89,9.54,5.0,Yes,Unable to apply coupon code
+TKT-5178,2025-05-05 20:00,feature request,low,phone,Vikram,3.27,13.51,5.0,No,App crashes on checkout
+TKT-5686,2024-08-09 15:00,Shipping,low,email,Meera,2.06,5.47,5.0,No,Wants dark mode in the mobile app
+TKT-5297,2024-08-27 04:00,Bug,low,chat,Sara,0.31,2.2,3.0,No,Delivery delayed by courier
+TKT-6578,2024-03-02 13:00,Billing,medium,portal,Imran,2.69,9.45,3.0,No,Customer cannot reset password
+TKT-5761,2024-10-28 09:00,Feature Request,urgent,chat,Vikram,0.36,1.19,3.0,No,App crashes on checkout
+TKT-6518,2024-09-26 15:00,Login Issue,medium,email,Rahul,0.92,3.72,3.0,No,App crashes on checkout
+TKT-5109,2025-01-19 07:00,login issue,medium,chat,Vikram,1.1,5.4,4.0,No,Invoice shows wrong GST number
+TKT-6507,2024-09-18 12:00,Login Issue,high,chat,Meera,1.3,4.99,4.0,No,Delivery delayed by courier
+TKT-5542,2024-04-16 04:00,Login Issue,high,portal,Ananya,0.12,1.57,3.0,No,Request to merge duplicate accounts
+TKT-5935,2025-05-27 14:00,bug,medium,email,Ananya,1.81,8.7,4.0,No,App crashes on checkout
+TKT-5649,2025-04-07 11:00,Billing,low,chat,Rahul,2.59,15.91,4.0,No,Delivery delayed by courier
+TKT-5712,2025-01-31 14:00,bug,high,chat,Imran,0.78,2.04,4.0,Yes,Wants dark mode in the mobile app
+TKT-6418,2025-04-14 05:00,Shipping,medium,email,Ananya,2.33,12.51,3.0,No,Refund not received after 14 days
+TKT-6044,2025-01-21 12:00,Billing,high,email,Vikram,0.27,1.93,4.0,Yes,Wants dark mode in the mobile app
+TKT-6034,2024-02-06 06:00,Billing,low,chat,Sara,6.74,18.03,5.0,No,Delivery delayed by courier
+TKT-5732,2025-05-17 06:00,feature request,low,chat,Meera,0.76,7.7,5.0,No,Invoice shows wrong GST number
+TKT-5917,2025-03-03 07:00,Feature Request,low,phone,Vikram,2.42,8.57,5.0,No,Wants dark mode in the mobile app
+TKT-6300,2025-02-18 00:00,bug,high,chat,Rahul,0.93,5.07,4.0,No,Request to merge duplicate accounts
+TKT-5139,2024-08-26 00:00,billing,medium,portal,Rahul,1.76,4.77,5.0,No,Wants dark mode in the mobile app
+TKT-5223,2024-04-20 06:00,feature request,urgent,email,Ananya,0.4,1.07,4.0,No,Delivery delayed by courier
+TKT-5075,2024-09-16 06:00,shipping,low,chat,Imran,3.13,8.19,4.0,No,Unable to apply coupon code
+TKT-5882,2024-09-01 14:00,bug,low,chat,Sara,2.59,13.53,,No,Refund not received after 14 days
+TKT-6399,2024-06-12 03:00,bug,low,email,Vikram,0.74,10.23,3.0,No,Request to merge duplicate accounts
+TKT-5643,2024-09-19 02:00,billing,medium,email,Sara,0.32,5.58,4.0,No,Refund not received after 14 days
+TKT-5588,2025-04-01 05:00,shipping,low,phone,,2.22,7.2,5.0,No,Delivery delayed by courier
+TKT-5263,2025-05-19 04:00,bug,low,portal,Vikram,0.7,7.24,4.0,No,Delivery delayed by courier
+TKT-5708,2024-09-16 09:00,Billing,low,email,Rahul,1.11,8.38,5.0,No,Refund not received after 14 days
+TKT-5623,2024-08-15 04:00,login issue,medium,portal,Ananya,0.59,1.79,4.0,No,Request to merge duplicate accounts
+TKT-5723,2024-03-06 06:00,Bug,medium,chat,Ananya,2.59,9.6,4.0,No,Unable to apply coupon code
+TKT-6411,2024-11-02 00:00,Login Issue,low,portal,Imran,1.65,10.67,,No,Customer cannot reset password
+TKT-6213,2025-04-17 09:00,Login Issue,high,portal,Ananya,0.74,2.77,3.0,Yes,App crashes on checkout
+TKT-6441,2024-10-06 10:00,billing,medium,portal,Ananya,2.61,8.89,3.0,No,Wants dark mode in the mobile app
+TKT-6244,2025-04-21 21:00,Shipping,low,chat,Vikram,1.55,4.7,4.0,Yes,App crashes on checkout
+TKT-5395,2025-04-21 15:00,Billing,medium,chat,Rahul,0.34,5.1,4.0,Yes,Customer cannot reset password
+TKT-5839,2025-05-11 07:00,bug,low,email,Meera,1.91,5.12,5.0,No,Customer cannot reset password
+TKT-6079,2025-03-31 18:00,feature request,medium,phone,Meera,0.5,3.09,3.0,No,Request to merge duplicate accounts
+TKT-6401,2024-05-11 13:00,Shipping,low,email,Imran,2.05,8.74,5.0,No,Request to merge duplicate accounts
+TKT-6508,2025-04-15 11:00,Feature Request,medium,portal,,3.37,8.97,4.0,No,Invoice shows wrong GST number
+TKT-5165,2025-03-19 15:00,Login Issue,medium,email,Rahul,0.73,3.64,3.0,Yes,Delivery delayed by courier
+TKT-6412,2024-05-16 13:00,shipping,medium,email,Ananya,0.49,9.58,4.0,No,Refund not received after 14 days
+TKT-5115,2024-11-05 23:00,Shipping,high,email,Ananya,6.96,21.42,3.0,No,Request to merge duplicate accounts
+TKT-5682,2025-06-07 03:00,Feature Request,medium,portal,Rahul,0.97,4.79,3.0,No,App crashes on checkout
+TKT-5310,2024-12-28 23:00,Billing,urgent,chat,Imran,0.66,6.51,4.0,No,Customer cannot reset password
+TKT-6529,2025-05-15 18:00,Login Issue,high,portal,Rahul,0.85,2.96,4.0,No,Unable to apply coupon code
+TKT-5475,2025-03-03 16:00,login issue,low,phone,Meera,0.37,6.79,5.0,No,Request to merge duplicate accounts
+TKT-5420,2025-05-20 11:00,billing,low,email,Imran,1.66,4.88,,No,Refund not received after 14 days
+TKT-5554,2025-06-20 12:00,shipping,medium,email,Meera,2.22,5.93,4.0,No,App crashes on checkout
+TKT-6290,2024-05-07 08:00,login issue,low,email,Vikram,0.92,5.77,4.0,No,Refund not received after 14 days
+TKT-5218,2024-08-31 15:00,billing,high,portal,Rahul,0.4,2.08,,No,Delivery delayed by courier
+TKT-5211,2025-01-25 16:00,Feature Request,high,chat,Ananya,0.38,4.32,4.0,No,Delivery delayed by courier
+TKT-5634,2024-04-09 16:00,Billing,urgent,phone,Rahul,0.18,1.75,5.0,No,Unable to apply coupon code
+TKT-5054,2024-09-28 07:00,Billing,medium,portal,Rahul,0.29,4.99,4.0,No,Refund not received after 14 days
+TKT-6078,2024-08-15 16:00,feature request,urgent,chat,Ananya,0.66,2.02,5.0,No,Refund not received after 14 days
+TKT-6355,2024-09-27 19:00,shipping,low,portal,Meera,0.6,9.14,,No,App crashes on checkout
+TKT-5648,2025-06-07 11:00,bug,high,email,Vikram,2.17,6.9,4.0,No,Customer cannot reset password
+TKT-6592,2024-07-27 22:00,login issue,low,chat,Meera,0.87,7.51,5.0,No,Customer cannot reset password
+TKT-6216,2024-10-03 09:00,login issue,medium,chat,Vikram,1.44,6.69,4.0,No,Unable to apply coupon code
+TKT-6302,2025-01-16 09:00,Bug,medium,phone,Vikram,0.71,8.09,4.0,Yes,Delivery delayed by courier
+TKT-5718,2024-05-08 11:00,Billing,low,chat,Meera,3.62,12.3,4.0,No,Request to merge duplicate accounts
+TKT-6263,2025-03-24 07:00,billing,medium,portal,Rahul,0.35,3.45,5.0,No,Delivery delayed by courier
+TKT-5147,2024-05-07 11:00,shipping,low,phone,Imran,0.51,8.32,4.0,Yes,Delivery delayed by courier
+TKT-5953,2024-08-21 04:00,Bug,low,portal,Ananya,6.55,23.3,4.0,No,Delivery delayed by courier
+TKT-5254,2024-12-26 00:00,login issue,medium,portal,Ananya,0.64,5.22,5.0,Yes,Delivery delayed by courier
+TKT-5106,2025-03-01 07:00,Login Issue,urgent,phone,Imran,0.63,1.64,,No,Customer cannot reset password
+TKT-5565,2024-05-09 00:00,feature request,medium,phone,Vikram,0.97,3.13,4.0,No,Request to merge duplicate accounts
+TKT-5392,2024-07-19 03:00,shipping,high,chat,Imran,0.28,1.69,4.0,No,Refund not received after 14 days
+TKT-6268,2025-06-03 11:00,login issue,medium,portal,Vikram,5.53,14.2,4.0,No,Wants dark mode in the mobile app
+TKT-5230,2024-09-09 10:00,feature request,low,portal,,2.91,8.51,4.0,No,Delivery delayed by courier
+TKT-5146,2024-01-19 21:00,bug,urgent,email,Ananya,0.46,5.89,5.0,No,Invoice shows wrong GST number
+TKT-6559,2025-04-11 05:00,Billing,medium,email,Ananya,0.35,3.48,3.0,No,Invoice shows wrong GST number
+TKT-6019,2024-03-04 03:00,Feature Request,high,chat,Rahul,0.97,5.31,3.0,No,Unable to apply coupon code
+TKT-5167,2024-04-01 00:00,Billing,low,chat,Vikram,2.31,6.73,4.0,No,Delivery delayed by courier
+TKT-5956,2024-08-06 10:00,Billing,medium,portal,Sara,2.15,7.85,5.0,Yes,Refund not received after 14 days
+TKT-5052,2024-07-17 07:00,shipping,medium,chat,Meera,0.65,1.71,5.0,No,Request to merge duplicate accounts
+TKT-5598,2024-12-08 03:00,feature request,urgent,email,Meera,0.39,1.9,2.0,Yes,App crashes on checkout
+TKT-5808,2024-08-01 01:00,Login Issue,low,chat,Vikram,9.63,28.92,4.0,No,Unable to apply coupon code
+TKT-6439,2025-06-04 15:00,feature request,low,email,Imran,1.4,4.3,4.0,No,App crashes on checkout
+TKT-5399,2024-06-18 03:00,bug,high,portal,Sara,1.53,4.73,4.0,No,Unable to apply coupon code
+TKT-6250,2024-05-11 20:00,Shipping,low,chat,Imran,3.78,12.62,4.0,No,Wants dark mode in the mobile app
+TKT-5651,2024-12-21 15:00,Feature Request,low,portal,,3.54,9.13,4.0,No,Wants dark mode in the mobile app
+TKT-5858,2024-12-30 16:00,Login Issue,medium,email,Meera,3.37,9.58,4.0,No,Customer cannot reset password
+TKT-5468,2024-04-08 21:00,Login Issue,urgent,portal,Rahul,0.74,1.97,5.0,No,Delivery delayed by courier
+TKT-6276,2024-12-24 01:00,Shipping,low,chat,Ananya,1.06,7.07,3.0,No,Unable to apply coupon code
+TKT-6424,2024-05-19 08:00,shipping,high,portal,Ananya,0.84,5.22,4.0,No,Request to merge duplicate accounts
+TKT-5347,2025-05-25 03:00,Bug,low,portal,Vikram,2.9,13.13,4.0,No,Delivery delayed by courier
+TKT-5280,2024-05-30 08:00,BILLING,high,email,Rahul,0.6,3.28,4.0,No,Customer cannot reset password
+TKT-5990,2024-07-05 18:00,Bug,low,email,Rahul,1.65,4.58,5.0,No,Delivery delayed by courier
+TKT-6316,2025-01-21 18:00,login issue,high,email,Rahul,2.98,8.0,4.0,No,Customer cannot reset password
+TKT-5715,2025-03-11 14:00,login issue,medium,email,Meera,1.53,5.92,4.0,No,Wants dark mode in the mobile app
+TKT-5009,2024-02-21 07:00,Shipping,urgent,chat,Vikram,0.26,2.3,5.0,No,Refund not received after 14 days
+TKT-5740,2025-03-21 07:00,Bug,low,email,Sara,3.18,11.71,,No,Refund not received after 14 days
+TKT-5270,2024-06-09 15:00,shipping,medium,portal,Vikram,2.89,7.43,4.0,No,Customer cannot reset password
+TKT-6372,2024-09-02 02:00,feature request,medium,email,Rahul,1.55,4.85,4.0,No,Customer cannot reset password
+TKT-5285,2025-05-26 02:00,bug,high,email,Ananya,0.47,2.34,5.0,No,Customer cannot reset password
+TKT-5541,2024-01-31 04:00,Bug,low,email,Ananya,2.48,6.87,3.0,No,Invoice shows wrong GST number
+TKT-5741,2025-02-19 13:00,BILLING,low,email,Imran,1.81,19.62,4.0,No,Unable to apply coupon code
+TKT-5444,2024-10-04 01:00,login issue,low,email,Meera,3.82,14.28,3.0,No,Delivery delayed by courier
+TKT-6497,2025-03-01 10:00,billing,medium,email,Rahul,0.59,4.46,3.0,No,Unable to apply coupon code
+TKT-5830,2024-05-14 00:00,Login Issue,medium,chat,Rahul,0.45,2.37,4.0,No,Delivery delayed by courier
+TKT-5103,2024-01-05 00:00,Login Issue,high,email,Vikram,0.28,2.82,4.0,No,Customer cannot reset password
+TKT-6460,2025-03-06 15:00,bug,medium,phone,Ananya,1.06,11.23,3.0,No,Unable to apply coupon code
+TKT-5099,2024-03-17 03:00,feature request,medium,portal,Ananya,0.44,2.43,5.0,No,Wants dark mode in the mobile app
+TKT-5781,2024-12-13 04:00,login issue,low,portal,Sara,1.62,4.25,,No,Customer cannot reset password
+TKT-5803,2025-05-15 13:00,Bug,medium,chat,Meera,1.14,8.69,5.0,No,Invoice shows wrong GST number
+TKT-5855,2025-04-07 22:00,Login Issue,high,portal,Vikram,0.22,2.24,5.0,No,App crashes on checkout
+TKT-6280,2025-02-07 05:00,Login Issue,high,portal,Ananya,0.73,4.16,3.0,No,Unable to apply coupon code
+TKT-5495,2024-08-12 20:00,login issue,low,chat,Rahul,2.45,11.43,4.0,No,Invoice shows wrong GST number
+TKT-5432,2025-03-26 03:00,Billing,medium,portal,Ananya,0.65,7.23,4.0,No,Delivery delayed by courier
+TKT-5142,2024-05-30 17:00,Billing,low,email,Sara,2.57,13.77,4.0,No,Customer cannot reset password
+TKT-5827,2025-05-03 21:00,Billing,low,chat,Rahul,2.53,12.72,5.0,No,Customer cannot reset password
+TKT-5166,2024-06-24 01:00,Shipping,low,email,Rahul,2.47,6.57,4.0,No,Delivery delayed by courier
+TKT-5161,2024-12-28 01:00,Login Issue,medium,email,Imran,2.41,6.71,,No,Refund not received after 14 days
+TKT-6160,2024-11-13 16:00,Feature Request,high,portal,Ananya,0.79,4.73,4.0,No,Wants dark mode in the mobile app
+TKT-6040,2025-01-19 20:00,billing,low,email,Ananya,4.54,12.14,4.0,No,Unable to apply coupon code
+TKT-6137,2024-07-18 19:00,Feature Request,medium,email,Meera,0.79,4.37,4.0,No,Request to merge duplicate accounts
+TKT-5007,2025-01-15 01:00,Billing,low,email,Meera,2.26,8.15,4.0,No,Request to merge duplicate accounts
+TKT-5173,2025-01-28 16:00,shipping,high,email,Meera,0.57,2.56,3.0,No,Wants dark mode in the mobile app
+TKT-5446,2024-06-19 23:00,Feature Request,low,chat,Rahul,0.91,13.89,5.0,No,Delivery delayed by courier
+TKT-6514,2024-05-14 13:00,login issue,medium,email,Sara,7.02,18.31,5.0,No,Unable to apply coupon code
+TKT-6499,2025-04-03 10:00,bug,low,email,Ananya,1.61,8.96,4.0,No,Invoice shows wrong GST number
+TKT-5866,2025-03-22 18:00,shipping,low,email,Rahul,2.33,12.67,5.0,No,App crashes on checkout
+TKT-5579,2024-02-25 09:00,Login Issue,high,email,Meera,1.65,5.59,4.0,No,App crashes on checkout
+TKT-6533,2024-04-12 15:00,Billing,low,chat,Meera,0.87,7.41,3.0,Yes,Customer cannot reset password
+TKT-5204,2024-09-06 07:00,bug,low,phone,Meera,4.37,12.11,4.0,No,Request to merge duplicate accounts
+TKT-5902,2024-04-29 10:00,login issue,low,email,Meera,0.68,3.74,4.0,Yes,Wants dark mode in the mobile app
+TKT-5580,2024-02-20 20:00,Login Issue,medium,phone,Ananya,1.65,5.98,5.0,No,Wants dark mode in the mobile app
+TKT-6498,2024-09-11 15:00,billing,low,email,Rahul,0.64,5.43,4.0,No,Wants dark mode in the mobile app
+TKT-6136,2025-01-30 02:00,Login Issue,low,email,Ananya,0.43,8.07,5.0,No,Delivery delayed by courier
+TKT-6418,2025-04-14 05:00,Shipping,medium,email,Ananya,2.33,12.51,3.0,No,Refund not received after 14 days
+TKT-5485,2024-05-06 18:00,Shipping,low,email,Sara,0.66,5.96,3.0,No,Invoice shows wrong GST number
+TKT-6000,2025-03-16 12:00,Feature Request,low,email,Ananya,1.58,6.86,,Yes,Refund not received after 14 days
+TKT-5644,2025-02-23 19:00,Billing,high,email,Ananya,0.19,2.39,3.0,No,Customer cannot reset password
+TKT-6543,2024-11-06 05:00,login issue,medium,chat,Ananya,0.57,6.42,4.0,No,Invoice shows wrong GST number
+TKT-6506,2025-05-13 05:00,feature request,high,email,Vikram,1.79,4.75,5.0,No,Invoice shows wrong GST number
+TKT-5859,2025-03-12 12:00,billing,low,email,Vikram,0.78,9.31,4.0,Yes,Wants dark mode in the mobile app
+TKT-6299,2024-01-17 03:00,BILLING,medium,email,Imran,0.2,2.16,3.0,No,Invoice shows wrong GST number
+TKT-5003,2024-08-27 04:00,Feature Request,high,email,Imran,0.58,7.12,,No,Invoice shows wrong GST number
+TKT-6597,2025-01-30 05:00,Billing,medium,chat,Sara,0.95,10.62,4.0,No,Refund not received after 14 days
+TKT-5358,2024-02-19 13:00,Login Issue,medium,chat,Vikram,1.02,3.88,3.0,No,Request to merge duplicate accounts
+TKT-5428,2024-01-14 16:00,Shipping,high,email,Imran,0.7,1.91,5.0,No,App crashes on checkout
+TKT-5276,2024-09-11 13:00,feature request,medium,chat,Vikram,1.9,6.24,4.0,No,Refund not received after 14 days
+TKT-5266,2024-08-31 15:00,Login Issue,high,chat,Sara,1.62,6.24,4.0,Yes,Invoice shows wrong GST number
+TKT-5749,2024-03-26 21:00,login issue,low,email,Vikram,0.72,7.88,4.0,No,Invoice shows wrong GST number
+TKT-6414,2024-11-14 20:00,shipping,medium,phone,Rahul,0.55,3.26,4.0,No,Delivery delayed by courier
+TKT-5030,2024-09-02 12:00,Feature Request,high,chat,Meera,1.26,10.31,,No,Wants dark mode in the mobile app
+TKT-5445,2024-12-27 06:00,login issue,medium,chat,Rahul,1.69,6.51,4.0,No,Request to merge duplicate accounts
+TKT-5760,2024-04-05 22:00,Shipping,urgent,chat,Rahul,0.19,1.93,4.0,No,Unable to apply coupon code
+TKT-5373,2024-07-22 15:00,Bug,low,email,Imran,2.55,12.33,,No,Refund not received after 14 days
+TKT-6258,2024-10-21 12:00,Billing,high,chat,Ananya,1.06,3.11,5.0,No,Refund not received after 14 days
+TKT-6283,2025-03-12 11:00,Billing,medium,chat,Sara,0.45,2.76,,No,Wants dark mode in the mobile app
+TKT-6140,2025-04-25 05:00,BILLING,high,chat,Meera,1.22,5.16,4.0,No,Wants dark mode in the mobile app
+TKT-5617,2024-05-25 05:00,feature request,low,chat,Vikram,1.78,7.41,4.0,No,Wants dark mode in the mobile app
+TKT-6244,2025-04-21 21:00,Shipping,low,chat,Vikram,1.55,4.7,4.0,Yes,App crashes on checkout
+TKT-6224,2024-08-15 04:00,Login Issue,medium,chat,Meera,0.62,3.21,4.0,No,Request to merge duplicate accounts
+TKT-6599,2025-01-20 21:00,feature request,low,chat,Vikram,1.62,8.12,3.0,No,Refund not received after 14 days
+TKT-5342,2024-12-04 21:00,Bug,low,chat,Ananya,2.7,9.4,3.0,No,Refund not received after 14 days
+TKT-6471,2025-01-15 12:00,Feature Request,low,email,Ananya,0.97,7.17,4.0,No,Invoice shows wrong GST number
+TKT-6432,2024-04-03 07:00,billing,medium,phone,Ananya,2.79,7.19,4.0,No,Request to merge duplicate accounts
+TKT-6429,2025-03-05 05:00,bug,medium,chat,Imran,0.62,3.41,5.0,No,Invoice shows wrong GST number
+TKT-5944,2024-03-11 11:00,bug,medium,chat,Rahul,2.04,8.46,3.0,No,Wants dark mode in the mobile app
+TKT-5391,2024-04-07 16:00,Login Issue,low,portal,Vikram,1.35,3.44,4.0,No,App crashes on checkout
+TKT-5228,2024-10-25 01:00,bug,low,chat,Meera,2.76,6.93,3.0,No,Delivery delayed by courier
+TKT-6406,2024-07-08 02:00,bug,medium,chat,Sara,1.6,11.62,4.0,No,Request to merge duplicate accounts
+TKT-5517,2024-02-06 06:00,billing,high,email,,0.39,2.05,5.0,No,App crashes on checkout
+TKT-5479,2024-02-29 11:00,Feature Request,low,portal,Sara,1.13,6.63,4.0,No,App crashes on checkout
+TKT-5799,2024-08-29 01:00,login issue,urgent,phone,Sara,0.91,2.39,5.0,No,Unable to apply coupon code
+TKT-5034,2025-04-28 21:00,bug,medium,email,Ananya,1.13,4.37,4.0,No,Request to merge duplicate accounts
+TKT-5008,2024-04-19 19:00,feature request,low,email,Meera,6.94,22.68,4.0,No,Delivery delayed by courier
+TKT-5231,2025-04-11 20:00,bug,medium,email,Rahul,2.22,6.35,2.0,No,Customer cannot reset password
+TKT-5440,2025-06-14 08:00,shipping,high,email,Meera,0.8,2.26,4.0,No,Wants dark mode in the mobile app
+TKT-5525,2024-06-18 03:00,shipping,medium,chat,Rahul,2.64,9.1,5.0,No,Unable to apply coupon code
+TKT-5624,2024-11-25 06:00,login issue,low,email,Meera,5.44,19.17,4.0,No,Request to merge duplicate accounts
+TKT-6544,2024-05-05 17:00,bug,low,chat,Sara,1.24,9.16,4.0,No,Wants dark mode in the mobile app
+TKT-5094,2025-05-04 10:00,Bug,high,email,Vikram,0.32,1.86,3.0,No,Wants dark mode in the mobile app
+TKT-5543,2024-04-05 04:00,feature request,low,chat,Vikram,1.85,6.29,3.0,No,Request to merge duplicate accounts
+TKT-6344,2024-04-11 17:00,login issue,low,email,Rahul,0.78,6.74,4.0,No,Customer cannot reset password
+TKT-5970,2024-06-11 18:00,Feature Request,high,chat,Vikram,0.31,1.61,4.0,Yes,Request to merge duplicate accounts
+TKT-6377,2025-02-13 19:00,Bug,low,phone,Ananya,1.58,6.92,4.0,No,Refund not received after 14 days
+TKT-5209,2025-02-28 10:00,Login Issue,medium,email,Vikram,0.57,3.24,4.0,No,Delivery delayed by courier
+TKT-6199,2024-12-04 02:00,feature request,medium,chat,Ananya,1.31,3.65,5.0,No,Unable to apply coupon code
+TKT-5281,2024-09-22 05:00,shipping,high,chat,Rahul,1.35,3.41,4.0,No,Delivery delayed by courier
+TKT-6130,2024-08-09 17:00,bug,low,email,Sara,2.76,16.46,3.0,Yes,Delivery delayed by courier
+TKT-5389,2024-03-24 12:00,bug,medium,chat,Meera,1.5,4.63,5.0,No,App crashes on checkout
+TKT-5948,2025-05-31 13:00,Login Issue,high,phone,Vikram,1.26,4.51,5.0,No,Request to merge duplicate accounts
+TKT-5251,2024-09-26 05:00,Billing,medium,email,Sara,0.73,3.43,3.0,No,Invoice shows wrong GST number
+TKT-6428,2024-05-25 12:00,billing,urgent,portal,Vikram,0.32,1.66,4.0,No,Unable to apply coupon code
+TKT-6157,2025-04-08 09:00,billing,urgent,chat,Sara,0.85,2.5,4.0,No,Delivery delayed by courier
+TKT-5890,2024-02-24 11:00,Bug,medium,email,Rahul,0.13,2.37,4.0,No,App crashes on checkout
+TKT-6437,2024-12-21 20:00,login issue,low,email,Vikram,1.45,6.71,5.0,No,Delivery delayed by courier
+TKT-5520,2024-07-14 00:00,Login Issue,urgent,email,Ananya,0.09,1.59,4.0,No,Refund not received after 14 days
+TKT-6036,2025-05-07 00:00,billing,low,portal,Ananya,3.81,19.22,3.0,No,Wants dark mode in the mobile app
+TKT-6400,2025-04-10 18:00,billing,low,phone,Vikram,3.06,17.34,4.0,No,Request to merge duplicate accounts
+TKT-5668,2025-05-15 19:00,bug,high,portal,Ananya,0.24,2.7,5.0,No,Wants dark mode in the mobile app
+TKT-6461,2024-06-19 08:00,Shipping,low,email,Ananya,1.48,9.43,3.0,No,Refund not received after 14 days
+TKT-5876,2024-10-21 05:00,bug,medium,email,Sara,1.74,18.41,4.0,No,Wants dark mode in the mobile app
+TKT-6376,2025-06-08 11:00,Login Issue,high,email,Sara,1.33,5.35,3.0,No,Delivery delayed by courier
+TKT-6431,2024-04-10 22:00,bug,medium,chat,Rahul,1.77,5.15,4.0,No,Customer cannot reset password
+TKT-6013,2024-06-20 09:00,BILLING,low,phone,Ananya,0.96,8.37,,No,Refund not received after 14 days
+TKT-6453,2024-05-14 02:00,Feature Request,medium,email,Meera,1.36,6.71,4.0,No,Invoice shows wrong GST number
+TKT-5753,2025-05-25 04:00,login issue,low,chat,Meera,4.71,36.62,2.0,No,Unable to apply coupon code
+TKT-6262,2024-08-30 05:00,feature request,high,email,Ananya,0.48,5.56,4.0,No,Customer cannot reset password
+TKT-5213,2024-09-01 21:00,Shipping,high,email,Vikram,1.55,8.75,,No,Request to merge duplicate accounts
+TKT-6240,2024-10-03 22:00,login issue,low,email,,0.84,9.67,5.0,No,App crashes on checkout
+TKT-5957,2024-12-11 20:00,Shipping,medium,email,Ananya,0.42,3.33,4.0,Yes,Wants dark mode in the mobile app
+TKT-6395,2024-11-17 22:00,Bug,medium,chat,Sara,3.25,10.53,3.0,No,Unable to apply coupon code
+TKT-5567,2024-05-15 21:00,Billing,low,email,Meera,1.32,5.32,5.0,No,Unable to apply coupon code
+TKT-5068,2024-02-11 14:00,billing,medium,portal,Vikram,0.37,2.38,4.0,No,Delivery delayed by courier
+TKT-5085,2025-01-16 15:00,login issue,medium,portal,Ananya,1.66,8.27,4.0,No,Refund not received after 14 days
+TKT-6415,2025-03-03 04:00,billing,medium,chat,Imran,1.64,10.27,3.0,No,App crashes on checkout
+TKT-5912,2024-07-24 03:00,Shipping,medium,chat,Ananya,0.74,4.01,5.0,No,Wants dark mode in the mobile app
+TKT-5466,2024-03-31 10:00,Billing,medium,email,Meera,1.03,5.48,4.0,No,Customer cannot reset password
+TKT-5879,2024-12-09 08:00,feature request,low,chat,Rahul,5.33,16.32,,No,Refund not received after 14 days
+TKT-5429,2025-01-24 21:00,billing,high,email,Ananya,1.0,5.33,3.0,No,App crashes on checkout
+TKT-5417,2024-03-07 09:00,feature request,medium,email,Sara,0.8,3.74,4.0,No,Refund not received after 14 days
+TKT-5412,2024-06-01 05:00,feature request,medium,phone,Ananya,0.4,1.8,5.0,No,Wants dark mode in the mobile app
+TKT-5196,2024-07-05 17:00,bug,low,email,Meera,1.3,5.56,5.0,No,Customer cannot reset password
+TKT-5031,2024-05-03 20:00,feature request,high,chat,Ananya,0.72,5.75,4.0,No,Invoice shows wrong GST number
+TKT-5284,2024-08-28 10:00,Shipping,low,portal,Meera,0.72,3.32,4.0,No,App crashes on checkout
+TKT-6135,2024-02-01 16:00,billing,high,chat,Imran,0.2,3.57,4.0,No,App crashes on checkout
+TKT-6169,2025-05-14 22:00,feature request,low,email,Rahul,2.22,12.26,5.0,No,Invoice shows wrong GST number
+TKT-5666,2024-10-01 07:00,Login Issue,medium,portal,Ananya,0.41,3.89,4.0,No,Request to merge duplicate accounts
+TKT-5684,2024-04-02 07:00,bug,high,portal,Sara,0.62,1.85,3.0,No,Refund not received after 14 days
+TKT-5380,2024-01-03 21:00,Bug,low,chat,,1.69,5.45,5.0,No,Wants dark mode in the mobile app
+TKT-6012,2024-05-14 00:00,bug,medium,email,Meera,0.3,2.45,4.0,No,Request to merge duplicate accounts
+TKT-6421,2025-06-26 02:00,Login Issue,medium,chat,Imran,2.89,8.86,5.0,No,Request to merge duplicate accounts
+TKT-5290,2025-03-16 03:00,BILLING,urgent,email,Imran,0.84,2.42,5.0,No,Wants dark mode in the mobile app
+TKT-5359,2025-02-11 23:00,Bug,medium,phone,Rahul,1.97,6.27,5.0,No,Refund not received after 14 days
+TKT-5364,2024-03-04 05:00,Billing,low,phone,Vikram,1.41,10.06,4.0,No,Unable to apply coupon code
+TKT-5524,2024-06-22 16:00,login issue,low,phone,Ananya,2.42,7.95,4.0,No,Delivery delayed by courier
+TKT-5574,2024-01-04 20:00,Shipping,medium,portal,Meera,0.7,3.31,4.0,No,Wants dark mode in the mobile app
+TKT-5693,2025-05-30 14:00,Bug,urgent,portal,Imran,0.28,4.51,4.0,No,Unable to apply coupon code
+TKT-5704,2024-03-11 11:00,Bug,medium,email,Vikram,3.03,13.61,4.0,No,Unable to apply coupon code
+TKT-5112,2024-10-29 19:00,shipping,low,portal,Imran,3.25,35.75,3.0,No,Customer cannot reset password
+TKT-6126,2025-04-10 11:00,login issue,low,chat,Ananya,2.77,12.76,4.0,No,Delivery delayed by courier
+TKT-5414,2024-01-10 18:00,login issue,low,email,Ananya,1.33,9.57,3.0,Yes,Customer cannot reset password
+TKT-5589,2025-04-04 17:00,billing,medium,portal,Vikram,2.69,11.48,4.0,No,Request to merge duplicate accounts
+TKT-6214,2024-02-10 10:00,Login Issue,medium,chat,Meera,1.91,6.82,5.0,No,Request to merge duplicate accounts
+TKT-6540,2024-09-16 03:00,Billing,low,portal,Meera,4.0,10.12,4.0,No,Request to merge duplicate accounts
+TKT-5486,2024-07-01 03:00,Login Issue,low,portal,Meera,2.23,5.88,5.0,No,App crashes on checkout
+TKT-6076,2025-01-22 18:00,login issue,high,chat,Meera,2.77,9.31,5.0,No,Unable to apply coupon code
+TKT-6052,2024-09-30 10:00,feature request,low,chat,Vikram,0.52,5.58,4.0,No,Delivery delayed by courier
+TKT-6089,2024-03-18 04:00,Login Issue,medium,email,Meera,0.4,4.52,,No,Customer cannot reset password
+TKT-5874,2025-01-15 01:00,Bug,high,chat,Ananya,0.8,5.42,4.0,No,Refund not received after 14 days
+TKT-6426,2025-01-01 00:00,bug,low,portal,Meera,4.28,27.18,3.0,No,Unable to apply coupon code
+TKT-5843,2024-01-20 17:00,Billing,low,chat,Sara,3.08,8.22,3.0,No,Refund not received after 14 days
+TKT-5966,2024-11-23 20:00,Shipping,medium,chat,Meera,1.29,4.9,4.0,Yes,App crashes on checkout
+TKT-5594,2024-06-23 18:00,Bug,medium,email,Ananya,1.15,9.48,4.0,No,Delivery delayed by courier
+TKT-5927,2024-06-13 05:00,shipping,high,chat,Ananya,0.5,1.6,4.0,No,Request to merge duplicate accounts
+TKT-5308,2024-06-21 01:00,Shipping,low,portal,Rahul,9.54,35.48,3.0,Yes,Invoice shows wrong GST number
+TKT-5058,2025-02-09 03:00,login issue,low,chat,Ananya,4.14,15.94,2.0,No,Invoice shows wrong GST number
+TKT-5159,2025-03-03 05:00,feature request,low,email,Ananya,0.43,7.06,3.0,No,App crashes on checkout
+TKT-6494,2024-08-11 12:00,login issue,urgent,portal,Vikram,0.56,2.2,4.0,No,Request to merge duplicate accounts
+TKT-5186,2024-03-31 14:00,login issue,low,email,Sara,3.18,9.2,4.0,Yes,Refund not received after 14 days
+TKT-5244,2024-12-08 15:00,billing,low,phone,Meera,3.62,12.63,4.0,No,Request to merge duplicate accounts
+TKT-6546,2025-01-09 16:00,shipping,low,portal,Rahul,1.95,6.07,4.0,No,Request to merge duplicate accounts
+TKT-5157,2024-10-30 13:00,feature request,low,email,Meera,1.2,8.11,4.0,No,Unable to apply coupon code
+TKT-5126,2024-02-13 03:00,Billing,high,chat,,0.8,4.45,5.0,No,Wants dark mode in the mobile app
+TKT-5322,2024-11-30 23:00,Bug,medium,chat,Vikram,0.37,2.16,5.0,No,Customer cannot reset password
+TKT-6083,2024-10-30 00:00,bug,medium,email,Sara,3.21,8.88,5.0,No,Refund not received after 14 days
+TKT-5804,2025-02-06 07:00,BILLING,urgent,portal,Ananya,0.32,1.98,5.0,Yes,App crashes on checkout
+TKT-6236,2024-01-03 13:00,Shipping,high,email,Ananya,1.52,4.07,3.0,No,App crashes on checkout
+TKT-5777,2024-03-05 13:00,shipping,medium,email,Sara,1.86,8.17,5.0,No,Delivery delayed by courier
+TKT-6127,2024-12-13 11:00,bug,low,email,Rahul,3.47,11.17,3.0,No,Refund not received after 14 days
+TKT-6349,2024-11-20 09:00,billing,low,email,Imran,1.39,9.65,4.0,No,App crashes on checkout
+TKT-6358,2024-02-26 03:00,Login Issue,urgent,chat,Rahul,0.36,2.09,4.0,No,Wants dark mode in the mobile app
+TKT-5845,2024-01-03 23:00,Login Issue,medium,email,Ananya,1.85,9.7,5.0,No,App crashes on checkout
+TKT-5004,2024-08-23 23:00,Billing,high,chat,Meera,0.97,3.9,5.0,No,Delivery delayed by courier
+TKT-6252,2024-02-10 08:00,Login Issue,low,email,Vikram,0.98,7.6,5.0,No,App crashes on checkout
+TKT-5273,2025-06-06 09:00,Shipping,medium,portal,Ananya,1.16,5.3,4.0,No,Delivery delayed by courier
+TKT-5875,2024-10-01 23:00,Shipping,high,chat,Ananya,0.49,3.11,5.0,No,Wants dark mode in the mobile app
+TKT-5182,2024-09-28 01:00,bug,low,phone,Meera,1.66,5.75,4.0,Yes,Customer cannot reset password
+TKT-6367,2024-09-04 00:00,Login Issue,low,portal,Ananya,0.62,7.38,4.0,No,Unable to apply coupon code
+TKT-6075,2024-03-30 05:00,Bug,medium,email,Ananya,1.55,5.95,,No,Customer cannot reset password
+TKT-6221,2024-10-28 10:00,billing,low,chat,,0.49,9.79,5.0,No,Invoice shows wrong GST number
+TKT-5462,2025-02-12 02:00,login issue,low,email,Ananya,3.83,10.84,3.0,No,App crashes on checkout
+TKT-5089,2025-03-29 13:00,bug,medium,email,Imran,4.03,11.4,5.0,No,Request to merge duplicate accounts
+TKT-6248,2024-06-26 06:00,Billing,low,email,Ananya,1.29,11.59,5.0,No,App crashes on checkout
+TKT-6486,2024-03-29 14:00,shipping,urgent,portal,,0.64,1.85,5.0,No,Refund not received after 14 days
+TKT-5050,2025-02-18 03:00,Billing,medium,portal,Sara,1.37,6.16,5.0,Yes,Delivery delayed by courier
+TKT-5853,2024-05-10 00:00,Billing,medium,email,Rahul,1.85,4.79,3.0,No,Customer cannot reset password
+TKT-5415,2025-01-04 07:00,feature request,medium,portal,Ananya,0.72,3.98,4.0,No,Wants dark mode in the mobile app
+TKT-5676,2024-11-12 12:00,Login Issue,low,email,Ananya,3.47,12.89,5.0,No,App crashes on checkout
+TKT-5534,2024-11-10 16:00,Shipping,medium,chat,Rahul,3.19,13.92,5.0,No,App crashes on checkout
+TKT-5234,2024-09-25 13:00,Login Issue,medium,email,Meera,1.32,4.04,4.0,No,Delivery delayed by courier
+TKT-5680,2025-01-29 06:00,Login Issue,low,portal,Sara,0.58,7.62,2.0,No,Request to merge duplicate accounts
+TKT-5581,2025-03-30 05:00,billing,low,portal,Meera,1.13,6.68,5.0,No,Unable to apply coupon code
+TKT-5401,2025-02-27 16:00,feature request,medium,phone,Ananya,0.49,6.72,4.0,No,Refund not received after 14 days
+TKT-5698,2024-01-28 07:00,login issue,low,chat,Rahul,0.78,9.89,4.0,Yes,Delivery delayed by courier
+TKT-5438,2024-02-14 01:00,Billing,medium,email,Rahul,1.92,5.51,5.0,No,Delivery delayed by courier
+TKT-5527,2024-03-19 09:00,feature request,medium,phone,Ananya,2.75,6.98,,No,Delivery delayed by courier
+TKT-6379,2024-10-21 18:00,Shipping,urgent,portal,Vikram,0.25,1.77,4.0,No,Request to merge duplicate accounts
+TKT-5717,2024-09-25 05:00,Shipping,medium,chat,Vikram,1.24,4.32,,No,Delivery delayed by courier
+TKT-6175,2024-07-03 16:00,Billing,medium,email,Rahul,0.53,3.4,3.0,No,Request to merge duplicate accounts
+TKT-5132,2024-02-19 08:00,Login Issue,medium,chat,Vikram,1.74,9.58,4.0,No,App crashes on checkout
+TKT-5738,2025-02-06 08:00,Bug,high,email,Ananya,0.69,2.07,5.0,No,Unable to apply coupon code
+TKT-5029,2024-08-29 15:00,login issue,high,portal,Rahul,0.65,4.66,4.0,No,Customer cannot reset password
+TKT-5639,2025-06-01 03:00,Shipping,medium,email,Meera,1.04,4.26,5.0,No,Request to merge duplicate accounts
+TKT-5238,2024-06-17 05:00,Login Issue,high,chat,Meera,1.74,6.71,3.0,No,Delivery delayed by courier
+TKT-6359,2024-07-18 03:00,billing,low,portal,Imran,2.71,20.05,4.0,No,Request to merge duplicate accounts
+TKT-5323,2025-05-14 05:00,Billing,medium,email,Rahul,2.83,12.18,4.0,No,Customer cannot reset password
+TKT-5628,2024-10-02 06:00,Bug,medium,email,Meera,0.29,2.59,3.0,No,Refund not received after 14 days
+TKT-6548,2024-09-26 05:00,billing,high,phone,,0.63,4.5,5.0,Yes,Customer cannot reset password
+TKT-5769,2024-07-24 02:00,Login Issue,medium,phone,Vikram,1.67,5.49,4.0,No,Request to merge duplicate accounts
+TKT-6575,2024-06-22 12:00,Billing,low,email,Ananya,1.21,9.77,4.0,No,Refund not received after 14 days
+TKT-6505,2024-05-12 03:00,login issue,medium,chat,Ananya,0.63,5.39,5.0,No,Request to merge duplicate accounts
+TKT-6020,2024-01-31 11:00,shipping,high,portal,Sara,0.07,1.12,5.0,No,Request to merge duplicate accounts
+TKT-5379,2024-05-23 00:00,Billing,low,email,Vikram,0.54,3.98,4.0,No,Wants dark mode in the mobile app
+TKT-5747,2024-06-20 08:00,Bug,high,chat,Vikram,0.69,6.88,4.0,No,Unable to apply coupon code
+TKT-6054,2024-02-11 18:00,shipping,urgent,portal,Meera,0.82,4.79,3.0,No,Wants dark mode in the mobile app
+TKT-5350,2024-10-17 13:00,Billing,low,email,Rahul,0.35,5.56,4.0,No,Customer cannot reset password
+TKT-6272,2025-05-22 16:00,login issue,low,portal,Meera,1.78,5.57,3.0,No,Wants dark mode in the mobile app
+TKT-5051,2024-04-16 01:00,Billing,high,phone,Meera,2.03,6.7,4.0,No,Refund not received after 14 days
+TKT-5507,2024-05-15 01:00,bug,low,email,Ananya,1.49,7.56,4.0,No,Delivery delayed by courier
+TKT-6060,2025-02-23 23:00,Feature Request,medium,email,Rahul,1.15,3.11,,No,Refund not received after 14 days
+TKT-6102,2025-05-15 19:00,shipping,low,email,Imran,1.12,3.89,3.0,No,Request to merge duplicate accounts
+TKT-6037,2024-01-09 00:00,Login Issue,low,email,Vikram,0.36,7.19,5.0,No,Wants dark mode in the mobile app
+TKT-6082,2025-06-06 02:00,Login Issue,high,chat,Meera,0.37,1.35,5.0,No,Request to merge duplicate accounts
+TKT-5575,2024-07-22 14:00,billing,high,email,Imran,0.84,2.82,4.0,No,Invoice shows wrong GST number
+TKT-5233,2025-02-17 09:00,shipping,medium,portal,Vikram,3.28,15.07,5.0,No,Unable to apply coupon code
+TKT-6420,2025-06-01 17:00,login issue,high,chat,Imran,1.52,4.05,3.0,No,Refund not received after 14 days
+TKT-6513,2024-06-29 06:00,Billing,medium,email,Meera,0.4,7.18,4.0,No,Refund not received after 14 days
+TKT-5743,2024-05-27 10:00,Billing,low,email,Meera,2.4,12.21,4.0,No,Wants dark mode in the mobile app
+TKT-5478,2024-12-27 15:00,shipping,medium,portal,Ananya,0.68,1.82,4.0,No,Delivery delayed by courier
+TKT-5999,2024-10-06 10:00,bug,medium,chat,Rahul,1.89,9.04,4.0,No,Unable to apply coupon code
+TKT-5193,2024-07-16 04:00,Billing,low,portal,Ananya,1.4,3.81,3.0,No,Invoice shows wrong GST number
+TKT-5404,2024-09-29 02:00,billing,low,chat,Ananya,2.76,7.5,4.0,No,Refund not received after 14 days
+TKT-6069,2024-01-06 20:00,Bug,urgent,chat,Sara,0.94,3.22,3.0,No,Unable to apply coupon code
+TKT-5883,2024-03-25 14:00,login issue,low,chat,Vikram,4.33,12.35,4.0,No,Invoice shows wrong GST number
+TKT-5487,2024-10-16 06:00,login issue,urgent,email,Rahul,1.35,3.75,4.0,No,Customer cannot reset password
+TKT-6048,2024-12-30 07:00,Login Issue,low,email,Imran,4.67,13.29,4.0,No,Wants dark mode in the mobile app
+TKT-5471,2025-03-14 09:00,login issue,medium,email,Ananya,1.08,3.3,4.0,No,Delivery delayed by courier
+TKT-5256,2025-01-04 08:00,shipping,medium,email,Meera,0.93,11.31,3.0,No,Wants dark mode in the mobile app
+TKT-5894,2025-02-12 10:00,bug,medium,phone,Sara,1.15,6.4,5.0,No,Customer cannot reset password
+TKT-6480,2024-03-23 13:00,Login Issue,high,email,Sara,0.15,1.58,4.0,No,Invoice shows wrong GST number
+TKT-5138,2024-07-08 09:00,shipping,low,phone,Imran,1.64,10.16,3.0,No,App crashes on checkout
+TKT-5491,2025-04-17 22:00,bug,urgent,portal,Ananya,1.15,3.73,5.0,No,Customer cannot reset password
+TKT-6270,2024-07-20 02:00,shipping,medium,portal,Vikram,0.87,6.62,5.0,No,Delivery delayed by courier
+TKT-6146,2024-10-16 14:00,Billing,medium,portal,Vikram,0.42,4.78,4.0,No,Refund not received after 14 days
+TKT-5578,2025-05-01 23:00,bug,high,chat,Rahul,0.15,1.55,4.0,No,Refund not received after 14 days
+TKT-5706,2024-01-05 06:00,bug,low,email,Vikram,0.86,4.96,5.0,No,Customer cannot reset password
+TKT-5206,2025-02-20 12:00,shipping,medium,email,Vikram,1.5,9.94,4.0,No,Request to merge duplicate accounts
+TKT-6200,2025-04-24 01:00,shipping,low,email,Rahul,6.64,23.91,4.0,No,Wants dark mode in the mobile app
+TKT-5848,2025-03-22 21:00,shipping,high,email,Vikram,0.93,3.14,5.0,No,App crashes on checkout
+TKT-6430,2024-09-13 07:00,login issue,medium,chat,Ananya,2.93,7.92,4.0,Yes,Delivery delayed by courier
+TKT-6475,2024-06-13 15:00,billing,medium,email,Meera,4.82,13.6,4.0,No,Request to merge duplicate accounts
+TKT-5000,2024-02-18 15:00,bug,medium,phone,Meera,3.5,9.15,3.0,Yes,App crashes on checkout
+TKT-5226,2025-03-16 17:00,Shipping,medium,chat,,1.71,4.55,5.0,No,Wants dark mode in the mobile app
+TKT-6585,2024-06-22 02:00,Bug,low,portal,Rahul,1.18,7.44,4.0,No,Invoice shows wrong GST number
+TKT-5249,2024-01-23 16:00,BILLING,high,portal,Sara,0.1,1.57,4.0,No,Wants dark mode in the mobile app
+TKT-5889,2024-05-27 13:00,Login Issue,medium,portal,Imran,1.9,5.49,5.0,No,App crashes on checkout
+TKT-6132,2025-03-08 23:00,Bug,medium,email,Sara,0.71,3.43,5.0,No,Wants dark mode in the mobile app
+TKT-5705,2024-11-03 21:00,feature request,medium,email,Ananya,3.18,8.57,4.0,Yes,Invoice shows wrong GST number
+TKT-5979,2024-11-04 08:00,Login Issue,urgent,portal,Imran,0.88,4.29,3.0,No,Unable to apply coupon code
+TKT-6029,2024-07-01 02:00,Login Issue,high,email,,0.91,3.94,,No,Delivery delayed by courier
+TKT-6284,2024-07-27 02:00,bug,low,email,Imran,4.46,12.71,5.0,No,Invoice shows wrong GST number
+TKT-5283,2024-09-24 10:00,shipping,medium,email,Imran,1.61,7.17,4.0,No,Request to merge duplicate accounts
+TKT-5313,2024-06-02 06:00,Shipping,low,portal,Rahul,2.97,22.88,4.0,No,Customer cannot reset password
+TKT-5596,2024-11-11 18:00,feature request,medium,chat,Sara,4.13,12.77,3.0,No,Unable to apply coupon code
+TKT-5059,2025-01-07 06:00,feature request,medium,portal,Vikram,1.79,5.57,4.0,No,Wants dark mode in the mobile app
+TKT-6369,2024-12-11 19:00,feature request,medium,email,Meera,1.43,5.3,5.0,No,Delivery delayed by courier
+TKT-5047,2025-05-01 18:00,bug,medium,email,Ananya,2.43,6.79,4.0,No,Invoice shows wrong GST number
+TKT-6524,2024-11-24 23:00,login issue,low,email,Rahul,9.26,29.87,,No,Request to merge duplicate accounts
+TKT-6326,2025-01-05 05:00,login issue,urgent,chat,Rahul,0.17,1.0,4.0,Yes,Customer cannot reset password
+TKT-6468,2025-02-27 17:00,bug,medium,chat,Meera,3.68,18.57,4.0,No,Unable to apply coupon code
+TKT-5986,2024-12-02 01:00,login issue,medium,chat,Ananya,0.26,2.37,5.0,No,Delivery delayed by courier
+TKT-5969,2024-01-20 15:00,Bug,medium,chat,Imran,1.82,25.87,3.0,No,Request to merge duplicate accounts
+TKT-6310,2024-10-12 16:00,feature request,high,chat,Vikram,0.57,8.59,4.0,No,App crashes on checkout
+TKT-6565,2024-09-04 16:00,bug,low,email,Rahul,3.66,13.26,4.0,Yes,Unable to apply coupon code
+TKT-6549,2024-01-03 14:00,billing,low,chat,Vikram,0.71,3.05,5.0,No,Refund not received after 14 days
+TKT-5758,2024-03-10 17:00,bug,high,email,Meera,0.74,3.15,5.0,No,Invoice shows wrong GST number
+TKT-5978,2024-07-10 05:00,login issue,medium,portal,Imran,0.83,11.84,4.0,No,Invoice shows wrong GST number
+TKT-6510,2024-06-30 16:00,Shipping,medium,email,Imran,2.01,6.68,4.0,No,Refund not received after 14 days
+TKT-5312,2024-03-05 18:00,Feature Request,low,email,Meera,7.14,18.77,3.0,No,Customer cannot reset password
+TKT-5091,2025-03-14 14:00,Shipping,medium,portal,Ananya,0.51,2.64,,No,App crashes on checkout
+TKT-5721,2025-05-22 12:00,feature request,low,chat,Rahul,0.86,2.32,4.0,No,Invoice shows wrong GST number
+TKT-6265,2024-01-21 03:00,Shipping,medium,email,Rahul,1.48,4.19,4.0,No,Request to merge duplicate accounts
+TKT-5734,2024-04-23 12:00,billing,high,portal,Vikram,1.06,3.96,4.0,Yes,Delivery delayed by courier
+TKT-5811,2025-04-24 03:00,Bug,high,phone,Vikram,2.05,6.74,4.0,No,Delivery delayed by courier
+TKT-5459,2024-02-27 17:00,Shipping,medium,portal,Sara,1.23,6.4,4.0,Yes,Wants dark mode in the mobile app
+TKT-6527,2024-03-16 07:00,Billing,high,email,Meera,0.86,3.92,4.0,No,Invoice shows wrong GST number
+TKT-5849,2024-11-26 05:00,Bug,medium,portal,Sara,1.13,5.92,4.0,No,Request to merge duplicate accounts
+TKT-5383,2024-05-11 07:00,Billing,medium,chat,Rahul,0.21,2.12,5.0,No,Unable to apply coupon code
+TKT-5017,2024-03-10 19:00,feature request,medium,chat,Sara,2.14,6.43,5.0,No,App crashes on checkout
+TKT-5955,2024-11-28 23:00,Feature Request,medium,email,Rahul,2.11,9.13,4.0,No,Unable to apply coupon code
+TKT-6464,2025-04-09 07:00,feature request,urgent,email,Rahul,0.31,1.81,4.0,No,Wants dark mode in the mobile app
+TKT-6066,2025-05-19 11:00,Shipping,medium,chat,Sara,1.63,4.81,5.0,No,Invoice shows wrong GST number
+TKT-6209,2025-06-08 22:00,bug,low,email,Sara,2.4,10.32,4.0,No,Request to merge duplicate accounts
+TKT-5987,2024-06-21 08:00,bug,urgent,email,Imran,0.16,2.75,3.0,No,Delivery delayed by courier
+TKT-6014,2024-10-10 00:00,Bug,low,email,Imran,1.15,4.2,4.0,No,Wants dark mode in the mobile app
+TKT-6569,2025-06-20 15:00,feature request,low,portal,Ananya,3.43,9.4,4.0,No,Customer cannot reset password
+TKT-6538,2025-01-19 21:00,feature request,medium,chat,Vikram,2.23,11.01,2.0,Yes,Unable to apply coupon code
+TKT-5125,2024-11-04 01:00,login issue,low,email,Sara,3.32,15.37,4.0,No,Delivery delayed by courier
+TKT-5511,2025-02-10 13:00,shipping,low,chat,Rahul,0.78,11.35,5.0,No,Request to merge duplicate accounts
+TKT-5076,2024-06-28 22:00,Login Issue,low,phone,Ananya,1.48,11.09,3.0,No,Wants dark mode in the mobile app
+TKT-5930,2024-10-19 23:00,Shipping,urgent,phone,Rahul,0.36,2.62,3.0,No,Delivery delayed by courier
+TKT-5141,2024-04-26 22:00,shipping,medium,chat,Vikram,2.14,6.07,4.0,No,Request to merge duplicate accounts
+TKT-6583,2024-08-13 15:00,billing,low,phone,Rahul,2.32,24.28,3.0,No,Wants dark mode in the mobile app
+TKT-5585,2025-05-19 00:00,billing,low,portal,Vikram,8.73,24.87,5.0,No,Request to merge duplicate accounts
+TKT-5818,2024-12-28 20:00,Shipping,low,chat,Sara,0.55,2.42,3.0,No,Delivery delayed by courier
+TKT-6572,2025-02-04 02:00,login issue,medium,chat,Vikram,0.56,5.45,5.0,No,App crashes on checkout
+TKT-5787,2025-01-08 22:00,feature request,high,phone,Ananya,0.24,4.54,5.0,No,Refund not received after 14 days
+TKT-5555,2024-10-01 23:00,billing,low,phone,Ananya,4.1,18.85,4.0,No,Unable to apply coupon code
+TKT-6176,2024-06-21 11:00,Login Issue,high,email,Rahul,0.38,3.6,4.0,No,Unable to apply coupon code
+TKT-6056,2024-09-02 00:00,BILLING,urgent,chat,Meera,3.04,8.61,4.0,No,Delivery delayed by courier
+TKT-5015,2025-03-04 09:00,shipping,low,chat,Rahul,5.31,16.46,,No,Request to merge duplicate accounts
+TKT-5435,2024-03-08 10:00,billing,medium,chat,Sara,0.43,4.21,5.0,No,Delivery delayed by courier
+TKT-5498,2025-05-19 22:00,bug,medium,portal,Vikram,0.52,7.38,5.0,No,Wants dark mode in the mobile app
+TKT-5619,2024-03-17 04:00,Shipping,low,chat,Meera,0.59,4.33,4.0,No,Request to merge duplicate accounts
+TKT-6427,2025-05-06 21:00,billing,low,portal,Rahul,5.84,16.17,,No,App crashes on checkout
+TKT-5450,2025-06-07 08:00,billing,medium,portal,Meera,1.59,4.24,5.0,Yes,Invoice shows wrong GST number
+TKT-5766,2024-11-29 21:00,billing,low,phone,Meera,1.63,7.4,5.0,No,App crashes on checkout
+TKT-5035,2024-02-04 18:00,feature request,urgent,chat,Vikram,0.37,5.01,3.0,No,Refund not received after 14 days
+TKT-5947,2024-03-14 01:00,feature request,medium,portal,Meera,0.57,6.26,4.0,No,Refund not received after 14 days
+TKT-6249,2025-06-16 23:00,login issue,high,portal,Imran,4.79,15.91,4.0,No,Delivery delayed by courier
+TKT-6196,2025-01-23 20:00,login issue,high,chat,Sara,0.44,4.67,4.0,No,Request to merge duplicate accounts
+TKT-5981,2025-01-17 14:00,Bug,high,email,Vikram,0.62,3.89,4.0,Yes,Invoice shows wrong GST number
+TKT-5241,2024-11-14 08:00,bug,high,portal,Rahul,0.6,4.75,5.0,No,Refund not received after 14 days
+TKT-5529,2025-05-16 22:00,Billing,medium,chat,Ananya,1.69,6.46,4.0,No,Delivery delayed by courier
+TKT-5343,2024-10-07 16:00,Bug,high,email,Sara,0.16,2.75,5.0,No,Delivery delayed by courier
+TKT-6180,2024-11-27 08:00,shipping,high,phone,Rahul,0.36,2.23,4.0,No,Invoice shows wrong GST number
+TKT-6442,2025-05-24 09:00,login issue,medium,portal,Ananya,2.91,8.37,3.0,No,Unable to apply coupon code
+TKT-6532,2025-05-23 10:00,Bug,medium,chat,Ananya,0.81,3.4,4.0,No,App crashes on checkout
+TKT-5886,2024-01-29 21:00,feature request,medium,email,Rahul,0.33,1.49,5.0,No,Refund not received after 14 days
+TKT-5506,2024-10-16 09:00,Feature Request,urgent,chat,,1.92,5.66,5.0,No,App crashes on checkout
+TKT-6219,2024-08-27 20:00,login issue,urgent,email,Imran,1.06,2.74,3.0,No,Refund not received after 14 days
+TKT-5215,2024-05-28 08:00,Billing,medium,email,Sara,2.6,16.49,4.0,No,Wants dark mode in the mobile app
+TKT-5208,2024-05-23 14:00,bug,medium,chat,Ananya,2.65,10.76,4.0,No,Wants dark mode in the mobile app
+TKT-5945,2024-03-05 23:00,bug,medium,portal,Sara,1.23,3.82,4.0,No,Delivery delayed by courier
+TKT-5064,2024-08-11 21:00,billing,low,email,Ananya,0.86,6.35,4.0,No,Customer cannot reset password
+TKT-5010,2024-10-13 22:00,billing,medium,email,Ananya,1.41,4.8,4.0,No,Refund not received after 14 days
+TKT-6202,2025-06-20 16:00,Shipping,medium,email,Meera,1.49,4.76,4.0,No,Refund not received after 14 days
+TKT-5252,2024-04-12 13:00,login issue,high,email,Ananya,0.45,2.53,4.0,No,Wants dark mode in the mobile app
+TKT-5603,2024-03-14 07:00,login issue,high,phone,Ananya,1.06,4.15,5.0,No,Unable to apply coupon code
+TKT-5805,2025-03-01 19:00,login issue,medium,phone,Vikram,3.12,11.31,3.0,No,Invoice shows wrong GST number
+TKT-6285,2024-01-27 16:00,login issue,low,email,Imran,0.37,6.81,4.0,No,Customer cannot reset password
+TKT-6124,2025-04-03 02:00,BILLING,medium,chat,Meera,1.16,5.25,4.0,No,Unable to apply coupon code
+TKT-6191,2024-05-31 12:00,bug,low,phone,Rahul,0.48,4.43,4.0,No,Customer cannot reset password
+TKT-5314,2024-05-12 21:00,Shipping,high,email,Rahul,0.57,1.99,4.0,No,Unable to apply coupon code
+TKT-5518,2024-09-16 02:00,bug,low,portal,Sara,2.47,7.24,4.0,Yes,Delivery delayed by courier
+TKT-5465,2025-06-10 14:00,Bug,low,email,Sara,0.85,8.02,4.0,No,Wants dark mode in the mobile app
+TKT-5931,2025-01-16 09:00,billing,low,chat,Imran,2.6,7.24,4.0,No,Delivery delayed by courier
+TKT-5963,2024-04-28 14:00,billing,medium,email,Imran,0.36,5.77,3.0,No,Unable to apply coupon code
+TKT-5842,2025-05-10 15:00,Login Issue,high,email,Sara,1.32,3.41,5.0,No,Wants dark mode in the mobile app
+TKT-6470,2025-05-04 07:00,bug,medium,chat,Vikram,3.46,8.75,4.0,No,Wants dark mode in the mobile app
+TKT-6571,2024-07-16 00:00,login issue,low,email,Meera,3.12,8.33,4.0,No,Delivery delayed by courier
+TKT-5367,2024-06-21 04:00,feature request,medium,chat,Rahul,0.75,3.04,4.0,No,App crashes on checkout
+TKT-5145,2025-04-10 02:00,BILLING,medium,email,Ananya,0.44,2.83,4.0,No,Delivery delayed by courier
+TKT-5362,2024-05-01 18:00,Bug,low,phone,,1.25,8.23,3.0,No,Wants dark mode in the mobile app
+TKT-5630,2025-02-05 15:00,Shipping,high,email,Imran,1.32,3.38,3.0,No,Wants dark mode in the mobile app
+TKT-5090,2024-08-25 04:00,login issue,urgent,email,Meera,0.76,2.44,4.0,No,Delivery delayed by courier
+TKT-5321,2024-02-28 17:00,billing,high,chat,Ananya,0.81,4.75,5.0,No,App crashes on checkout
+TKT-5185,2024-08-31 03:00,shipping,medium,portal,Vikram,1.6,4.1,3.0,Yes,App crashes on checkout
+TKT-5924,2024-05-15 07:00,Login Issue,medium,chat,Rahul,0.35,6.14,4.0,No,Wants dark mode in the mobile app
+TKT-6156,2024-03-06 11:00,feature request,medium,email,Sara,6.35,16.47,4.0,No,Invoice shows wrong GST number
+TKT-5868,2024-08-31 08:00,billing,urgent,chat,Imran,0.34,1.69,5.0,No,App crashes on checkout
+TKT-5756,2025-02-05 22:00,Shipping,low,chat,Rahul,3.8,10.89,4.0,No,Customer cannot reset password
+TKT-5119,2024-03-03 10:00,feature request,low,chat,Ananya,1.13,5.46,4.0,No,Invoice shows wrong GST number
+TKT-6062,2024-03-19 12:00,Shipping,low,email,Ananya,1.96,8.68,4.0,No,Refund not received after 14 days
+TKT-5840,2024-06-06 10:00,Bug,high,portal,Meera,1.02,2.87,4.0,No,Wants dark mode in the mobile app
+TKT-5493,2024-11-24 16:00,login issue,medium,email,Vikram,0.9,9.27,4.0,No,Request to merge duplicate accounts
+TKT-5443,2024-09-23 06:00,billing,low,portal,Imran,2.69,7.22,4.0,No,Refund not received after 14 days
+TKT-5338,2024-04-20 11:00,billing,high,chat,Vikram,0.26,2.8,5.0,No,Invoice shows wrong GST number
+TKT-6108,2025-05-27 16:00,Bug,medium,chat,Vikram,0.78,5.35,4.0,No,Wants dark mode in the mobile app
+TKT-5224,2025-01-28 06:00,bug,medium,email,Rahul,2.47,7.59,4.0,No,Refund not received after 14 days
+TKT-5019,2024-09-02 11:00,login issue,urgent,phone,Ananya,0.22,0.67,4.0,No,Wants dark mode in the mobile app
+TKT-6096,2025-03-31 07:00,bug,high,phone,Rahul,2.07,5.3,3.0,No,Delivery delayed by courier
+TKT-5418,2024-06-10 14:00,bug,medium,email,Vikram,0.84,4.75,5.0,No,Request to merge duplicate accounts
+TKT-6099,2024-08-24 09:00,billing,high,portal,Meera,0.86,2.61,5.0,No,Invoice shows wrong GST number
+TKT-6404,2024-04-06 16:00,login issue,low,chat,Imran,1.41,9.64,5.0,Yes,Unable to apply coupon code
+TKT-5991,2024-10-26 06:00,login issue,medium,portal,Vikram,1.27,3.76,5.0,No,Invoice shows wrong GST number
+TKT-5385,2024-03-07 21:00,Bug,medium,portal,Rahul,0.07,1.31,4.0,No,App crashes on checkout
+TKT-5929,2024-11-11 00:00,Login Issue,low,email,Ananya,0.68,8.89,4.0,No,Unable to apply coupon code
+TKT-5452,2024-09-29 01:00,billing,high,phone,Sara,1.97,4.96,5.0,No,Refund not received after 14 days
+TKT-5264,2025-06-23 09:00,login issue,medium,phone,Vikram,1.79,13.99,4.0,No,Customer cannot reset password
+TKT-6064,2025-02-14 10:00,bug,high,portal,Rahul,1.79,4.91,5.0,No,Delivery delayed by courier
+TKT-6452,2024-01-28 22:00,login issue,medium,phone,Rahul,0.84,2.44,4.0,No,Invoice shows wrong GST number
+TKT-5160,2025-06-26 21:00,feature request,medium,chat,Ananya,1.28,6.89,4.0,No,Unable to apply coupon code
+TKT-5110,2024-05-31 00:00,Bug,medium,email,Sara,1.79,4.75,3.0,No,Invoice shows wrong GST number
+TKT-5303,2025-05-03 09:00,Bug,high,chat,Sara,1.0,5.07,4.0,No,Unable to apply coupon code
+TKT-6589,2024-01-17 06:00,billing,urgent,chat,Vikram,0.09,1.67,4.0,No,Invoice shows wrong GST number
+TKT-5048,2025-01-04 11:00,Billing,medium,chat,Meera,2.97,10.18,,No,Refund not received after 14 days
+TKT-5509,2024-05-08 23:00,Shipping,medium,email,,0.66,2.63,4.0,No,App crashes on checkout
+TKT-5018,2025-04-02 15:00,bug,low,email,Vikram,4.35,16.94,4.0,No,Delivery delayed by courier
+TKT-6067,2024-12-15 06:00,Billing,low,chat,Meera,4.91,17.56,4.0,No,Request to merge duplicate accounts
+TKT-6297,2025-01-04 02:00,Login Issue,low,email,Ananya,0.71,13.2,4.0,No,Delivery delayed by courier
+TKT-6467,2024-07-28 13:00,feature request,low,email,Imran,3.23,10.47,,No,Wants dark mode in the mobile app
+TKT-5934,2024-08-29 06:00,shipping,medium,chat,Meera,1.1,7.21,4.0,No,Invoice shows wrong GST number
+TKT-6114,2024-04-15 22:00,Billing,high,email,Vikram,1.27,5.08,5.0,No,Delivery delayed by courier
+TKT-5885,2025-02-04 08:00,BILLING,medium,portal,Sara,0.16,3.23,4.0,No,Request to merge duplicate accounts
+TKT-5275,2024-09-19 20:00,login issue,medium,email,Meera,1.88,6.16,5.0,No,Customer cannot reset password
+TKT-5114,2024-10-02 13:00,Shipping,low,portal,Ananya,2.1,6.62,5.0,No,Refund not received after 14 days
+TKT-6352,2024-09-27 05:00,Bug,medium,phone,Ananya,2.62,9.95,5.0,No,App crashes on checkout
+TKT-6489,2024-10-03 22:00,login issue,low,phone,Rahul,2.95,7.54,4.0,No,Customer cannot reset password
+TKT-5727,2024-02-17 19:00,Login Issue,low,email,Meera,1.09,6.16,5.0,No,Invoice shows wrong GST number
+TKT-6155,2024-11-15 23:00,Shipping,high,email,Ananya,0.82,3.14,3.0,No,Delivery delayed by courier
+TKT-5001,2025-02-25 19:00,login issue,high,chat,Ananya,0.26,3.58,4.0,No,Invoice shows wrong GST number
+TKT-5227,2024-11-11 16:00,login issue,low,email,Rahul,1.44,5.28,4.0,No,Request to merge duplicate accounts
+TKT-5133,2024-10-31 18:00,Bug,low,chat,,3.0,10.11,4.0,No,Unable to apply coupon code
+TKT-5248,2025-03-04 20:00,shipping,medium,email,Ananya,2.52,8.68,4.0,No,Invoice shows wrong GST number
+TKT-6307,2024-05-09 12:00,Shipping,medium,email,Sara,0.96,3.12,5.0,No,Invoice shows wrong GST number
+TKT-5496,2024-03-05 19:00,billing,urgent,chat,Ananya,0.23,0.96,5.0,No,Unable to apply coupon code
+TKT-5960,2024-03-24 15:00,login issue,low,email,Meera,2.06,5.63,4.0,No,Unable to apply coupon code
+TKT-5335,2025-03-16 11:00,login issue,medium,email,Meera,0.64,2.87,4.0,No,Unable to apply coupon code
+TKT-5439,2024-08-04 16:00,Billing,low,email,Meera,5.89,16.03,5.0,No,Request to merge duplicate accounts
+TKT-6287,2024-05-07 19:00,login issue,urgent,chat,Rahul,0.41,1.08,4.0,No,Refund not received after 14 days
+TKT-6166,2024-01-12 22:00,bug,high,chat,Sara,0.81,3.91,5.0,No,Customer cannot reset password
+TKT-6269,2024-01-27 12:00,feature request,medium,chat,Meera,0.47,4.77,4.0,No,Invoice shows wrong GST number
+TKT-5812,2025-01-08 01:00,Bug,high,chat,Meera,0.18,1.82,5.0,Yes,Unable to apply coupon code
+TKT-6051,2024-07-17 21:00,shipping,medium,chat,Imran,2.59,19.46,3.0,No,Request to merge duplicate accounts
+TKT-5441,2024-06-13 00:00,login issue,medium,email,,0.46,6.41,3.0,No,Invoice shows wrong GST number
+TKT-6162,2025-04-07 03:00,Feature Request,high,email,Imran,0.31,1.8,4.0,No,Customer cannot reset password
+TKT-6387,2024-06-26 07:00,Feature Request,low,email,Ananya,4.07,13.89,4.0,No,Refund not received after 14 days
+TKT-6113,2024-06-08 04:00,feature request,urgent,portal,Vikram,0.4,1.24,5.0,No,App crashes on checkout
+TKT-5838,2024-01-08 22:00,BILLING,medium,email,Sara,1.35,3.38,4.0,No,Customer cannot reset password
+TKT-6047,2024-11-23 10:00,bug,high,portal,Ananya,2.92,8.58,4.0,No,Unable to apply coupon code
+TKT-6103,2024-03-23 02:00,Billing,medium,chat,Ananya,2.68,11.94,5.0,No,Customer cannot reset password
+TKT-6149,2025-04-09 08:00,shipping,high,email,Vikram,0.25,2.92,3.0,No,Unable to apply coupon code
+TKT-5242,2024-02-21 14:00,bug,medium,chat,Rahul,1.23,7.56,5.0,No,Wants dark mode in the mobile app
+TKT-6394,2024-04-27 12:00,Feature Request,medium,chat,Sara,1.62,5.44,4.0,No,Delivery delayed by courier
+TKT-5683,2025-06-06 14:00,BILLING,high,phone,Ananya,1.27,9.2,4.0,No,Invoice shows wrong GST number
+TKT-6350,2024-02-02 20:00,bug,low,portal,Meera,5.42,19.27,3.0,No,Refund not received after 14 days
+TKT-5657,2024-12-10 22:00,Login Issue,low,email,Ananya,2.12,7.69,4.0,No,Wants dark mode in the mobile app
+TKT-5504,2024-05-29 08:00,Bug,medium,email,Meera,2.0,7.56,4.0,No,Delivery delayed by courier
+TKT-5408,2025-05-24 05:00,login issue,low,portal,Sara,5.47,18.92,4.0,No,App crashes on checkout
+TKT-5057,2024-03-25 02:00,shipping,low,portal,Sara,1.18,665.72,5.0,No,Refund not received after 14 days
+TKT-6105,2024-04-08 14:00,Login Issue,medium,chat,Meera,3.44,9.63,3.0,No,App crashes on checkout
+TKT-6492,2024-01-16 22:00,Feature Request,medium,email,Sara,0.49,2.11,5.0,Yes,Request to merge duplicate accounts
+TKT-6255,2024-02-16 05:00,Login Issue,low,portal,Rahul,3.72,13.31,3.0,No,Request to merge duplicate accounts
+TKT-6525,2024-01-26 19:00,Shipping,medium,portal,Imran,1.36,6.33,5.0,No,Wants dark mode in the mobile app
+TKT-6061,2025-01-09 18:00,Shipping,high,email,Sara,0.79,3.14,4.0,No,Request to merge duplicate accounts
+TKT-5140,2025-06-19 14:00,login issue,medium,chat,Vikram,1.71,7.22,4.0,No,Wants dark mode in the mobile app
+TKT-5546,2024-08-21 22:00,Login Issue,low,portal,Sara,1.54,12.21,5.0,No,App crashes on checkout
+TKT-5900,2024-01-03 09:00,shipping,urgent,chat,Imran,0.33,0.88,4.0,Yes,Unable to apply coupon code
+TKT-5637,2024-06-10 19:00,feature request,low,phone,Vikram,0.7,5.83,4.0,No,Customer cannot reset password
+TKT-6260,2024-05-25 00:00,Shipping,low,phone,Ananya,1.83,8.15,4.0,Yes,Unable to apply coupon code
+TKT-6440,2025-02-28 20:00,login issue,medium,email,Vikram,0.67,5.22,4.0,No,Request to merge duplicate accounts
+TKT-5688,2024-08-30 15:00,shipping,medium,portal,Rahul,1.86,10.58,4.0,No,Delivery delayed by courier
+TKT-5621,2024-09-17 10:00,Login Issue,high,portal,Ananya,1.71,4.5,4.0,No,Request to merge duplicate accounts
+TKT-5850,2025-06-18 03:00,login issue,urgent,email,Rahul,0.31,1.61,3.0,No,Request to merge duplicate accounts
+TKT-5583,2024-01-29 07:00,Shipping,medium,portal,Vikram,0.75,5.47,5.0,No,Refund not received after 14 days
+TKT-5332,2024-06-17 22:00,billing,medium,email,Rahul,1.2,3.4,5.0,No,Wants dark mode in the mobile app
+TKT-6293,2024-01-03 10:00,Billing,medium,phone,Ananya,0.64,7.81,5.0,Yes,Request to merge duplicate accounts
+TKT-6361,2024-02-06 14:00,login issue,low,email,Ananya,3.06,8.01,4.0,No,Request to merge duplicate accounts
+TKT-6115,2024-09-24 03:00,Billing,high,portal,Sara,0.71,4.49,4.0,No,Request to merge duplicate accounts
+TKT-6104,2024-06-15 22:00,Feature Request,high,portal,Meera,0.88,7.24,3.0,No,Wants dark mode in the mobile app
