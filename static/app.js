@@ -38,6 +38,7 @@ async function api(path, opts = {}) {
   if (!res.ok) {
     let detail = res.statusText;
     try { detail = (await res.json()).detail || detail; } catch (e) { /* keep statusText */ }
+    if (res.status === 402) openPaywall(detail);
     throw new Error(detail);
   }
   return res.json();
@@ -65,6 +66,8 @@ function compact(n) {
 /* ============================================================ boot */
 async function boot() {
   wireEvents();
+  refreshAuth();
+  if (location.hash === "#upgraded") { setTimeout(refreshAuth, 1500); toast("Welcome to Pro!"); }
   try {
     const h = await api("/api/health");
     S.llm = h.llm;
@@ -690,6 +693,172 @@ function openSettings() {
   };
 }
 
+/* ============================================================ auth + billing */
+async function refreshAuth() {
+  try { S.auth = await api("/api/auth/me"); }
+  catch (e) { S.auth = { guest: true, plan: "free", usage: {}, limits: {} }; }
+  const b = $("btnAccount");
+  b.textContent = S.auth.guest ? "Sign in"
+    : `${(S.auth.email || "").split("@")[0]} · ${S.auth.plan.toUpperCase()}`;
+  b.classList.toggle("primary", !S.auth.guest && S.auth.plan === "pro");
+  const adm = $("btnAdmin");
+  if (adm) adm.classList.toggle("hidden", !(S.auth && S.auth.is_admin));
+}
+
+function openAccount() {
+  const host = $("modalHost");
+  if (S.auth.guest) {
+    host.innerHTML = `<div class="modal-bg"><div class="modal">
+      <h3>Sign in / create account</h3>
+      <div class="sub">Save your dashboards and unlock higher limits. Free plan:
+        ${(S.auth.limits.questions ?? 100)} questions & ${(S.auth.limits.max_rows ?? 50000).toLocaleString()} rows /mo.</div>
+      <label class="fld">Email</label><input type="text" id="aEmail" autocomplete="email" />
+      <label class="fld" style="margin-top:10px">Password (8+ chars)</label><input type="password" id="aPass" />
+      <div class="row">
+        <button class="btn" id="aLogin">Sign in</button>
+        <button class="btn primary" id="aSignup">Create free account</button>
+      </div></div></div>`;
+    const doIt = async (p) => {
+      try {
+        const r = await api(p, { method: "POST",
+          body: { email: $("aEmail").value, password: $("aPass").value } });
+        host.innerHTML = ""; await refreshAuth(); toast("Signed in as " + r.email);
+      } catch (e) { toast(e.message, true); }
+    };
+    $("aLogin").onclick = () => doIt("/api/auth/login");
+    $("aSignup").onclick = () => doIt("/api/auth/signup");
+  } else {
+    const u = S.auth.usage || {}, L = S.auth.limits || {};
+    host.innerHTML = `<div class="modal-bg"><div class="modal">
+      <h3>${esc(S.auth.email)}</h3>
+      <div class="sub">Plan: <b style="color:var(--accent-2)">${S.auth.plan.toUpperCase()}</b></div>
+      <div class="sub">This month: ${u.questions || 0} questions · ${u.exports || 0} exports · ${u.datasets || 0} datasets</div>
+      <div class="sub">Free limits: ${(L.questions ?? 100)} questions, ${(L.max_rows ?? 50000).toLocaleString()} rows, ${L.exports ?? 20} exports /mo.</div>
+      <div class="row">
+        <button class="btn" id="aLogout">Sign out</button>
+        ${S.auth.plan === "pro" ? '<button class="btn primary" id="aManage">Manage subscription</button>'
+                                : '<button class="btn primary" id="aUpgrade">Upgrade to Pro</button>'}
+      </div></div></div>`;
+    $("aLogout").onclick = async () => {
+      await api("/api/auth/logout", { method: "POST" });
+      host.innerHTML = ""; await refreshAuth();
+    };
+    const up = $("aUpgrade"); if (up) up.onclick = openPricing;
+    const mg = $("aManage"); if (mg) mg.onclick = manageSubscription;
+  }
+}
+
+async function startCheckout() {
+  try {
+    const r = await api("/api/billing/checkout", { method: "POST" });
+    if (r.mode === "stripe" && r.url) { window.open(r.url, "_blank"); toast("Finish payment in the new tab, then come back."); return; }
+    showDryCheckout(r.price || 29);
+  } catch (e) { toast(e.message, true); }
+}
+
+function showDryCheckout(price) {
+  const host = $("modalHost");
+  host.innerHTML = `<div class="modal-bg"><div class="modal">
+    <h3>Stripe · test mode</h3>
+    <div class="sub">No live keys on this server, so this is a simulated Checkout that
+      runs the real upgrade path. Test card 4242 4242 4242 4242.</div>
+    <div class="drycard"><div class="dc-top">AutoAnalytics <b>Pro</b></div>
+      <div class="dc-amt">$${price}.00 <span>/ month</span></div>
+      <div class="dc-cc">4242 4242 4242 4242 &nbsp;·&nbsp; 12/34 &nbsp;·&nbsp; 123</div></div>
+    <div class="row"><button class="btn" id="dCancel">Cancel</button>
+      <button class="btn primary" id="dPay">Pay $${price}.00</button></div></div></div>`;
+  $("dCancel").onclick = () => (host.innerHTML = "");
+  $("dPay").onclick = async () => {
+    busy($("dPay"), true);
+    try { await api("/api/billing/dryrun", { method: "POST" });
+      host.innerHTML = ""; await refreshAuth(); toast("Welcome to Pro — limits lifted!"); }
+    catch (e) { toast(e.message, true); }
+    busy($("dPay"), false);
+  };
+}
+
+function openPricing() {
+  const host = $("modalHost"), auth = S.auth || {};
+  const isPro = !auth.guest && auth.plan === "pro";
+  const free = ["50,000 rows per file", "5 MB upload", "100 questions / mo", "20 exports / mo", "10 saved datasets"];
+  const pro = ["5,000,000 rows per file", "40 MB upload", "Unlimited questions", "Unlimited exports", "2x-resolution PNG exports", "Priority support"];
+  const li = (arr) => arr.map((f) => `<li>${f}</li>`).join("");
+  host.innerHTML = `<div class="modal-bg"><div class="modal wide">
+    <h3>Simple, transparent pricing</h3>
+    <div class="sub">Start free. Upgrade the moment you need more.</div>
+    <div class="plans">
+      <div class="plan"><div class="pname">Free</div><div class="pprice">$0</div>
+        <ul>${li(free)}</ul>
+        <button class="btn" id="prFree">${auth.guest ? "Start free" : "Your plan"}</button></div>
+      <div class="plan hl"><div class="tag">Popular</div><div class="pname">Pro</div>
+        <div class="pprice">$29<span>/mo</span></div>
+        <ul>${li(pro)}</ul>
+        <button class="btn primary" id="prPro">${isPro ? "You're on Pro" : "Upgrade to Pro"}</button></div>
+    </div>
+    <div class="sub" style="margin-top:12px">${auth.guest
+      ? "Create a free account, then upgrade in one click."
+      : "Payments are handled by Stripe. Cancel anytime."}</div>
+  </div></div>`;
+  $("prFree").onclick = () => (auth.guest ? openAccount() : (host.innerHTML = ""));
+  const p = $("prPro");
+  if (isPro) p.onclick = () => (host.innerHTML = ""); else p.onclick = startCheckout;
+}
+
+async function manageSubscription() {
+  const host = $("modalHost");
+  try {
+    const r = await api("/api/billing/portal", { method: "POST" });
+    if (r.mode === "stripe" && r.url) { window.open(r.url, "_blank"); return; }
+    host.innerHTML = `<div class="modal-bg"><div class="modal">
+      <h3>Manage subscription</h3>
+      <div class="sub">No live Stripe on this server, so this demo subscription can be
+        cancelled right here. With live Stripe you'd be taken to the billing portal.</div>
+      <div class="row"><button class="btn" id="mKeep">Keep Pro</button>
+        <button class="btn danger" id="mCancel">Cancel Pro &rarr; Free</button></div></div></div>`;
+    $("mKeep").onclick = () => (host.innerHTML = "");
+    $("mCancel").onclick = async () => {
+      try { await api("/api/billing/cancel", { method: "POST" });
+        host.innerHTML = ""; await refreshAuth(); toast("Subscription cancelled — back on Free."); }
+      catch (e) { toast(e.message, true); }
+    };
+  } catch (e) { toast(e.message, true); }
+}
+
+async function openAdmin() {
+  const host = $("modalHost");
+  host.innerHTML = `<div class="modal-bg"><div class="modal wide"><h3>Admin · usage</h3><div class="sub">Loading…</div></div></div>`;
+  try {
+    const r = await api("/api/admin/usage");
+    const rows = r.accounts.map((x) =>
+      `<tr><td>${esc(x.email)}</td><td>${x.plan.toUpperCase()}${x.is_admin ? " · admin" : ""}</td>` +
+      `<td>${x.questions}</td><td>${x.exports}</td><td>${x.datasets}</td></tr>`).join("");
+    host.innerHTML = `<div class="modal-bg"><div class="modal wide">
+      <h3>Admin · usage — ${r.month}</h3>
+      <div class="sub">${r.totals.accounts} accounts · ${r.totals.pro} on Pro ·
+        ${r.totals.questions} questions · ${r.totals.exports} exports this month</div>
+      <table class="utable"><thead><tr><th>Account</th><th>Plan</th><th>Questions</th>
+        <th>Exports</th><th>Datasets</th></tr></thead>
+        <tbody>${rows || '<tr><td colspan="5">No accounts yet.</td></tr>'}</tbody></table>
+    </div></div>`;
+  } catch (e) {
+    host.innerHTML = `<div class="modal-bg"><div class="modal"><h3>Admin</h3><div class="sub">${esc(e.message)}</div></div></div>`;
+  }
+}
+
+function openPaywall(msg) {
+  const host = $("modalHost");
+  host.innerHTML = `<div class="modal-bg"><div class="modal">
+    <h3>You've hit the free limit</h3>
+    <div class="sub">${esc(msg || "Upgrade to Pro for higher limits.")}</div>
+    <div class="row">
+      <button class="btn" id="pClose">Not now</button>
+      ${S.auth.guest ? '<button class="btn primary" id="pGo">Create free account</button>'
+                     : '<button class="btn primary" id="pGo">Upgrade to Pro</button>'}
+    </div></div></div>`;
+  $("pClose").onclick = () => (host.innerHTML = "");
+  $("pGo").onclick = () => (S.auth.guest ? openAccount() : openPricing());
+}
+
 /* ============================================================ events */
 function wireEvents() {
   const dz = $("dropzone");
@@ -732,6 +901,9 @@ function wireEvents() {
     busy($("dropzone"), false);
   };
   $("btnSettings").onclick = openSettings;
+  $("btnAccount").onclick = openAccount;
+  $("btnPricing").onclick = openPricing;
+  $("btnAdmin").onclick = openAdmin;
 
   document.querySelectorAll(".tab").forEach((t) => (t.onclick = () => switchTab(t.dataset.tab)));
 
@@ -747,10 +919,13 @@ function wireEvents() {
   $("btnExportCsv").onclick = () => exportTable("csv");
   $("btnExportMd").onclick = () => exportTable("md");
   $("btnExportPng").onclick = async () => {
-    const url = await Charts.toPNG($("exploreChart"));
+    const isPro = !!(S.auth && S.auth.plan === "pro");
+    const scale = isPro ? 4 : 2;                    // Pro exports at 2x resolution
+    const url = await Charts.toPNG($("exploreChart"), scale);
     if (!url) return toast("Nothing to export", true);
     const a = document.createElement("a");
-    a.href = url; a.download = "chart.png"; a.click();
+    a.href = url; a.download = isPro ? "chart@2x.png" : "chart.png"; a.click();
+    toast(isPro ? "Exported high-res (2x) PNG." : "Exported PNG. Pro unlocks 2x resolution.");
   };
 
   $("btnAsk").onclick = () => askQuestion($("askInput").value);

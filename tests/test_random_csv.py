@@ -35,6 +35,7 @@ def upload(client, seed, shape, delim, enc):
 
 @pytest.mark.parametrize("seed,shape,delim,enc", CASES)
 def test_random_end_to_end(client, seed, shape, delim, enc):
+    client.cookies.clear()          # fresh guest identity per case (own quota bucket)
     body, df = upload(client, seed, shape, delim, enc)
     did = body["dataset"]["id"]
     try:
@@ -132,6 +133,7 @@ def test_random_end_to_end(client, seed, shape, delim, enc):
 
 
 def test_latin1_and_odd_values(client):
+    client.cookies.clear()
     raw = ("id,ville,révenu\n1,Paris,1200\n2,Lyon,980\n3,Marseille,1500\n"
            "4,Paris,760\n5,Lyon,1100\n").encode("latin-1")
     r = client.post("/api/upload", files={"file": ("accent.csv", raw, "text/csv")})
@@ -149,6 +151,7 @@ def test_latin1_and_odd_values(client):
 
 
 def test_tiny_and_degenerate_uploads(client):
+    client.cookies.clear()
     # one row, one column, all-constant column: must not crash, must still answer
     for raw in (b"a\n1\n", b"x,y\n5,5\n5,5\n5,5\n"):
         r = client.post("/api/upload", files={"file": ("deg.csv", raw, "text/csv")})

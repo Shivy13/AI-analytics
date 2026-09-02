@@ -148,10 +148,11 @@ def coerce_series(df: pd.DataFrame, col: str, sem: str) -> pd.Series:
 
 
 class Dataset:
-    def __init__(self, dataset_id: str, name: str, df: pd.DataFrame):
+    def __init__(self, dataset_id: str, name: str, df: pd.DataFrame, owner: str | None = None):
         self.id = dataset_id
         self.name = name
         self.df = df
+        self.owner = owner
         self.created = datetime.now(timezone.utc).isoformat()
         self.types = infer_semantic_types(df)
         self._series: dict[str, pd.Series] = {}
@@ -190,6 +191,7 @@ class Dataset:
             "rows": self.rows,
             "columns": len(self.df.columns),
             "created": self.created,
+            "owner": self.owner,
             "type_counts": counts,
             "column_names": list(self.df.columns),
         }
@@ -214,25 +216,27 @@ class DatasetStore:
                 path = os.path.join(DATA_DIR, f"{did}.csv")
                 if os.path.exists(path):
                     try:
-                        self._items[did] = self._open(did, info.get("name", did + ".csv"), path)
+                        self._items[did] = self._open(did, info.get("name", did + ".csv"), path,
+                                                      owner=info.get("owner"))
                     except Exception:
                         pass
 
     def _save_index(self):
-        json.dump({d: {"name": v.name, "created": v.created} for d, v in self._items.items()},
+        json.dump({d: {"name": v.name, "created": v.created, "owner": v.owner}
+                   for d, v in self._items.items()},
                   open(self.index_path, "w"), indent=2)
 
     @staticmethod
-    def _open(did: str, name: str, path: str) -> Dataset:
+    def _open(did: str, name: str, path: str, owner: str | None = None) -> Dataset:
         df = pd.read_csv(path, dtype=str, keep_default_na=True,
                          na_values=["", "NA", "N/A", "n/a", "null", "None", "-", "--"],
                          low_memory=False)
-        return Dataset(did, name, df)
+        return Dataset(did, name, df, owner=owner)
 
-    def add(self, name: str, df: pd.DataFrame) -> Dataset:
+    def add(self, name: str, df: pd.DataFrame, owner: str | None = None) -> Dataset:
         did = uuid.uuid4().hex[:12]
         df.to_csv(os.path.join(DATA_DIR, f"{did}.csv"), index=False)
-        ds = Dataset(did, name, df)
+        ds = Dataset(did, name, df, owner=owner)
         self._items[did] = ds
         self._save_index()
         return ds
@@ -250,8 +254,11 @@ class DatasetStore:
             return True
         return False
 
-    def list(self) -> list[dict]:
-        return [d.meta() for d in sorted(self._items.values(), key=lambda x: x.created, reverse=True)]
+    def list(self, owner: str | None = None) -> list[dict]:
+        items = self._items.values()
+        if owner is not None:
+            items = [d for d in items if (d.owner or d.id) == owner or d.owner is None]
+        return [d.meta() for d in sorted(items, key=lambda x: x.created, reverse=True)]
 
 
 STORE = DatasetStore()

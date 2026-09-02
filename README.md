@@ -41,7 +41,7 @@ python -m uvicorn server:app --host 0.0.0.0 --port 8000
 
 ```bash
 pip install pytest
-python3 -m pytest tests/test_engine.py -q        # 52 checks, numbers verified vs independent pandas
+python3 -m pytest -q     # 71 tests: engine checks, random-CSV fuzz, auth/billing/rate-limit
 ```
 
 Browser smoke test (optional, needs a browser):

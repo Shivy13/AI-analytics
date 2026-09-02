@@ -336,3 +336,28 @@ details.raw pre {
 .modal .row { display: flex; gap: 8px; justify-content: flex-end; margin-top: 16px; }
 .pager { display: flex; gap: 8px; align-items: center; justify-content: flex-end; margin-top: 10px;
          font-size: 12px; color: var(--muted); }
+
+/* ---- pricing / admin / dry-run ---- */
+.modal.wide{max-width:640px}
+.plans{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:14px}
+.plan{position:relative;border:1px solid var(--line);border-radius:14px;padding:16px;background:rgba(255,255,255,.02)}
+.plan.hl{border-color:var(--accent-2);background:linear-gradient(180deg,rgba(255,179,71,.10),rgba(255,255,255,.02))}
+.plan .tag{position:absolute;top:-10px;right:12px;font-size:11px;font-weight:700;color:#1a1200;background:var(--accent-2);padding:2px 8px;border-radius:999px}
+.pname{font-weight:700;font-size:15px}
+.pprice{font-size:30px;font-weight:800;margin:4px 0 8px;color:var(--text)}
+.pprice span{font-size:14px;font-weight:600;color:var(--muted)}
+.plan ul{list-style:none;margin:0 0 14px;padding:0}
+.plan li{font-size:13px;color:var(--text);padding:4px 0 4px 18px;position:relative}
+.plan li:before{content:"✓";position:absolute;left:0;color:var(--accent-2);font-weight:700}
+.plan .btn{width:100%}
+.utable{width:100%;border-collapse:collapse;margin-top:12px;font-size:13px}
+.utable th,.utable td{text-align:left;padding:7px 8px;border-bottom:1px solid var(--line);color:var(--text)}
+.utable th{color:var(--muted);font-weight:600;font-size:12px;text-transform:uppercase;letter-spacing:.04em}
+.utable td:not(:first-child),.utable th:not(:first-child){text-align:right}
+.drycard{border:1px solid var(--line);border-radius:12px;padding:14px;margin-top:12px;background:rgba(255,255,255,.03)}
+.dc-top{font-size:13px;color:var(--muted)}
+.dc-amt{font-size:24px;font-weight:800;color:var(--text);margin:4px 0 8px}
+.dc-amt span{font-size:13px;color:var(--muted);font-weight:600}
+.dc-cc{font-family:ui-monospace,monospace;font-size:13px;color:var(--text);letter-spacing:.05em}
+.btn.danger{border-color:rgba(255,99,99,.5);color:#ff8787}
+.btn.danger:hover{background:rgba(255,99,99,.12)}
